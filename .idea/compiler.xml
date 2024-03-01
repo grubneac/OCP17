@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="_2Primitives" />
+        <module name="_4ControlFlow" />
         <module name="_1FirstStep" />
         <module name="_3Declarations" />
       </profile>
