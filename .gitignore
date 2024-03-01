@@ -1,5 +1,7 @@
 # Project exclude paths
+/.idea/
 /_1FirstStep/target/
 /_2Primitives/target/
 /_3Declarations/target/
 /_4ControlFlow/target/
+/_5OOP/target/

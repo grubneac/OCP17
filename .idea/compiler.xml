@@ -9,6 +9,7 @@
         <module name="_2Primitives" />
         <module name="_4ControlFlow" />
         <module name="_1FirstStep" />
+        <module name="_5OOP" />
         <module name="_3Declarations" />
       </profile>
     </annotationProcessing>
