@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="_15Collections" />
+        <module name="_1FirstStep" />
+        <module name="_10ObjectLifetime" />
+        <module name="_3Declarations" />
+        <module name="_13Functional" />
+        <module name="_14ObjectComparison" />
+        <module name="_4ControlFlow" />
+        <module name="_5OOP" />
+        <module name="_6AccessControl" />
+        <module name="_8APIClasses" />
+        <module name="_9NestedTypeDeclarations" />
+        <module name="_7ExceptionHandling" />
+        <module name="_11Generics" />
+        <module name="_2Primitives" />
+        <module name="_12ArrayList" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

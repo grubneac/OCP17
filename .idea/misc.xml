@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/_5OOP/pom.xml" />
+        <option value="$PROJECT_DIR$/_1FirstStep/pom.xml" />
+        <option value="$PROJECT_DIR$/_2Primitives/pom.xml" />
+        <option value="$PROJECT_DIR$/_4ControlFlow/pom.xml" />
+        <option value="$PROJECT_DIR$/_3Declarations/pom.xml" />
+        <option value="$PROJECT_DIR$/_6AccessControl/pom.xml" />
+        <option value="$PROJECT_DIR$/_7ExceptionHandling/pom.xml" />
+        <option value="$PROJECT_DIR$/_8APIClasses/pom.xml" />
+        <option value="$PROJECT_DIR$/_9NestedTypeDeclarations/pom.xml" />
+        <option value="$PROJECT_DIR$/_10ObjectLifetime/pom.xml" />
+        <option value="$PROJECT_DIR$/_11Generics/pom.xml" />
+        <option value="$PROJECT_DIR$/_12ArrayList/pom.xml" />
+        <option value="$PROJECT_DIR$/_13Functional/pom.xml" />
+        <option value="$PROJECT_DIR$/_14ObjectComparison/pom.xml" />
+        <option value="$PROJECT_DIR$/_15Collections/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

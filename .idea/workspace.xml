@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add module _15Collections">
+      <change beforePath="$PROJECT_DIR$/_15Collections/src/main/java/MapExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/_15Collections/src/main/java/MapExamples.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2d5FGJGWnO4POpXvw22SfGLWSL1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Average1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculate3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparatorUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForwardRefsSimulated.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiddenAndInheritedAccess.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HistogramStats.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverideExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StatsClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringConstruction.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/OCPJava829_17/OCP17/_15Collections/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_15Collections\src\main\java" />
+      <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_14ObjectComparison\src\main\java" />
+      <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_13Functional\src\main\java" />
+      <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_12ArrayList\src\main\java" />
+      <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_11Generics\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MapExamples">
+    <configuration name="ArrayListMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListMethods" />
+      <module name="_12ArrayList" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComparatorUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ComparatorUsage" />
+      <module name="_14ObjectComparison" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FunctionClient" />
+      <module name="_13Functional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistogramStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HistogramStats" />
+      <module name="_15Collections" />
+      <option name="PROGRAM_PARAMETERS" value="74 75 93 75 93 82 61 92 10 185" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapExamples" />
+      <module name="_15Collections" />
+      <option name="PROGRAM_PARAMETERS" value="74 75 93 75 93 82 61 92 10 185" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HistogramStats" />
+      <item itemvalue="Application.ArrayListMethods" />
+      <item itemvalue="Application.ComparatorUsage" />
+      <item itemvalue="Application.FunctionClient" />
+      <item itemvalue="Application.MapExamples" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MapExamples" />
+        <item itemvalue="Application.HistogramStats" />
+        <item itemvalue="Application.ComparatorUsage" />
+        <item itemvalue="Application.FunctionClient" />
+        <item itemvalue="Application.ArrayListMethods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="" />
+      <created>1709289934611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709289934611</updated>
+      <workItem from="1709289935646" duration="6072000" />
+      <workItem from="1709300722015" duration="346000" />
+      <workItem from="1709532666202" duration="2659000" />
+      <workItem from="1709708426398" duration="2262000" />
+    </task>
+    <task id="LOCAL-00001" summary="add module _6AccessControl">
+      <option name="closed" value="true" />
+      <created>1709290801094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709290801094</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add module _7ExceptionHandling">
+      <option name="closed" value="true" />
+      <created>1709294573194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709294573194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add module _7ExceptionHandling">
+      <option name="closed" value="true" />
+      <created>1709295063465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709295063465</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add module _8APIClasses">
+      <option name="closed" value="true" />
+      <created>1709295362842</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709295362842</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add module _9NestedTypeDeclarations">
+      <option name="closed" value="true" />
+      <created>1709295643089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709295643089</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add module _10ObjectLifetime">
+      <option name="closed" value="true" />
+      <created>1709296636113</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709296636113</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add module _11Generics">
+      <option name="closed" value="true" />
+      <created>1709297368109</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709297368109</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add module _12ArrayList">
+      <option name="closed" value="true" />
+      <created>1709297556919</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709297556919</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add module _13Functional">
+      <option name="closed" value="true" />
+      <created>1709297766530</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709297766530</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add module _14ObjectComparison">
+      <option name="closed" value="true" />
+      <created>1709297874272</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709297874272</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add module _15Collections">
+      <option name="closed" value="true" />
+      <created>1709298045395</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709298045395</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add module _6AccessControl" />
+    <MESSAGE value="add module _7ExceptionHandling" />
+    <MESSAGE value="add module _8APIClasses" />
+    <MESSAGE value="add module _9NestedTypeDeclarations" />
+    <MESSAGE value="add module _10ObjectLifetime" />
+    <MESSAGE value="add module _11Generics" />
+    <MESSAGE value="add module _12ArrayList" />
+    <MESSAGE value="add module _13Functional" />
+    <MESSAGE value="add module _14ObjectComparison" />
+    <MESSAGE value="add module _15Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="add module _15Collections" />
+  </component>
+</project>
