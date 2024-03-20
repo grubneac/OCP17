@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add module _15Collections">
-      <change beforePath="$PROJECT_DIR$/_15Collections/src/main/java/MapExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/_15Collections/src/main/java/MapExamples.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add examples for class Arrays">
+      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/GetThatIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/InitOnly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/Q36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/Q37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/Q38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/WhatIsThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -29,38 +42,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calculate3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparatorUsage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForwardRefsSimulated.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HiddenAndInheritedAccess.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HistogramStats.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OverideExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StatsClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringConstruction.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/OCPJava829_17/OCP17/_15Collections/src/main/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListMethods.executor": "Run",
+    "Application.ArraysExamples.executor": "Run",
+    "Application.Average1.executor": "Run",
+    "Application.Calculate3.executor": "Run",
+    "Application.ComparatorUsage.executor": "Run",
+    "Application.ForwardRefsSimulated.executor": "Run",
+    "Application.FunctionClient.executor": "Run",
+    "Application.GetThatIndex.executor": "Run",
+    "Application.HiddenAndInheritedAccess.executor": "Run",
+    "Application.HistogramStats.executor": "Run",
+    "Application.InitOnly.executor": "Run",
+    "Application.MapExamples.executor": "Run",
+    "Application.OverideExample.executor": "Run",
+    "Application.Q36.executor": "Run",
+    "Application.Q37.executor": "Run",
+    "Application.Q38.executor": "Run",
+    "Application.StatsClient.executor": "Run",
+    "Application.StringConstruction.executor": "Run",
+    "Application.WhatIsThis.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JavaProjects/OCPJava829_17/OCP17/_15Collections/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_15Collections\src\main\java" />
@@ -70,20 +90,14 @@
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_11Generics\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapExamples">
-    <configuration name="ArrayListMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListMethods" />
-      <module name="_12ArrayList" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComparatorUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ComparatorUsage" />
-      <module name="_14ObjectComparison" />
+  <component name="RunManager" selected="Application.GetThatIndex">
+    <configuration name="GetThatIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.GetThatIndex" />
+      <module name="_15Collections" />
+      <option name="PROGRAM_PARAMETERS" value="zzz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FunctionClient" />
-      <module name="_13Functional" />
+    <configuration name="InitOnly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.InitOnly" />
+      <module name="_15Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,36 +118,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HistogramStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HistogramStats" />
+    <configuration name="Q36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.Q36" />
       <module name="_15Collections" />
-      <option name="PROGRAM_PARAMETERS" value="74 75 93 75 93 82 61 92 10 185" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MapExamples" />
+    <configuration name="Q37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.Q37" />
       <module name="_15Collections" />
-      <option name="PROGRAM_PARAMETERS" value="74 75 93 75 93 82 61 92 10 185" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.Q38" />
+      <module name="_15Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HistogramStats" />
-      <item itemvalue="Application.ArrayListMethods" />
-      <item itemvalue="Application.ComparatorUsage" />
-      <item itemvalue="Application.FunctionClient" />
-      <item itemvalue="Application.MapExamples" />
+      <item itemvalue="Application.Q36" />
+      <item itemvalue="Application.Q37" />
+      <item itemvalue="Application.Q38" />
+      <item itemvalue="Application.GetThatIndex" />
+      <item itemvalue="Application.InitOnly" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapExamples" />
-        <item itemvalue="Application.HistogramStats" />
-        <item itemvalue="Application.ComparatorUsage" />
-        <item itemvalue="Application.FunctionClient" />
-        <item itemvalue="Application.ArrayListMethods" />
+        <item itemvalue="Application.GetThatIndex" />
+        <item itemvalue="Application.Q38" />
+        <item itemvalue="Application.Q36" />
+        <item itemvalue="Application.Q37" />
+        <item itemvalue="Application.InitOnly" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +193,8 @@
       <workItem from="1709300722015" duration="346000" />
       <workItem from="1709532666202" duration="2659000" />
       <workItem from="1709708426398" duration="2262000" />
+      <workItem from="1710762637815" duration="6045000" />
+      <workItem from="1710914882323" duration="6285000" />
     </task>
     <task id="LOCAL-00001" summary="add module _6AccessControl">
       <option name="closed" value="true" />
@@ -245,7 +284,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709298045395</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add idea files">
+      <option name="closed" value="true" />
+      <created>1710762788140</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710762788140</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add examples for class Arrays">
+      <option name="closed" value="true" />
+      <created>1710914967539</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710914967539</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +328,19 @@
     <MESSAGE value="add module _13Functional" />
     <MESSAGE value="add module _14ObjectComparison" />
     <MESSAGE value="add module _15Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="add module _15Collections" />
+    <MESSAGE value="add idea files" />
+    <MESSAGE value="add examples for class Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="add examples for class Arrays" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/_15Collections/src/main/java/questions/WhatIsThis.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
