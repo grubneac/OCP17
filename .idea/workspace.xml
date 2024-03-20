@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add examples for class Arrays">
-      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/GetThatIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/InitOnly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/Q36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/Q37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/Q38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15Collections/src/main/java/questions/WhatIsThis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="create module _16Streams">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +188,7 @@
       <workItem from="1709532666202" duration="2659000" />
       <workItem from="1709708426398" duration="2262000" />
       <workItem from="1710762637815" duration="6045000" />
-      <workItem from="1710914882323" duration="6285000" />
+      <workItem from="1710914882323" duration="6958000" />
     </task>
     <task id="LOCAL-00001" summary="add module _6AccessControl">
       <option name="closed" value="true" />
@@ -300,7 +294,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710914967539</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="questions of module 15">
+      <option name="closed" value="true" />
+      <created>1710944633329</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710944633329</updated>
+    </task>
+    <task id="LOCAL-00015" summary="create module _16Streams">
+      <option name="closed" value="true" />
+      <created>1710944748861</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710944748861</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +340,9 @@
     <MESSAGE value="add module _15Collections" />
     <MESSAGE value="add idea files" />
     <MESSAGE value="add examples for class Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="add examples for class Arrays" />
+    <MESSAGE value="questions of module 15" />
+    <MESSAGE value="create module _16Streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="create module _16Streams" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
