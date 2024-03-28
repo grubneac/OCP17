@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="create module _16Streams">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/CD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/CDAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/FirstExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/InitStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/StreamPipeLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/resources/CD_Data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -41,20 +49,24 @@
     "Application.ArrayListMethods.executor": "Run",
     "Application.ArraysExamples.executor": "Run",
     "Application.Average1.executor": "Run",
+    "Application.CDAdmin.executor": "Run",
     "Application.Calculate3.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
+    "Application.FirstExamples.executor": "Run",
     "Application.ForwardRefsSimulated.executor": "Run",
     "Application.FunctionClient.executor": "Run",
     "Application.GetThatIndex.executor": "Run",
     "Application.HiddenAndInheritedAccess.executor": "Run",
     "Application.HistogramStats.executor": "Run",
     "Application.InitOnly.executor": "Run",
+    "Application.InitStreamExample.executor": "Run",
     "Application.MapExamples.executor": "Run",
     "Application.OverideExample.executor": "Run",
     "Application.Q36.executor": "Run",
     "Application.Q37.executor": "Run",
     "Application.Q38.executor": "Run",
     "Application.StatsClient.executor": "Run",
+    "Application.StreamPipeLine.executor": "Run",
     "Application.StringConstruction.executor": "Run",
     "Application.WhatIsThis.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -62,13 +74,13 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JavaProjects/OCPJava829_17/OCP17/_15Collections/src/main/java",
+    "last_opened_file_path": "D:/JavaProjects/OCPJava829_17/OCP17/_16Streams/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
@@ -77,14 +89,31 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams\src\main\java" />
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_15Collections\src\main\java" />
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_14ObjectComparison\src\main\java" />
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_13Functional\src\main\java" />
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_12ArrayList\src\main\java" />
-      <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_11Generics\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetThatIndex">
+  <component name="RunManager" selected="Application.InitStreamExample">
+    <configuration name="CDAdmin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CDAdmin" />
+      <module name="_16Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstExamples" />
+      <module name="_16Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetThatIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.GetThatIndex" />
       <module name="_15Collections" />
@@ -99,72 +128,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitOnly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.InitOnly" />
-      <module name="_15Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="InitStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InitStreamExample" />
+      <module name="_16Streams" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.Q36" />
-      <module name="_15Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.Q37" />
-      <module name="_15Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.Q38" />
-      <module name="_15Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="StreamPipeLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamPipeLine" />
+      <module name="_16Streams" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Q36" />
-      <item itemvalue="Application.Q37" />
-      <item itemvalue="Application.Q38" />
+      <item itemvalue="Application.InitStreamExample" />
+      <item itemvalue="Application.StreamPipeLine" />
+      <item itemvalue="Application.CDAdmin" />
+      <item itemvalue="Application.FirstExamples" />
       <item itemvalue="Application.GetThatIndex" />
-      <item itemvalue="Application.InitOnly" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InitStreamExample" />
+        <item itemvalue="Application.StreamPipeLine" />
+        <item itemvalue="Application.CDAdmin" />
+        <item itemvalue="Application.FirstExamples" />
         <item itemvalue="Application.GetThatIndex" />
-        <item itemvalue="Application.Q38" />
-        <item itemvalue="Application.Q36" />
-        <item itemvalue="Application.Q37" />
-        <item itemvalue="Application.InitOnly" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +179,13 @@
       <workItem from="1709532666202" duration="2659000" />
       <workItem from="1709708426398" duration="2262000" />
       <workItem from="1710762637815" duration="6045000" />
-      <workItem from="1710914882323" duration="6958000" />
+      <workItem from="1710914882323" duration="7653000" />
+      <workItem from="1711001798465" duration="2686000" />
+      <workItem from="1711087983249" duration="645000" />
+      <workItem from="1711347735200" duration="4254000" />
+      <workItem from="1711443806299" duration="4617000" />
+      <workItem from="1711520838802" duration="1686000" />
+      <workItem from="1711605522595" duration="4872000" />
     </task>
     <task id="LOCAL-00001" summary="add module _6AccessControl">
       <option name="closed" value="true" />
@@ -310,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710944748861</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="create module _16Streams">
+      <option name="closed" value="true" />
+      <created>1710944838968</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710944838968</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
