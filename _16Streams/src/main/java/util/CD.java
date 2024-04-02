@@ -1,8 +1,10 @@
+package util;
+
 import java.time.Year;
 import java.util.Comparator;
 import java.util.List;
 
-/** A record class that represents a CD. */
+/** A record class that represents a util.CD. */
 public record CD(String artist, String title, int noOfTracks,
                  Year year, Genre genre) implements Comparable<CD> {
 

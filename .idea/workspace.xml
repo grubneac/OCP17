@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="create module _16Streams">
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/CDAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/FirstExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/InitStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/StreamPipeLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/resources/CD_Data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/IntermediateStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/Filtering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/OrderOfOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/OrderOfOperationsWithPeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/StreamOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/TakeWhileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/util/Genre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/util/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/CDAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/CDAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/Genre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/InitStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/InitStreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/StreamPipeLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/StreamPipeLine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -52,6 +57,7 @@
     "Application.CDAdmin.executor": "Run",
     "Application.Calculate3.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
+    "Application.Filtering.executor": "Run",
     "Application.FirstExamples.executor": "Run",
     "Application.ForwardRefsSimulated.executor": "Run",
     "Application.FunctionClient.executor": "Run",
@@ -61,13 +67,19 @@
     "Application.InitOnly.executor": "Run",
     "Application.InitStreamExample.executor": "Run",
     "Application.MapExamples.executor": "Run",
+    "Application.OrderOfOperations.executor": "Run",
+    "Application.OrderOfOperationsWithPeek.executor": "Run",
     "Application.OverideExample.executor": "Run",
     "Application.Q36.executor": "Run",
     "Application.Q37.executor": "Run",
     "Application.Q38.executor": "Run",
+    "Application.RQ100_87.executor": "Run",
     "Application.StatsClient.executor": "Run",
+    "Application.StreamOps.executor": "Run",
     "Application.StreamPipeLine.executor": "Run",
     "Application.StringConstruction.executor": "Run",
+    "Application.TakeWhileExample.executor": "Run",
+    "Application.Test13RQ9.executor": "Run",
     "Application.WhatIsThis.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -99,28 +111,13 @@
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InitStreamExample">
-    <configuration name="CDAdmin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CDAdmin" />
+  <component name="RunManager" selected="Application.OrderOfOperationsWithPeek">
+    <configuration name="Filtering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.Filtering" />
       <module name="_16Streams" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstExamples" />
-      <module name="_16Streams" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetThatIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.GetThatIndex" />
-      <module name="_15Collections" />
-      <option name="PROGRAM_PARAMETERS" value="zzz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.*" />
+          <option name="PATTERN" value="intermediate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,34 +125,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InitStreamExample" />
+    <configuration name="OrderOfOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.OrderOfOperations" />
       <module name="_16Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamPipeLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamPipeLine" />
+    <configuration name="OrderOfOperationsWithPeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.OrderOfOperationsWithPeek" />
       <module name="_16Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.StreamOps" />
+      <module name="_16Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TakeWhileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.TakeWhileExample" />
+      <module name="_16Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InitStreamExample" />
-      <item itemvalue="Application.StreamPipeLine" />
-      <item itemvalue="Application.CDAdmin" />
-      <item itemvalue="Application.FirstExamples" />
-      <item itemvalue="Application.GetThatIndex" />
+      <item itemvalue="Application.OrderOfOperationsWithPeek" />
+      <item itemvalue="Application.Filtering" />
+      <item itemvalue="Application.TakeWhileExample" />
+      <item itemvalue="Application.OrderOfOperations" />
+      <item itemvalue="Application.StreamOps" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InitStreamExample" />
-        <item itemvalue="Application.StreamPipeLine" />
-        <item itemvalue="Application.CDAdmin" />
-        <item itemvalue="Application.FirstExamples" />
-        <item itemvalue="Application.GetThatIndex" />
+        <item itemvalue="Application.OrderOfOperationsWithPeek" />
+        <item itemvalue="Application.Filtering" />
+        <item itemvalue="Application.TakeWhileExample" />
+        <item itemvalue="Application.OrderOfOperations" />
+        <item itemvalue="Application.StreamOps" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +221,11 @@
       <workItem from="1711443806299" duration="4617000" />
       <workItem from="1711520838802" duration="1686000" />
       <workItem from="1711605522595" duration="4872000" />
+      <workItem from="1711692893038" duration="2764000" />
+      <workItem from="1711713875096" duration="2768000" />
+      <workItem from="1711947182239" duration="2442000" />
+      <workItem from="1711958385278" duration="341000" />
+      <workItem from="1712034453666" duration="3753000" />
     </task>
     <task id="LOCAL-00001" summary="add module _6AccessControl">
       <option name="closed" value="true" />
