@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="create module _16Streams">
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/IntermediateStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/Filtering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/OrderOfOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/OrderOfOperationsWithPeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/StreamOps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/TakeWhileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/util/Genre.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="create intermediate methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/util/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/CDAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/CDAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/Genre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/InitStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/InitStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/StreamPipeLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/StreamPipeLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/OrderOfOperationsWithPeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/OrderOfOperationsWithPeek.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +29,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;grubneac&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/grubneac/OCP17.git&quot;,
+    &quot;accountId&quot;: &quot;8b2d1c95-ecec-4b73-b6cc-38a44817bfed&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -49,57 +50,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayListMethods.executor": "Run",
-    "Application.ArraysExamples.executor": "Run",
-    "Application.Average1.executor": "Run",
-    "Application.CDAdmin.executor": "Run",
-    "Application.Calculate3.executor": "Run",
-    "Application.ComparatorUsage.executor": "Run",
-    "Application.Filtering.executor": "Run",
-    "Application.FirstExamples.executor": "Run",
-    "Application.ForwardRefsSimulated.executor": "Run",
-    "Application.FunctionClient.executor": "Run",
-    "Application.GetThatIndex.executor": "Run",
-    "Application.HiddenAndInheritedAccess.executor": "Run",
-    "Application.HistogramStats.executor": "Run",
-    "Application.InitOnly.executor": "Run",
-    "Application.InitStreamExample.executor": "Run",
-    "Application.MapExamples.executor": "Run",
-    "Application.OrderOfOperations.executor": "Run",
-    "Application.OrderOfOperationsWithPeek.executor": "Run",
-    "Application.OverideExample.executor": "Run",
-    "Application.Q36.executor": "Run",
-    "Application.Q37.executor": "Run",
-    "Application.Q38.executor": "Run",
-    "Application.RQ100_87.executor": "Run",
-    "Application.StatsClient.executor": "Run",
-    "Application.StreamOps.executor": "Run",
-    "Application.StreamPipeLine.executor": "Run",
-    "Application.StringConstruction.executor": "Run",
-    "Application.TakeWhileExample.executor": "Run",
-    "Application.Test13RQ9.executor": "Run",
-    "Application.WhatIsThis.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JavaProjects/OCPJava829_17/OCP17/_16Streams/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Average1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CDAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculate3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparatorUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Filtering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForwardRefsSimulated.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetThatIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiddenAndInheritedAccess.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HistogramStats.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InitOnly.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InitStreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderOfOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderOfOperationsWithPeek.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverideExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q36.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q37.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q38.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ100_87.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StatsClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamOps.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamPipeLine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringConstruction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TakeWhileExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test13RQ9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhatIsThis.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/OCPJava829_17/OCP17/_16Streams/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams\src\main\java" />
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_15Collections\src\main\java" />
@@ -197,7 +201,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -225,7 +230,12 @@
       <workItem from="1711713875096" duration="2768000" />
       <workItem from="1711947182239" duration="2442000" />
       <workItem from="1711958385278" duration="341000" />
-      <workItem from="1712034453666" duration="3753000" />
+      <workItem from="1712034453666" duration="5316000" />
+      <workItem from="1712207333700" duration="1884000" />
+      <workItem from="1712237680889" duration="1275000" />
+      <workItem from="1712238969313" duration="198000" />
+      <workItem from="1712296046003" duration="2687000" />
+      <workItem from="1712560543749" duration="440000" />
     </task>
     <task id="LOCAL-00001" summary="add module _6AccessControl">
       <option name="closed" value="true" />
@@ -355,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710944838968</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="create intermediate methods">
+      <option name="closed" value="true" />
+      <created>1712055877520</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712055877520</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +405,8 @@
     <MESSAGE value="add examples for class Arrays" />
     <MESSAGE value="questions of module 15" />
     <MESSAGE value="create module _16Streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="create module _16Streams" />
+    <MESSAGE value="create intermediate methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="create intermediate methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
