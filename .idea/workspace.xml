@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="create intermediate methods">
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add examples for: range, generate, flatMap, mapMulti">
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/ObjMappedExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/ParallelModeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/SortedExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/optionals/NumericOptionalUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/optionals/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/optionals/OptionalUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/OrderOfOperationsWithPeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/intermediate/OrderOfOperationsWithPeek.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,56 +55,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CDAdmin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calculate3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparatorUsage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Filtering.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForwardRefsSimulated.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetThatIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HiddenAndInheritedAccess.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HistogramStats.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InitOnly.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InitStreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderOfOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderOfOperationsWithPeek.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OverideExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q36.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q37.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q38.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ100_87.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StatsClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamOps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamPipeLine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringConstruction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TakeWhileExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test13RQ9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhatIsThis.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/OCPJava829_17/OCP17/_16Streams/src/main/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListMethods.executor": "Run",
+    "Application.ArraysExamples.executor": "Run",
+    "Application.Average1.executor": "Run",
+    "Application.CDAdmin.executor": "Run",
+    "Application.Calculate3.executor": "Run",
+    "Application.ComparatorUsage.executor": "Run",
+    "Application.Filtering.executor": "Run",
+    "Application.FirstExamples.executor": "Run",
+    "Application.ForMarchel.executor": "Run",
+    "Application.ForwardRefsSimulated.executor": "Run",
+    "Application.FunctionClient.executor": "Run",
+    "Application.GetThatIndex.executor": "Run",
+    "Application.HiddenAndInheritedAccess.executor": "Run",
+    "Application.HistogramStats.executor": "Run",
+    "Application.InitOnly.executor": "Run",
+    "Application.InitStreamExample.executor": "Run",
+    "Application.MapExamples.executor": "Run",
+    "Application.NumericOptionalUsage.executor": "Run",
+    "Application.ObjMappedExample.executor": "Run",
+    "Application.OptionalExample.executor": "Run",
+    "Application.OptionalUsage.executor": "Run",
+    "Application.OrderOfOperations.executor": "Run",
+    "Application.OrderOfOperationsWithPeek.executor": "Run",
+    "Application.OverideExample.executor": "Run",
+    "Application.ParallelModeExample.executor": "Run",
+    "Application.Q36.executor": "Run",
+    "Application.Q37.executor": "Run",
+    "Application.Q38.executor": "Run",
+    "Application.RQ100_87.executor": "Run",
+    "Application.SortedExamples.executor": "Run",
+    "Application.StatsClient.executor": "Run",
+    "Application.StreamOps.executor": "Run",
+    "Application.StreamPipeLine.executor": "Run",
+    "Application.StringConstruction.executor": "Run",
+    "Application.TakeWhileExample.executor": "Run",
+    "Application.Test13RQ9.executor": "Run",
+    "Application.WhatIsThis.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JavaProjects/OCPJava829_17/OCP17/_16Streams/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="util" />
@@ -115,13 +127,20 @@
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderOfOperationsWithPeek">
-    <configuration name="Filtering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.Filtering" />
+  <component name="RunManager" selected="Application.NumericOptionalUsage">
+    <configuration name="ForMarchel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ForMarchel" />
+      <module name="_16Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumericOptionalUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optionals.NumericOptionalUsage" />
       <module name="_16Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.*" />
+          <option name="PATTERN" value="optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +148,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderOfOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.OrderOfOperations" />
+    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optionals.OptionalExample" />
+      <module name="_16Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optionals.OptionalUsage" />
       <module name="_16Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.*" />
+          <option name="PATTERN" value="optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,46 +181,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.StreamOps" />
-      <module name="_16Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="intermediate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TakeWhileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.TakeWhileExample" />
-      <module name="_16Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="intermediate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.NumericOptionalUsage" />
+      <item itemvalue="Application.OptionalExample" />
+      <item itemvalue="Application.OptionalUsage" />
+      <item itemvalue="Application.ForMarchel" />
       <item itemvalue="Application.OrderOfOperationsWithPeek" />
-      <item itemvalue="Application.Filtering" />
-      <item itemvalue="Application.TakeWhileExample" />
-      <item itemvalue="Application.OrderOfOperations" />
-      <item itemvalue="Application.StreamOps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumericOptionalUsage" />
+        <item itemvalue="Application.OptionalUsage" />
+        <item itemvalue="Application.OptionalExample" />
         <item itemvalue="Application.OrderOfOperationsWithPeek" />
-        <item itemvalue="Application.Filtering" />
-        <item itemvalue="Application.TakeWhileExample" />
-        <item itemvalue="Application.OrderOfOperations" />
-        <item itemvalue="Application.StreamOps" />
+        <item itemvalue="Application.ForMarchel" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +235,11 @@
       <workItem from="1712237680889" duration="1275000" />
       <workItem from="1712238969313" duration="198000" />
       <workItem from="1712296046003" duration="2687000" />
-      <workItem from="1712560543749" duration="440000" />
+      <workItem from="1712560543749" duration="5196000" />
+      <workItem from="1712639413246" duration="3003000" />
+      <workItem from="1712749845624" duration="4006000" />
+      <workItem from="1712811881914" duration="1529000" />
+      <workItem from="1712898626418" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="add module _6AccessControl">
       <option name="closed" value="true" />
@@ -373,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712055877520</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add examples for: range, generate, flatMap, mapMulti">
+      <option name="closed" value="true" />
+      <created>1712568788386</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712568788386</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +418,8 @@
     <MESSAGE value="questions of module 15" />
     <MESSAGE value="create module _16Streams" />
     <MESSAGE value="create intermediate methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="create intermediate methods" />
+    <MESSAGE value="add examples for: range, generate, flatMap, mapMulti" />
+    <option name="LAST_COMMIT_MESSAGE" value="add examples for: range, generate, flatMap, mapMulti" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
