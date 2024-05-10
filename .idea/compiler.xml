@@ -20,6 +20,7 @@
         <module name="_9NestedTypeDeclarations" />
         <module name="_7ExceptionHandling" />
         <module name="_11Generics" />
+        <module name="_17DateTime" />
         <module name="_2Primitives" />
         <module name="_12ArrayList" />
       </profile>

@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add examples for parallel Stream Benchmarks">
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add 17 chapter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +19,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SHOW_RECENT_BRANCHES" value="false" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -61,95 +50,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayListMethods.executor": "Run",
-    "Application.ArraysExamples.executor": "Run",
-    "Application.Average1.executor": "Run",
-    "Application.CDAdmin.executor": "Run",
-    "Application.Calculate3.executor": "Run",
-    "Application.Collecting.executor": "Run",
-    "Application.CollectingAndThenExamples.executor": "Run",
-    "Application.CollectorsFlatMapping.executor": "Run",
-    "Application.ComparatorUsage.executor": "Run",
-    "Application.Filtering.executor": "Run",
-    "Application.FilteringExamples.executor": "Run",
-    "Application.FindFirstExample.executor": "Run",
-    "Application.FirstExample.executor": "Run",
-    "Application.FirstExamples.executor": "Run",
-    "Application.ForMarchel.executor": "Run",
-    "Application.ForwardRefsSimulated.executor": "Run",
-    "Application.FunctionClient.executor": "Run",
-    "Application.FunctionalReductionExamples.executor": "Run",
-    "Application.FunctionalReductions.executor": "Run",
-    "Application.GetThatIndex.executor": "Run",
-    "Application.GroupingExamples.executor": "Run",
-    "Application.HiddenAndInheritedAccess.executor": "Run",
-    "Application.HistogramStats.executor": "Run",
-    "Application.IdentityMatrixTest.executor": "Run",
-    "Application.InitOnly.executor": "Run",
-    "Application.InitStreamExample.executor": "Run",
-    "Application.JoiningExample.executor": "Run",
-    "Application.MapExamples.executor": "Run",
-    "Application.MappingExamples.executor": "Run",
-    "Application.NumericOptionalUsage.executor": "Run",
-    "Application.ObjMappedExample.executor": "Run",
-    "Application.OptionalExample.executor": "Run",
-    "Application.OptionalUsage.executor": "Run",
-    "Application.OrderOfOperations.executor": "Run",
-    "Application.OrderOfOperationsWithPeek.executor": "Run",
-    "Application.OverideExample.executor": "Run",
-    "Application.ParallelModeExample.executor": "Run",
-    "Application.PartitioningExamples.executor": "Run",
-    "Application.Q36.executor": "Run",
-    "Application.Q37.executor": "Run",
-    "Application.Q38.executor": "Run",
-    "Application.RQ1.executor": "Run",
-    "Application.RQ10.executor": "Run",
-    "Application.RQ100_87.executor": "Run",
-    "Application.RQ11.executor": "Run",
-    "Application.RQ12.executor": "Run",
-    "Application.RQ13.executor": "Run",
-    "Application.RQ17.executor": "Run",
-    "Application.RQ18.executor": "Run",
-    "Application.RQ2.executor": "Run",
-    "Application.RQ4.executor": "Run",
-    "Application.RQ5.executor": "Run",
-    "Application.RQ7.executor": "Run",
-    "Application.RQ9.executor": "Run",
-    "Application.SortedExamples.executor": "Run",
-    "Application.StatsClient.executor": "Run",
-    "Application.StreamBenchmarks.executor": "Run",
-    "Application.StreamOps.executor": "Run",
-    "Application.StreamPipeLine.executor": "Run",
-    "Application.StringConstruction.executor": "Run",
-    "Application.SummaryStatistics.executor": "Run",
-    "Application.TakeWhileExample.executor": "Run",
-    "Application.Test13RQ9.executor": "Run",
-    "Application.WhatIsThis.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JavaProjects/OCPJava829_17/OCP17/_16Streams/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Average1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CDAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculate3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Collecting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectingAndThenExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsFlatMapping.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparatorUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Filtering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilteringExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFirstExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForMarchel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForwardRefsSimulated.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalReductionExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalReductions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetThatIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupingExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiddenAndInheritedAccess.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HistogramStats.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IdentityMatrixTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InitOnly.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InitStreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoiningExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MappingExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumericOptionalUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjMappedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderOfOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderOfOperationsWithPeek.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverideExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParallelModeExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitioningExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q36.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q37.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q38.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ100_87.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ18.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StatsClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamBenchmarks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamOps.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamPipeLine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringConstruction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SummaryStatistics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TakeWhileExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test13RQ9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhatIsThis.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/OCPJava829_17/OCP17/_16Streams/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JSON"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JSON&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="util" />
@@ -165,7 +154,7 @@
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RQ18">
+  <component name="RunManager" selected="Application.RQ12">
     <configuration name="RQ11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.RQ11" />
       <module name="_16Streams" />
@@ -240,10 +229,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RQ12" />
         <item itemvalue="Application.RQ18" />
         <item itemvalue="Application.RQ17" />
         <item itemvalue="Application.RQ13" />
-        <item itemvalue="Application.RQ12" />
         <item itemvalue="Application.RQ11" />
       </list>
     </recent_temporary>
@@ -301,6 +290,8 @@
       <workItem from="1714022212654" duration="3103000" />
       <workItem from="1714109303586" duration="1876000" />
       <workItem from="1714289692483" duration="35253000" />
+      <workItem from="1715058938479" duration="3003000" />
+      <workItem from="1715321291580" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="add module _6AccessControl">
       <option name="closed" value="true" />
@@ -558,7 +549,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714636862751</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add questions for Stream API">
+      <option name="closed" value="true" />
+      <created>1715063749332</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1715063749332</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add questions for Stream API">
+      <option name="closed" value="true" />
+      <created>1715068685971</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1715068685971</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add 17 chapter">
+      <option name="closed" value="true" />
+      <created>1715342534699</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1715342534699</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,8 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add module _9NestedTypeDeclarations" />
-    <MESSAGE value="add module _10ObjectLifetime" />
     <MESSAGE value="add module _11Generics" />
     <MESSAGE value="add module _12ArrayList" />
     <MESSAGE value="add module _13Functional" />
@@ -601,7 +614,9 @@
     <MESSAGE value="add examples for collectingAndThen" />
     <MESSAGE value="add examples for FunctionalReduction" />
     <MESSAGE value="add examples for parallel Stream Benchmarks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add examples for parallel Stream Benchmarks" />
+    <MESSAGE value="add questions for Stream API" />
+    <MESSAGE value="add 17 chapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 17 chapter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
