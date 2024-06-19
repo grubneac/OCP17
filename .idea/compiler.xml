@@ -18,6 +18,7 @@
         <module name="_6AccessControl" />
         <module name="_8APIClasses" />
         <module name="_9NestedTypeDeclarations" />
+        <module name="_18Localization" />
         <module name="_7ExceptionHandling" />
         <module name="_11Generics" />
         <module name="_17DateTime" />

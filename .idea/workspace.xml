@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add questions" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add module _18Localization">
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/FirstExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,16 +182,10 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RQ2">
-    <configuration name="RQ10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ10" />
-      <module name="_17DateTime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.FirstExample">
+    <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstExample" />
+      <module name="_18Localization" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,7 +243,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RQ10" />
+      <item itemvalue="Application.FirstExample" />
       <item itemvalue="Application.RQ11" />
       <item itemvalue="Application.RQ13" />
       <item itemvalue="Application.RQ14" />
@@ -252,11 +251,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstExample" />
         <item itemvalue="Application.RQ2" />
         <item itemvalue="Application.RQ14" />
         <item itemvalue="Application.RQ13" />
         <item itemvalue="Application.RQ11" />
-        <item itemvalue="Application.RQ10" />
       </list>
     </recent_temporary>
   </component>
@@ -325,15 +324,7 @@
       <workItem from="1718254331376" duration="93000" />
       <workItem from="1718254438296" duration="7276000" />
       <workItem from="1718342194342" duration="4399000" />
-      <workItem from="1718607624862" duration="7843000" />
-    </task>
-    <task id="LOCAL-00001" summary="add module _6AccessControl">
-      <option name="closed" value="true" />
-      <created>1709290801094</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1709290801094</updated>
+      <workItem from="1718607624862" duration="12541000" />
     </task>
     <task id="LOCAL-00002" summary="add module _7ExceptionHandling">
       <option name="closed" value="true" />
@@ -719,7 +710,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718630740410</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add module _18Localization">
+      <option name="closed" value="true" />
+      <created>1718630858308</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1718630858309</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -737,7 +736,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add examples for intermediate operations" />
     <MESSAGE value="add examples for terminal operations" />
     <MESSAGE value="add examples for SummaryStatistics operations" />
     <MESSAGE value="add examples for toSet, toList, toMap" />
@@ -762,7 +760,8 @@
     <MESSAGE value="add examples Daylight Savings Example" />
     <MESSAGE value="add examples convert to legacy date" />
     <MESSAGE value="add questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add questions" />
+    <MESSAGE value="add module _18Localization" />
+    <option name="LAST_COMMIT_MESSAGE" value="add module _18Localization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
