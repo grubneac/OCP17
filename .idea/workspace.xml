@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add module _18Localization">
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/FirstExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add LocalesEverywhere">
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/UsingResourceBundles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/BasicResources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/BasicResources_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/BasicResources_no_NO.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +94,7 @@
     "Application.JoiningExample.executor": "Run",
     "Application.LocalDateExamples.executor": "Run",
     "Application.LocalDateTimeExamples.executor": "Run",
+    "Application.LocalesEverywhere.executor": "Run",
     "Application.MapExamples.executor": "Run",
     "Application.MappingExamples.executor": "Run",
     "Application.ModifyInstant.executor": "Run",
@@ -136,6 +138,7 @@
     "Application.TakeWhileExample.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test13RQ9.executor": "Run",
+    "Application.UsingResourceBundles.executor": "Run",
     "Application.UsingTemporals.executor": "Run",
     "Application.WhatIsThis.executor": "Debug",
     "Application.ZoneIdExamples.executor": "Run",
@@ -182,7 +185,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstExample">
+  <component name="RunManager" selected="Application.UsingResourceBundles">
     <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstExample" />
       <module name="_18Localization" />
@@ -190,28 +193,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ11" />
-      <module name="_17DateTime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RQ13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ13" />
-      <module name="_17DateTime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="LocalesEverywhere" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LocalesEverywhere" />
+      <module name="_18Localization" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,20 +226,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsingResourceBundles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UsingResourceBundles" />
+      <module name="_18Localization" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.UsingResourceBundles" />
       <item itemvalue="Application.FirstExample" />
-      <item itemvalue="Application.RQ11" />
-      <item itemvalue="Application.RQ13" />
+      <item itemvalue="Application.LocalesEverywhere" />
       <item itemvalue="Application.RQ14" />
       <item itemvalue="Application.RQ2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsingResourceBundles" />
+        <item itemvalue="Application.LocalesEverywhere" />
         <item itemvalue="Application.FirstExample" />
         <item itemvalue="Application.RQ2" />
         <item itemvalue="Application.RQ14" />
-        <item itemvalue="Application.RQ13" />
-        <item itemvalue="Application.RQ11" />
       </list>
     </recent_temporary>
   </component>
@@ -324,23 +315,8 @@
       <workItem from="1718254331376" duration="93000" />
       <workItem from="1718254438296" duration="7276000" />
       <workItem from="1718342194342" duration="4399000" />
-      <workItem from="1718607624862" duration="12541000" />
-    </task>
-    <task id="LOCAL-00002" summary="add module _7ExceptionHandling">
-      <option name="closed" value="true" />
-      <created>1709294573194</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1709294573194</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add module _7ExceptionHandling">
-      <option name="closed" value="true" />
-      <created>1709295063465</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1709295063465</updated>
+      <workItem from="1718607624862" duration="16819000" />
+      <workItem from="1718864574214" duration="3492000" />
     </task>
     <task id="LOCAL-00004" summary="add module _8APIClasses">
       <option name="closed" value="true" />
@@ -718,7 +694,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718630858309</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="add locale first example">
+      <option name="closed" value="true" />
+      <created>1718779114103</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1718779114103</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add LocalesEverywhere">
+      <option name="closed" value="true" />
+      <created>1718864617468</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1718864617468</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -736,8 +728,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add examples for terminal operations" />
-    <MESSAGE value="add examples for SummaryStatistics operations" />
     <MESSAGE value="add examples for toSet, toList, toMap" />
     <MESSAGE value="add examples for Joining Characters" />
     <MESSAGE value="add examples for GroupingBy" />
@@ -761,7 +751,9 @@
     <MESSAGE value="add examples convert to legacy date" />
     <MESSAGE value="add questions" />
     <MESSAGE value="add module _18Localization" />
-    <option name="LAST_COMMIT_MESSAGE" value="add module _18Localization" />
+    <MESSAGE value="add locale first example" />
+    <MESSAGE value="add LocalesEverywhere" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LocalesEverywhere" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
