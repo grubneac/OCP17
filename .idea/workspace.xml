@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add LocalesEverywhere">
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/UsingResourceBundles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/BasicResources.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/BasicResources_fr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/BasicResources_no_NO.properties" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add UsingResourceBundles">
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/LocatingBundles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/MyResources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/MyResources_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/MyResources_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/MyResources_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/MyResources_fr_CA.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +97,7 @@
     "Application.LocalDateExamples.executor": "Run",
     "Application.LocalDateTimeExamples.executor": "Run",
     "Application.LocalesEverywhere.executor": "Run",
+    "Application.LocatingBundles.executor": "Run",
     "Application.MapExamples.executor": "Run",
     "Application.MappingExamples.executor": "Run",
     "Application.ModifyInstant.executor": "Run",
@@ -185,7 +188,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UsingResourceBundles">
+  <component name="RunManager" selected="Application.LocatingBundles">
     <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstExample" />
       <module name="_18Localization" />
@@ -200,15 +203,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ14" />
-      <module name="_17DateTime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="LocatingBundles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LocatingBundles" />
+      <module name="_18Localization" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,19 +231,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LocatingBundles" />
       <item itemvalue="Application.UsingResourceBundles" />
       <item itemvalue="Application.FirstExample" />
       <item itemvalue="Application.LocalesEverywhere" />
-      <item itemvalue="Application.RQ14" />
       <item itemvalue="Application.RQ2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocatingBundles" />
         <item itemvalue="Application.UsingResourceBundles" />
         <item itemvalue="Application.LocalesEverywhere" />
         <item itemvalue="Application.FirstExample" />
         <item itemvalue="Application.RQ2" />
-        <item itemvalue="Application.RQ14" />
       </list>
     </recent_temporary>
   </component>
@@ -316,15 +313,8 @@
       <workItem from="1718254438296" duration="7276000" />
       <workItem from="1718342194342" duration="4399000" />
       <workItem from="1718607624862" duration="16819000" />
-      <workItem from="1718864574214" duration="3492000" />
-    </task>
-    <task id="LOCAL-00004" summary="add module _8APIClasses">
-      <option name="closed" value="true" />
-      <created>1709295362842</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709295362842</updated>
+      <workItem from="1718864574214" duration="4489000" />
+      <workItem from="1718947519318" duration="4681000" />
     </task>
     <task id="LOCAL-00005" summary="add module _9NestedTypeDeclarations">
       <option name="closed" value="true" />
@@ -710,7 +700,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718864617468</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add UsingResourceBundles">
+      <option name="closed" value="true" />
+      <created>1718890663789</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1718890663789</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,7 +726,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add examples for toSet, toList, toMap" />
     <MESSAGE value="add examples for Joining Characters" />
     <MESSAGE value="add examples for GroupingBy" />
     <MESSAGE value="add examples for partitioningBy" />
@@ -753,7 +750,8 @@
     <MESSAGE value="add module _18Localization" />
     <MESSAGE value="add locale first example" />
     <MESSAGE value="add LocalesEverywhere" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LocalesEverywhere" />
+    <MESSAGE value="add UsingResourceBundles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add UsingResourceBundles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
