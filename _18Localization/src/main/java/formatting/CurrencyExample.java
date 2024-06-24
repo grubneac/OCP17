@@ -22,5 +22,9 @@ public class CurrencyExample {
         NumberFormat cfUS = NumberFormat.getCurrencyInstance(Locale.US);
         String formattedCurrStrUS = cfUS.format(num);
         System.out.println(formattedCurrStrUS);            // $12,345.68
+
+        Locale loc = Locale.forLanguageTag("en-US-u-cf-account");   // (1)
+        NumberFormat df = NumberFormat.getCurrencyInstance(loc);    // (2)
+        System.out.println(df.format(-9.99));                       // ($9.99)
     }
 }

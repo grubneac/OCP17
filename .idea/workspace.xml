@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add LocatingBundles">
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/pkg/MyResources_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/pkg3/MyResources.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/pkg3/MyResources_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/pkg3/MyResources_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/pkg4/resources.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/pkg4/resources_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/pkg4/resources_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/resources.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/resources_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/resources_en_GB.properties" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Currency Example">
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/ParseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/PercentExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/CurrencyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/CurrencyExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +68,7 @@
     "Application.CollectorsFlatMapping.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
     "Application.CopyInstant.executor": "Run",
+    "Application.CurrencyExample.executor": "Run",
     "Application.DSTAdjustment.executor": "Run",
     "Application.DSTExample.executor": "Run",
     "Application.DurationBasedLoop.executor": "Run",
@@ -117,7 +107,9 @@
     "Application.OrderOfOperationsWithPeek.executor": "Run",
     "Application.OverideExample.executor": "Run",
     "Application.ParallelModeExample.executor": "Run",
+    "Application.ParseExample.executor": "Run",
     "Application.PartitioningExamples.executor": "Run",
+    "Application.PercentExample.executor": "Run",
     "Application.PeriodBasedLoop.executor": "Run",
     "Application.PeriodExample.executor": "Run",
     "Application.Q36.executor": "Run",
@@ -196,20 +188,13 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RQ4">
-    <configuration name="LocatingBundles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LocatingBundles" />
-      <module name="_18Localization" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RQ1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ1" />
+  <component name="RunManager" selected="Application.ParseExample">
+    <configuration name="CurrencyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.CurrencyExample" />
       <module name="_18Localization" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.*" />
+          <option name="PATTERN" value="formatting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +202,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ2" />
+    <configuration name="ParseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.ParseExample" />
       <module name="_18Localization" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.*" />
+          <option name="PATTERN" value="formatting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.PercentExample" />
+      <module name="_18Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="formatting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,19 +255,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LocatingBundles" />
-      <item itemvalue="Application.RQ1" />
+      <item itemvalue="Application.CurrencyExample" />
+      <item itemvalue="Application.ParseExample" />
+      <item itemvalue="Application.PercentExample" />
       <item itemvalue="Application.RQ3" />
       <item itemvalue="Application.RQ4" />
-      <item itemvalue="Application.RQ2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParseExample" />
+        <item itemvalue="Application.CurrencyExample" />
+        <item itemvalue="Application.PercentExample" />
         <item itemvalue="Application.RQ4" />
         <item itemvalue="Application.RQ3" />
-        <item itemvalue="Application.RQ2" />
-        <item itemvalue="Application.RQ1" />
-        <item itemvalue="Application.LocatingBundles" />
       </list>
     </recent_temporary>
   </component>
@@ -341,22 +339,7 @@
       <workItem from="1718607624862" duration="16819000" />
       <workItem from="1718864574214" duration="4489000" />
       <workItem from="1718947519318" duration="10460000" />
-    </task>
-    <task id="LOCAL-00006" summary="add module _10ObjectLifetime">
-      <option name="closed" value="true" />
-      <created>1709296636113</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709296636113</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add module _11Generics">
-      <option name="closed" value="true" />
-      <created>1709297368109</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1709297368109</updated>
+      <workItem from="1719205904714" duration="5835000" />
     </task>
     <task id="LOCAL-00008" summary="add module _12ArrayList">
       <option name="closed" value="true" />
@@ -734,7 +717,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718964565390</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="add questions">
+      <option name="closed" value="true" />
+      <created>1719206051087</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1719206051087</updated>
+    </task>
+    <task id="LOCAL-00056" summary="add Currency Example">
+      <option name="closed" value="true" />
+      <created>1719229012752</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1719229012752</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,7 +751,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add examples for GroupingBy" />
     <MESSAGE value="add examples for partitioningBy" />
     <MESSAGE value="add examples for Filtering" />
     <MESSAGE value="add examples for Mapping and FlatMapping" />
@@ -771,13 +769,14 @@
     <MESSAGE value="add examples DSTAdjustment" />
     <MESSAGE value="add examples Daylight Savings Example" />
     <MESSAGE value="add examples convert to legacy date" />
-    <MESSAGE value="add questions" />
     <MESSAGE value="add module _18Localization" />
     <MESSAGE value="add locale first example" />
     <MESSAGE value="add LocalesEverywhere" />
     <MESSAGE value="add UsingResourceBundles" />
     <MESSAGE value="add LocatingBundles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LocatingBundles" />
+    <MESSAGE value="add questions" />
+    <MESSAGE value="add Currency Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Currency Example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
