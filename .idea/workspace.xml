@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Formatting Parsing With Patterns Example">
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/ConvertToLegacyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/FormattingMessages.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Formatting Messages Example">
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/CompoundMessageFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/StockInfoBundle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,7 @@
     "Application.CollectorsFlatMapping.executor": "Run",
     "Application.CompactNumberFormatting.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
+    "Application.CompoundMessageFormatting.executor": "Run",
     "Application.CopyInstant.executor": "Run",
     "Application.CurrencyExample.executor": "Run",
     "Application.DSTAdjustment.executor": "Run",
@@ -197,7 +198,20 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FormattingMessages">
+  <component name="RunManager" selected="Application.CompoundMessageFormatting">
+    <configuration name="CompoundMessageFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.CompoundMessageFormatting" />
+      <module name="_18Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="formatting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FormattingDateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="formatting.FormattingDateTime" />
       <module name="_18Localization" />
@@ -250,33 +264,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rounding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="formatting.Rounding" />
-      <module name="_18Localization" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="formatting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.CompoundMessageFormatting" />
       <item itemvalue="Application.FormattingDateTime" />
       <item itemvalue="Application.FormattingDecimalNumbers" />
       <item itemvalue="Application.FormattingMessages" />
       <item itemvalue="Application.FormattingParsingWithPatterns" />
-      <item itemvalue="Application.Rounding" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompoundMessageFormatting" />
         <item itemvalue="Application.FormattingMessages" />
         <item itemvalue="Application.FormattingParsingWithPatterns" />
         <item itemvalue="Application.FormattingDateTime" />
         <item itemvalue="Application.FormattingDecimalNumbers" />
-        <item itemvalue="Application.Rounding" />
       </list>
     </recent_temporary>
   </component>
@@ -349,15 +350,7 @@
       <workItem from="1718864574214" duration="4489000" />
       <workItem from="1718947519318" duration="10460000" />
       <workItem from="1719205904714" duration="6486000" />
-      <workItem from="1719292018739" duration="21967000" />
-    </task>
-    <task id="LOCAL-00014" summary="questions of module 15">
-      <option name="closed" value="true" />
-      <created>1710944633329</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1710944633329</updated>
+      <workItem from="1719292018739" duration="23822000" />
     </task>
     <task id="LOCAL-00015" summary="create module _16Streams">
       <option name="closed" value="true" />
@@ -743,7 +736,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719478309784</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="add Formatting Messages Example">
+      <option name="closed" value="true" />
+      <created>1719562132092</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1719562132092</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,7 +762,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add questions for Stream API" />
     <MESSAGE value="add 17 chapter" />
     <MESSAGE value="add Instant examples" />
     <MESSAGE value="add examples of Modify Instant" />
@@ -786,7 +786,8 @@
     <MESSAGE value="add Formatting Decimal Numbers Example" />
     <MESSAGE value="add Formatting DateTime Example" />
     <MESSAGE value="add Formatting Parsing With Patterns Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Formatting Parsing With Patterns Example" />
+    <MESSAGE value="add Formatting Messages Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Formatting Messages Example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
