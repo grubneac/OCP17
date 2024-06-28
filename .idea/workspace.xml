@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Currency Example">
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/ParseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/PercentExample.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Formatting Parsing With Patterns Example">
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/ConvertToLegacyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/FormattingMessages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/CurrencyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/CurrencyExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,7 @@
     "Application.Collecting.executor": "Run",
     "Application.CollectingAndThenExamples.executor": "Run",
     "Application.CollectorsFlatMapping.executor": "Run",
+    "Application.CompactNumberFormatting.executor": "Run",
     "Application.ComparatorUsage.executor": "Run",
     "Application.CopyInstant.executor": "Run",
     "Application.CurrencyExample.executor": "Run",
@@ -80,6 +80,10 @@
     "Application.FirstExamples.executor": "Run",
     "Application.FlightTimeInfo.executor": "Run",
     "Application.ForMarchel.executor": "Run",
+    "Application.FormattingDateTime.executor": "Run",
+    "Application.FormattingDecimalNumbers.executor": "Run",
+    "Application.FormattingMessages.executor": "Run",
+    "Application.FormattingParsingWithPatterns.executor": "Run",
     "Application.ForwardRefsSimulated.executor": "Run",
     "Application.FunctionClient.executor": "Run",
     "Application.FunctionalReductionExamples.executor": "Run",
@@ -131,6 +135,7 @@
     "Application.RQ6.executor": "Run",
     "Application.RQ7.executor": "Run",
     "Application.RQ9.executor": "Run",
+    "Application.Rounding.executor": "Run",
     "Application.SortedExamples.executor": "Run",
     "Application.StatsClient.executor": "Run",
     "Application.StreamBenchmarks.executor": "Run",
@@ -146,6 +151,9 @@
     "Application.WhatIsThis.executor": "Debug",
     "Application.ZoneIdExamples.executor": "Run",
     "Application.ZonedDateTimeExamples.executor": "Run",
+    "Maven._17DateTime [clean,install].executor": "Run",
+    "Maven._18Localization [clean,install].executor": "Run",
+    "Maven._18Localization [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -185,12 +193,13 @@
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParseExample">
-    <configuration name="CurrencyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="formatting.CurrencyExample" />
+  <component name="RunManager" selected="Application.FormattingMessages">
+    <configuration name="FormattingDateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.FormattingDateTime" />
       <module name="_18Localization" />
       <extension name="coverage">
         <pattern>
@@ -202,8 +211,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="formatting.ParseExample" />
+    <configuration name="FormattingDecimalNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.FormattingDecimalNumbers" />
       <module name="_18Localization" />
       <extension name="coverage">
         <pattern>
@@ -215,8 +224,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="formatting.PercentExample" />
+    <configuration name="FormattingMessages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.FormattingMessages" />
       <module name="_18Localization" />
       <extension name="coverage">
         <pattern>
@@ -228,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ3" />
+    <configuration name="FormattingParsingWithPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.FormattingParsingWithPatterns" />
       <module name="_18Localization" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.*" />
+          <option name="PATTERN" value="formatting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ4" />
+    <configuration name="Rounding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.Rounding" />
       <module name="_18Localization" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.*" />
+          <option name="PATTERN" value="formatting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CurrencyExample" />
-      <item itemvalue="Application.ParseExample" />
-      <item itemvalue="Application.PercentExample" />
-      <item itemvalue="Application.RQ3" />
-      <item itemvalue="Application.RQ4" />
+      <item itemvalue="Application.FormattingDateTime" />
+      <item itemvalue="Application.FormattingDecimalNumbers" />
+      <item itemvalue="Application.FormattingMessages" />
+      <item itemvalue="Application.FormattingParsingWithPatterns" />
+      <item itemvalue="Application.Rounding" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParseExample" />
-        <item itemvalue="Application.CurrencyExample" />
-        <item itemvalue="Application.PercentExample" />
-        <item itemvalue="Application.RQ4" />
-        <item itemvalue="Application.RQ3" />
+        <item itemvalue="Application.FormattingMessages" />
+        <item itemvalue="Application.FormattingParsingWithPatterns" />
+        <item itemvalue="Application.FormattingDateTime" />
+        <item itemvalue="Application.FormattingDecimalNumbers" />
+        <item itemvalue="Application.Rounding" />
       </list>
     </recent_temporary>
   </component>
@@ -339,55 +348,8 @@
       <workItem from="1718607624862" duration="16819000" />
       <workItem from="1718864574214" duration="4489000" />
       <workItem from="1718947519318" duration="10460000" />
-      <workItem from="1719205904714" duration="5835000" />
-    </task>
-    <task id="LOCAL-00008" summary="add module _12ArrayList">
-      <option name="closed" value="true" />
-      <created>1709297556919</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1709297556919</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add module _13Functional">
-      <option name="closed" value="true" />
-      <created>1709297766530</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1709297766530</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add module _14ObjectComparison">
-      <option name="closed" value="true" />
-      <created>1709297874272</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1709297874272</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add module _15Collections">
-      <option name="closed" value="true" />
-      <created>1709298045395</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1709298045395</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add idea files">
-      <option name="closed" value="true" />
-      <created>1710762788140</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1710762788140</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add examples for class Arrays">
-      <option name="closed" value="true" />
-      <created>1710914967539</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1710914967539</updated>
+      <workItem from="1719205904714" duration="6486000" />
+      <workItem from="1719292018739" duration="21967000" />
     </task>
     <task id="LOCAL-00014" summary="questions of module 15">
       <option name="closed" value="true" />
@@ -733,7 +695,55 @@
       <option name="project" value="LOCAL" />
       <updated>1719229012752</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add Parse Example">
+      <option name="closed" value="true" />
+      <created>1719239096044</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1719239096044</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add Compact Number Formatting Example">
+      <option name="closed" value="true" />
+      <created>1719323938550</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1719323938550</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add Rounding Example">
+      <option name="closed" value="true" />
+      <created>1719324187415</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1719324187415</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add Formatting Decimal Numbers Example">
+      <option name="closed" value="true" />
+      <created>1719384017304</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1719384017304</updated>
+    </task>
+    <task id="LOCAL-00061" summary="add Formatting DateTime Example">
+      <option name="closed" value="true" />
+      <created>1719402324470</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1719402324470</updated>
+    </task>
+    <task id="LOCAL-00062" summary="add Formatting Parsing With Patterns Example">
+      <option name="closed" value="true" />
+      <created>1719478309784</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1719478309784</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,12 +761,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add examples for partitioningBy" />
-    <MESSAGE value="add examples for Filtering" />
-    <MESSAGE value="add examples for Mapping and FlatMapping" />
-    <MESSAGE value="add examples for collectingAndThen" />
-    <MESSAGE value="add examples for FunctionalReduction" />
-    <MESSAGE value="add examples for parallel Stream Benchmarks" />
     <MESSAGE value="add questions for Stream API" />
     <MESSAGE value="add 17 chapter" />
     <MESSAGE value="add Instant examples" />
@@ -776,7 +780,13 @@
     <MESSAGE value="add LocatingBundles" />
     <MESSAGE value="add questions" />
     <MESSAGE value="add Currency Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Currency Example" />
+    <MESSAGE value="add Parse Example" />
+    <MESSAGE value="add Compact Number Formatting Example" />
+    <MESSAGE value="add Rounding Example" />
+    <MESSAGE value="add Formatting Decimal Numbers Example" />
+    <MESSAGE value="add Formatting DateTime Example" />
+    <MESSAGE value="add Formatting Parsing With Patterns Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Formatting Parsing With Patterns Example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
