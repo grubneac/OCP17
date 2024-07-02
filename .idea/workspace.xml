@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Compound Message Formatting Example">
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/ChoiceBundle.properties" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Choice Pattern Usage Example">
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/ChoiceFormatUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ2.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16Streams/src/main/java/questions/RQ2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18Localization/src/main/resources/ChoiceBundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/ChoiceBundle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,8 @@
     "Application.Average1.executor": "Run",
     "Application.CDAdmin.executor": "Run",
     "Application.Calculate3.executor": "Run",
+    "Application.ChoiceFormatUsage.executor": "Run",
+    "Application.ChoicePatternUsage.executor": "Run",
     "Application.Collecting.executor": "Run",
     "Application.CollectingAndThenExamples.executor": "Run",
     "Application.CollectorsFlatMapping.executor": "Run",
@@ -198,7 +200,20 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChoicePatternUsage">
+  <component name="RunManager" selected="Application.ChoiceFormatUsage">
+    <configuration name="ChoiceFormatUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="formatting.ChoiceFormatUsage" />
+      <module name="_18Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="formatting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChoicePatternUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="formatting.ChoicePatternUsage" />
       <module name="_18Localization" />
@@ -218,19 +233,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="formatting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RQ1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ1" />
-      <module name="_16Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,19 +267,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ChoiceFormatUsage" />
       <item itemvalue="Application.ChoicePatternUsage" />
       <item itemvalue="Application.CompoundMessageFormatting" />
-      <item itemvalue="Application.RQ1" />
       <item itemvalue="Application.RQ2" />
       <item itemvalue="Application.RQ5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChoiceFormatUsage" />
         <item itemvalue="Application.ChoicePatternUsage" />
         <item itemvalue="Application.CompoundMessageFormatting" />
         <item itemvalue="Application.RQ5" />
         <item itemvalue="Application.RQ2" />
-        <item itemvalue="Application.RQ1" />
       </list>
     </recent_temporary>
   </component>
@@ -350,15 +352,8 @@
       <workItem from="1718864574214" duration="4489000" />
       <workItem from="1718947519318" duration="10460000" />
       <workItem from="1719205904714" duration="6486000" />
-      <workItem from="1719292018739" duration="29793000" />
-    </task>
-    <task id="LOCAL-00016" summary="create module _16Streams">
-      <option name="closed" value="true" />
-      <created>1710944838968</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1710944838968</updated>
+      <workItem from="1719292018739" duration="30549000" />
+      <workItem from="1719811797146" duration="7616000" />
     </task>
     <task id="LOCAL-00017" summary="create intermediate methods">
       <option name="closed" value="true" />
@@ -744,7 +739,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719570134392</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="add Choice Pattern Usage Example">
+      <option name="closed" value="true" />
+      <created>1719576066077</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1719576066077</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -762,7 +765,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Instant examples" />
     <MESSAGE value="add examples of Modify Instant" />
     <MESSAGE value="add examples of Period" />
     <MESSAGE value="add examples of Duration" />
@@ -787,7 +789,8 @@
     <MESSAGE value="add Formatting Parsing With Patterns Example" />
     <MESSAGE value="add Formatting Messages Example" />
     <MESSAGE value="add Compound Message Formatting Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Compound Message Formatting Example" />
+    <MESSAGE value="add Choice Pattern Usage Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Choice Pattern Usage Example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
