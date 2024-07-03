@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Choice Pattern Usage Example">
-      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/formatting/ChoiceFormatUsage.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Choice Format Usage Example">
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18Localization/src/main/java/questions/RQ9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_18Localization/src/main/resources/ChoiceBundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/_18Localization/src/main/resources/ChoiceBundle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,14 +140,18 @@
     "Application.RQ12.executor": "Run",
     "Application.RQ13.executor": "Run",
     "Application.RQ14.executor": "Run",
+    "Application.RQ15.executor": "Run",
+    "Application.RQ16.executor": "Run",
     "Application.RQ17.executor": "Run",
     "Application.RQ18.executor": "Run",
     "Application.RQ2.executor": "Run",
     "Application.RQ3.executor": "Run",
     "Application.RQ4.executor": "Debug",
+    "Application.RQ5 (1).executor": "Run",
     "Application.RQ5.executor": "Run",
     "Application.RQ6.executor": "Run",
     "Application.RQ7.executor": "Run",
+    "Application.RQ8.executor": "Run",
     "Application.RQ9.executor": "Run",
     "Application.Rounding.executor": "Run",
     "Application.SortedExamples.executor": "Run",
@@ -200,49 +215,10 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChoiceFormatUsage">
-    <configuration name="ChoiceFormatUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="formatting.ChoiceFormatUsage" />
+  <component name="RunManager" selected="Application.RQ16">
+    <configuration name="RQ10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ10" />
       <module name="_18Localization" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="formatting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChoicePatternUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="formatting.ChoicePatternUsage" />
-      <module name="_18Localization" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="formatting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompoundMessageFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="formatting.CompoundMessageFormatting" />
-      <module name="_18Localization" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="formatting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RQ2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ2" />
-      <module name="_16Streams" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="questions.*" />
@@ -253,9 +229,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ5" />
-      <module name="_16Streams" />
+    <configuration name="RQ13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ13" />
+      <module name="_18Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RQ16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ16" />
+      <module name="_18Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RQ17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ17" />
+      <module name="_18Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RQ8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ8" />
+      <module name="_18Localization" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="questions.*" />
@@ -267,19 +282,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ChoiceFormatUsage" />
-      <item itemvalue="Application.ChoicePatternUsage" />
-      <item itemvalue="Application.CompoundMessageFormatting" />
-      <item itemvalue="Application.RQ2" />
-      <item itemvalue="Application.RQ5" />
+      <item itemvalue="Application.RQ10" />
+      <item itemvalue="Application.RQ13" />
+      <item itemvalue="Application.RQ16" />
+      <item itemvalue="Application.RQ17" />
+      <item itemvalue="Application.RQ8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChoiceFormatUsage" />
-        <item itemvalue="Application.ChoicePatternUsage" />
-        <item itemvalue="Application.CompoundMessageFormatting" />
-        <item itemvalue="Application.RQ5" />
-        <item itemvalue="Application.RQ2" />
+        <item itemvalue="Application.RQ16" />
+        <item itemvalue="Application.RQ13" />
+        <item itemvalue="Application.RQ10" />
+        <item itemvalue="Application.RQ8" />
+        <item itemvalue="Application.RQ17" />
       </list>
     </recent_temporary>
   </component>
@@ -353,15 +368,7 @@
       <workItem from="1718947519318" duration="10460000" />
       <workItem from="1719205904714" duration="6486000" />
       <workItem from="1719292018739" duration="30549000" />
-      <workItem from="1719811797146" duration="7616000" />
-    </task>
-    <task id="LOCAL-00017" summary="create intermediate methods">
-      <option name="closed" value="true" />
-      <created>1712055877520</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1712055877520</updated>
+      <workItem from="1719811797146" duration="14064000" />
     </task>
     <task id="LOCAL-00018" summary="add examples for: range, generate, flatMap, mapMulti">
       <option name="closed" value="true" />
@@ -747,7 +754,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719576066077</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="add Choice Format Usage Example">
+      <option name="closed" value="true" />
+      <created>1719898095154</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1719898095154</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +780,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add examples of Modify Instant" />
     <MESSAGE value="add examples of Period" />
     <MESSAGE value="add examples of Duration" />
     <MESSAGE value="add examples of ZoneId" />
@@ -790,7 +804,8 @@
     <MESSAGE value="add Formatting Messages Example" />
     <MESSAGE value="add Compound Message Formatting Example" />
     <MESSAGE value="add Choice Pattern Usage Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Choice Pattern Usage Example" />
+    <MESSAGE value="add Choice Format Usage Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Choice Format Usage Example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
