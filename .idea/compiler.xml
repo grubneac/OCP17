@@ -21,6 +21,7 @@
         <module name="_18Localization" />
         <module name="_7ExceptionHandling" />
         <module name="_11Generics" />
+        <module name="_19ModuleSystem" />
         <module name="_17DateTime" />
         <module name="_2Primitives" />
         <module name="_12ArrayList" />

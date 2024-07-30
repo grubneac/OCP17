@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add questions" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add new module">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,137 +54,137 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ActYourAge.executor": "Run",
-    "Application.ArrayListMethods.executor": "Run",
-    "Application.ArraysExamples.executor": "Run",
-    "Application.Average1.executor": "Run",
-    "Application.CDAdmin.executor": "Run",
-    "Application.Calculate3.executor": "Run",
-    "Application.ChoiceFormatUsage.executor": "Run",
-    "Application.ChoicePatternUsage.executor": "Run",
-    "Application.Collecting.executor": "Run",
-    "Application.CollectingAndThenExamples.executor": "Run",
-    "Application.CollectorsFlatMapping.executor": "Run",
-    "Application.CompactNumberFormatting.executor": "Run",
-    "Application.ComparatorUsage.executor": "Run",
-    "Application.CompoundMessageFormatting.executor": "Run",
-    "Application.CopyInstant.executor": "Run",
-    "Application.CurrencyExample.executor": "Run",
-    "Application.DSTAdjustment.executor": "Run",
-    "Application.DSTExample.executor": "Run",
-    "Application.DurationBasedLoop.executor": "Run",
-    "Application.DurationExample.executor": "Run",
-    "Application.Filtering.executor": "Run",
-    "Application.FilteringExamples.executor": "Run",
-    "Application.FindFirstExample.executor": "Run",
-    "Application.FirstExample.executor": "Run",
-    "Application.FirstExamples.executor": "Run",
-    "Application.FlightTimeInfo.executor": "Run",
-    "Application.ForMarchel.executor": "Run",
-    "Application.FormattingDateTime.executor": "Run",
-    "Application.FormattingDecimalNumbers.executor": "Run",
-    "Application.FormattingMessages.executor": "Run",
-    "Application.FormattingParsingWithPatterns.executor": "Run",
-    "Application.ForwardRefsSimulated.executor": "Run",
-    "Application.FunctionClient.executor": "Run",
-    "Application.FunctionalReductionExamples.executor": "Run",
-    "Application.FunctionalReductions.executor": "Run",
-    "Application.GetThatIndex.executor": "Run",
-    "Application.GroupingExamples.executor": "Run",
-    "Application.HiddenAndInheritedAccess.executor": "Run",
-    "Application.HistogramStats.executor": "Run",
-    "Application.IdentityMatrixTest.executor": "Run",
-    "Application.InitOnly.executor": "Run",
-    "Application.InitStreamExample.executor": "Run",
-    "Application.JoiningExample.executor": "Run",
-    "Application.LocalDateExamples.executor": "Run",
-    "Application.LocalDateTimeExamples.executor": "Run",
-    "Application.LocalesEverywhere.executor": "Run",
-    "Application.LocatingBundles.executor": "Run",
-    "Application.MapExamples.executor": "Run",
-    "Application.MappingExamples.executor": "Run",
-    "Application.ModifyInstant.executor": "Run",
-    "Application.NumericOptionalUsage.executor": "Run",
-    "Application.ObjMappedExample.executor": "Run",
-    "Application.OptionalExample.executor": "Run",
-    "Application.OptionalUsage.executor": "Run",
-    "Application.OrderOfOperations.executor": "Run",
-    "Application.OrderOfOperationsWithPeek.executor": "Run",
-    "Application.OverideExample.executor": "Run",
-    "Application.ParallelModeExample.executor": "Run",
-    "Application.ParseExample.executor": "Run",
-    "Application.PartitioningExamples.executor": "Run",
-    "Application.PercentExample.executor": "Run",
-    "Application.PeriodBasedLoop.executor": "Run",
-    "Application.PeriodExample.executor": "Run",
-    "Application.Q36.executor": "Run",
-    "Application.Q37.executor": "Run",
-    "Application.Q38.executor": "Run",
-    "Application.RQ1.executor": "Run",
-    "Application.RQ10.executor": "Run",
-    "Application.RQ100_87.executor": "Run",
-    "Application.RQ11.executor": "Run",
-    "Application.RQ12.executor": "Run",
-    "Application.RQ13.executor": "Run",
-    "Application.RQ14.executor": "Run",
-    "Application.RQ15.executor": "Run",
-    "Application.RQ16.executor": "Run",
-    "Application.RQ17.executor": "Run",
-    "Application.RQ18.executor": "Run",
-    "Application.RQ2.executor": "Run",
-    "Application.RQ3.executor": "Run",
-    "Application.RQ4.executor": "Debug",
-    "Application.RQ5 (1).executor": "Run",
-    "Application.RQ5.executor": "Run",
-    "Application.RQ6.executor": "Run",
-    "Application.RQ7.executor": "Run",
-    "Application.RQ8.executor": "Run",
-    "Application.RQ9.executor": "Run",
-    "Application.Rounding.executor": "Run",
-    "Application.SortedExamples.executor": "Run",
-    "Application.StatsClient.executor": "Run",
-    "Application.StreamBenchmarks.executor": "Run",
-    "Application.StreamOps.executor": "Run",
-    "Application.StreamPipeLine.executor": "Run",
-    "Application.StringConstruction.executor": "Run",
-    "Application.SummaryStatistics.executor": "Run",
-    "Application.TakeWhileExample.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Test13RQ9.executor": "Run",
-    "Application.UsingResourceBundles.executor": "Run",
-    "Application.UsingTemporals.executor": "Run",
-    "Application.WhatIsThis.executor": "Debug",
-    "Application.ZoneIdExamples.executor": "Run",
-    "Application.ZonedDateTimeExamples.executor": "Run",
-    "Maven._17DateTime [clean,install].executor": "Run",
-    "Maven._18Localization [clean,install].executor": "Run",
-    "Maven._18Localization [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JavaProjects/OCP17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ActYourAge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Average1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CDAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculate3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChoiceFormatUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChoicePatternUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Collecting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectingAndThenExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsFlatMapping.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompactNumberFormatting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparatorUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompoundMessageFormatting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyInstant.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CurrencyExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DSTAdjustment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DSTExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DurationBasedLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DurationExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Filtering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilteringExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFirstExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlightTimeInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForMarchel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormattingDateTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormattingDecimalNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormattingMessages.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormattingParsingWithPatterns.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForwardRefsSimulated.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalReductionExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalReductions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetThatIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupingExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HiddenAndInheritedAccess.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HistogramStats.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IdentityMatrixTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InitOnly.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InitStreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoiningExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalDateExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalDateTimeExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalesEverywhere.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocatingBundles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MappingExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ModifyInstant.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumericOptionalUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjMappedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderOfOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderOfOperationsWithPeek.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverideExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParallelModeExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParseExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitioningExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PercentExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeriodBasedLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeriodExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q36.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q37.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q38.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ100_87.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ15.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ16.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ18.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RQ5 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RQ9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rounding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StatsClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamBenchmarks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamOps.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamPipeLine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringConstruction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SummaryStatistics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TakeWhileExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test13RQ9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingResourceBundles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingTemporals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhatIsThis.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ZoneIdExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZonedDateTimeExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Maven._17DateTime [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven._18Localization [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven._18Localization [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/OCP17&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JSON"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JSON&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="util" />
@@ -275,19 +279,19 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RQ8" />
+        <item itemvalue="Application.RQ17" />
         <item itemvalue="Application.RQ16" />
         <item itemvalue="Application.RQ13" />
         <item itemvalue="Application.RQ10" />
-        <item itemvalue="Application.RQ8" />
-        <item itemvalue="Application.RQ17" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -354,14 +358,9 @@
       <workItem from="1719205904714" duration="6486000" />
       <workItem from="1719292018739" duration="30549000" />
       <workItem from="1719811797146" duration="14680000" />
-    </task>
-    <task id="LOCAL-00019" summary="add examples for intermediate operations">
-      <option name="closed" value="true" />
-      <created>1712902943631</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1712902943631</updated>
+      <workItem from="1719983299093" duration="1862000" />
+      <workItem from="1721649195154" duration="48000" />
+      <workItem from="1721971105875" duration="967000" />
     </task>
     <task id="LOCAL-00020" summary="add examples for terminal operations">
       <option name="closed" value="true" />
@@ -747,7 +746,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719983170805</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add new module">
+      <option name="closed" value="true" />
+      <created>1719983575825</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1719983575825</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +772,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add examples of Period" />
     <MESSAGE value="add examples of Duration" />
     <MESSAGE value="add examples of ZoneId" />
     <MESSAGE value="add examples of ZoneDateTime" />
@@ -790,7 +796,8 @@
     <MESSAGE value="add Choice Pattern Usage Example" />
     <MESSAGE value="add Choice Format Usage Example" />
     <MESSAGE value="add questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add questions" />
+    <MESSAGE value="add new module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
