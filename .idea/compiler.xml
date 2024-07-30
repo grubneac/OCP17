@@ -12,6 +12,7 @@
         <module name="_3Declarations" />
         <module name="_13Functional" />
         <module name="_16Streams" />
+        <module name="_22Concurrency" />
         <module name="_14ObjectComparison" />
         <module name="_4ControlFlow" />
         <module name="_5OOP" />
