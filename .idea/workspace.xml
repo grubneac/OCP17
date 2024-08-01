@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add new module">
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/first/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/first/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/second/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/second/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable">
+      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +207,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.second.Client">
+  <component name="RunManager" selected="Application.RQ3">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="first.Client" />
       <module name="_22Concurrency" />
@@ -218,9 +215,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ16" />
-      <module name="_18Localization" />
+    <configuration name="RQ1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ1" />
+      <module name="_22Concurrency" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="questions.*" />
@@ -231,9 +228,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ17" />
-      <module name="_18Localization" />
+    <configuration name="RQ2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ2" />
+      <module name="_22Concurrency" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="questions.*" />
@@ -244,9 +241,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ8" />
-      <module name="_18Localization" />
+    <configuration name="RQ3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ3" />
+      <module name="_22Concurrency" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="questions.*" />
@@ -272,18 +269,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.RQ1" />
+      <item itemvalue="Application.RQ2" />
+      <item itemvalue="Application.RQ3" />
       <item itemvalue="Application.second.Client" />
-      <item itemvalue="Application.RQ16" />
-      <item itemvalue="Application.RQ17" />
-      <item itemvalue="Application.RQ8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.second.Client" />
+        <item itemvalue="Application.RQ3" />
+        <item itemvalue="Application.RQ2" />
+        <item itemvalue="Application.RQ1" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.RQ16" />
-        <item itemvalue="Application.RQ8" />
-        <item itemvalue="Application.RQ17" />
+        <item itemvalue="Application.second.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -360,15 +357,7 @@
       <workItem from="1719811797146" duration="14680000" />
       <workItem from="1719983299093" duration="1862000" />
       <workItem from="1721649195154" duration="48000" />
-      <workItem from="1721971105875" duration="4043000" />
-    </task>
-    <task id="LOCAL-00021" summary="add examples for SummaryStatistics operations">
-      <option name="closed" value="true" />
-      <created>1713765950991</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1713765950991</updated>
+      <workItem from="1721971105875" duration="8422000" />
     </task>
     <task id="LOCAL-00022" summary="add examples for toSet, toList, toMap">
       <option name="closed" value="true" />
@@ -754,7 +743,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722320114116</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable">
+      <option name="closed" value="true" />
+      <created>1722328048935</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1722328048935</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,7 +769,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add examples of Duration" />
     <MESSAGE value="add examples of ZoneId" />
     <MESSAGE value="add examples of ZoneDateTime" />
     <MESSAGE value="add examples of calculation ZoneDateTime" />
@@ -797,7 +793,8 @@
     <MESSAGE value="add Choice Format Usage Example" />
     <MESSAGE value="add questions" />
     <MESSAGE value="add new module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new module" />
+    <MESSAGE value="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
