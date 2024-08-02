@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable">
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ3.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add questions">
+      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/ThreadStates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,6 +153,7 @@
     "Application.TakeWhileExample.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test13RQ9.executor": "Run",
+    "Application.ThreadStates.executor": "Run",
     "Application.UsingResourceBundles.executor": "Run",
     "Application.UsingTemporals.executor": "Run",
     "Application.WhatIsThis.executor": "Debug",
@@ -207,7 +206,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RQ3">
+  <component name="RunManager" selected="Application.ThreadStates">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="first.Client" />
       <module name="_22Concurrency" />
@@ -254,15 +253,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="second.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second.Client" />
+    <configuration name="ThreadStates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadStates" />
       <module name="_22Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="second.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,15 +265,15 @@
       <item itemvalue="Application.RQ1" />
       <item itemvalue="Application.RQ2" />
       <item itemvalue="Application.RQ3" />
-      <item itemvalue="Application.second.Client" />
+      <item itemvalue="Application.ThreadStates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadStates" />
         <item itemvalue="Application.RQ3" />
         <item itemvalue="Application.RQ2" />
         <item itemvalue="Application.RQ1" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.second.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -357,15 +350,7 @@
       <workItem from="1719811797146" duration="14680000" />
       <workItem from="1719983299093" duration="1862000" />
       <workItem from="1721649195154" duration="48000" />
-      <workItem from="1721971105875" duration="8422000" />
-    </task>
-    <task id="LOCAL-00022" summary="add examples for toSet, toList, toMap">
-      <option name="closed" value="true" />
-      <created>1713936254098</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1713936254098</updated>
+      <workItem from="1721971105875" duration="11293000" />
     </task>
     <task id="LOCAL-00023" summary="add examples for Joining Characters">
       <option name="closed" value="true" />
@@ -751,7 +736,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722328048935</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="add questions">
+      <option name="closed" value="true" />
+      <created>1722490056386</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1722490056386</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -791,10 +784,10 @@
     <MESSAGE value="add Compound Message Formatting Example" />
     <MESSAGE value="add Choice Pattern Usage Example" />
     <MESSAGE value="add Choice Format Usage Example" />
-    <MESSAGE value="add questions" />
     <MESSAGE value="add new module" />
     <MESSAGE value="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable" />
+    <MESSAGE value="add questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
