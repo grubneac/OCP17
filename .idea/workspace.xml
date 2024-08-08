@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add example of interrupt methos">
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/MessageDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/WaitNotifyScenario.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add example of wait and notify methods">
+      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/AnotherClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_22Concurrency/src/main/java/WaitNotifyScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/WaitNotifyScenario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ActYourAge.executor": "Run",
+    "Application.AnotherClient.executor": "Run",
     "Application.ArrayListMethods.executor": "Run",
     "Application.ArraysExamples.executor": "Run",
     "Application.Average1.executor": "Run",
@@ -210,23 +211,17 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaitNotifyScenario">
-    <configuration name="InterruptHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterruptHandling" />
+  <component name="RunManager" selected="Application.AnotherClient">
+    <configuration name="AnotherClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnotherClient" />
       <module name="_22Concurrency" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ3" />
+    <configuration name="InterruptHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterruptHandling" />
       <module name="_22Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -253,19 +248,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AnotherClient" />
       <item itemvalue="Application.InterruptHandling" />
       <item itemvalue="Application.WaitNotifyScenario" />
-      <item itemvalue="Application.RQ3" />
       <item itemvalue="Application.SynchronizedMethodDemo" />
       <item itemvalue="Application.ThreadStates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnotherClient" />
         <item itemvalue="Application.WaitNotifyScenario" />
         <item itemvalue="Application.InterruptHandling" />
         <item itemvalue="Application.SynchronizedMethodDemo" />
         <item itemvalue="Application.ThreadStates" />
-        <item itemvalue="Application.RQ3" />
       </list>
     </recent_temporary>
   </component>
@@ -343,15 +338,7 @@
       <workItem from="1719983299093" duration="1862000" />
       <workItem from="1721649195154" duration="48000" />
       <workItem from="1721971105875" duration="13715000" />
-      <workItem from="1722834734406" duration="5342000" />
-    </task>
-    <task id="LOCAL-00026" summary="add examples for partitioningBy">
-      <option name="closed" value="true" />
-      <created>1714121486460</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1714121486460</updated>
+      <workItem from="1722834734406" duration="8902000" />
     </task>
     <task id="LOCAL-00027" summary="add examples for Filtering">
       <option name="closed" value="true" />
@@ -737,7 +724,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723093257926</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="add example of wait and notify methods">
+      <option name="closed" value="true" />
+      <created>1723094833343</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1723094833343</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +750,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add examples DSTAdjustment" />
     <MESSAGE value="add examples Daylight Savings Example" />
     <MESSAGE value="add examples convert to legacy date" />
     <MESSAGE value="add module _18Localization" />
@@ -780,7 +774,8 @@
     <MESSAGE value="add ThreadStates" />
     <MESSAGE value="add example of synchronized methos" />
     <MESSAGE value="add example of interrupt methos" />
-    <option name="LAST_COMMIT_MESSAGE" value="add example of interrupt methos" />
+    <MESSAGE value="add example of wait and notify methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add example of wait and notify methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

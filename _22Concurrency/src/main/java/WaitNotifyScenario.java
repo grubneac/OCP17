@@ -13,7 +13,7 @@ public class WaitNotifyScenario {
         Thread t4 = new Thread(() -> { while (true) md.displayMessage(); }, "t4");
         t4.setDaemon(true);
         t4.start();
-        Thread.sleep(5);
+        Thread.sleep(10);
         System.out.println("Exit from main.");
     }
 }
