@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add liveLock example">
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/thread_issues/starvation/Diggers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/thread_issues/starvation/Hole.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add starvation example and move all thread issues to one package">
+      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/questions/RQ7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_22Concurrency/src/main/java/live_lock/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/thread_issues/starvation/live_lock/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_22Concurrency/src/main/java/live_lock/LivelockShipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/thread_issues/starvation/live_lock/LivelockShipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_22Concurrency/src/main/java/live_lock/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/_22Concurrency/src/main/java/thread_issues/starvation/live_lock/Seller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +144,7 @@
     "Application.RQ18.executor": "Run",
     "Application.RQ2.executor": "Run",
     "Application.RQ3.executor": "Run",
-    "Application.RQ4.executor": "Debug",
+    "Application.RQ4.executor": "Run",
     "Application.RQ5 (1).executor": "Run",
     "Application.RQ5.executor": "Run",
     "Application.RQ6.executor": "Run",
@@ -218,34 +217,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Diggers">
-    <configuration name="AnotherClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnotherClient" />
-      <module name="_22Concurrency" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fourth.Controller" />
-      <module name="_22Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fourth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeadLockDanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeadLockDanger" />
-      <module name="_22Concurrency" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RQ7">
     <configuration name="Diggers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="starvation.Diggers" />
       <module name="_22Concurrency" />
@@ -259,12 +231,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LivelockShipment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_lock.LivelockShipment" />
+    <configuration name="RQ4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ4" />
       <module name="_22Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="live_lock.*" />
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RQ5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ5" />
+      <module name="_22Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RQ6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ6" />
+      <module name="_22Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RQ7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ7" />
+      <module name="_22Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,19 +284,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnotherClient" />
-      <item itemvalue="Application.Controller" />
-      <item itemvalue="Application.DeadLockDanger" />
       <item itemvalue="Application.Diggers" />
-      <item itemvalue="Application.LivelockShipment" />
+      <item itemvalue="Application.RQ4" />
+      <item itemvalue="Application.RQ5" />
+      <item itemvalue="Application.RQ6" />
+      <item itemvalue="Application.RQ7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RQ7" />
+        <item itemvalue="Application.RQ6" />
+        <item itemvalue="Application.RQ5" />
+        <item itemvalue="Application.RQ4" />
         <item itemvalue="Application.Diggers" />
-        <item itemvalue="Application.LivelockShipment" />
-        <item itemvalue="Application.DeadLockDanger" />
-        <item itemvalue="Application.Controller" />
-        <item itemvalue="Application.AnotherClient" />
       </list>
     </recent_temporary>
   </component>
@@ -363,15 +374,7 @@
       <workItem from="1719983299093" duration="1862000" />
       <workItem from="1721649195154" duration="48000" />
       <workItem from="1721971105875" duration="13715000" />
-      <workItem from="1722834734406" duration="15186000" />
-    </task>
-    <task id="LOCAL-00032" summary="add examples for parallel Stream Benchmarks">
-      <option name="closed" value="true" />
-      <created>1714636862751</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1714636862751</updated>
+      <workItem from="1722834734406" duration="22336000" />
     </task>
     <task id="LOCAL-00033" summary="add questions for Stream API">
       <option name="closed" value="true" />
@@ -757,7 +760,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723182662074</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="add starvation example and move all thread issues to one package">
+      <option name="closed" value="true" />
+      <created>1723188773479</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1723188773479</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +786,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add LocalesEverywhere" />
     <MESSAGE value="add UsingResourceBundles" />
     <MESSAGE value="add LocatingBundles" />
     <MESSAGE value="add Currency Example" />
@@ -800,7 +810,8 @@
     <MESSAGE value="add typical scenario where a thread can be controlled by one or more threads" />
     <MESSAGE value="add deadLock example" />
     <MESSAGE value="add liveLock example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add liveLock example" />
+    <MESSAGE value="add starvation example and move all thread issues to one package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add starvation example and move all thread issues to one package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
