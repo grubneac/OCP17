@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add typical scenario where a thread can be controlled by one or more threads">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add deadLock example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +73,7 @@
     "Application.CurrencyExample.executor": "Run",
     "Application.DSTAdjustment.executor": "Run",
     "Application.DSTExample.executor": "Run",
+    "Application.DeadLockDanger.executor": "Run",
     "Application.DurationBasedLoop.executor": "Run",
     "Application.DurationExample.executor": "Run",
     "Application.Filtering.executor": "Run",
@@ -210,7 +209,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeadLockDanger">
+  <component name="RunManager" selected="Application.LivelockShipment">
     <configuration name="AnotherClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnotherClient" />
       <module name="_22Concurrency" />
@@ -238,9 +237,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterruptHandling" />
+    <configuration name="LivelockShipment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="live_lock.LivelockShipment" />
       <module name="_22Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="live_lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -256,16 +261,16 @@
       <item itemvalue="Application.AnotherClient" />
       <item itemvalue="Application.Controller" />
       <item itemvalue="Application.DeadLockDanger" />
-      <item itemvalue="Application.InterruptHandling" />
+      <item itemvalue="Application.LivelockShipment" />
       <item itemvalue="Application.WaitNotifyScenario" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LivelockShipment" />
         <item itemvalue="Application.DeadLockDanger" />
         <item itemvalue="Application.Controller" />
         <item itemvalue="Application.AnotherClient" />
         <item itemvalue="Application.WaitNotifyScenario" />
-        <item itemvalue="Application.InterruptHandling" />
       </list>
     </recent_temporary>
   </component>
@@ -343,15 +348,7 @@
       <workItem from="1719983299093" duration="1862000" />
       <workItem from="1721649195154" duration="48000" />
       <workItem from="1721971105875" duration="13715000" />
-      <workItem from="1722834734406" duration="12108000" />
-    </task>
-    <task id="LOCAL-00030" summary="add examples for collectingAndThen">
-      <option name="closed" value="true" />
-      <created>1714372712089</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1714372712089</updated>
+      <workItem from="1722834734406" duration="12466000" />
     </task>
     <task id="LOCAL-00031" summary="add examples for FunctionalReduction">
       <option name="closed" value="true" />
@@ -737,7 +734,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723122749242</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="add deadLock example">
+      <option name="closed" value="true" />
+      <created>1723182344768</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1723182344768</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +760,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add module _18Localization" />
     <MESSAGE value="add locale first example" />
     <MESSAGE value="add LocalesEverywhere" />
     <MESSAGE value="add UsingResourceBundles" />
@@ -780,7 +784,8 @@
     <MESSAGE value="add example of wait and notify methods" />
     <MESSAGE value="add example of join methods" />
     <MESSAGE value="add typical scenario where a thread can be controlled by one or more threads" />
-    <option name="LAST_COMMIT_MESSAGE" value="add typical scenario where a thread can be controlled by one or more threads" />
+    <MESSAGE value="add deadLock example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add deadLock example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
