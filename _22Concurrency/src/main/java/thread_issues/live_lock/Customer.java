@@ -1,4 +1,4 @@
-package live_lock;
+package thread_issues.live_lock;
 
 public class Customer {                                                  // (1)
     private boolean paymentMade = false;                                   // (2)

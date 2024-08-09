@@ -1,4 +1,4 @@
-package live_lock;
+package thread_issues.live_lock;
 
 public class LivelockShipment {
     public static void main(String[] args) {

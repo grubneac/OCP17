@@ -1,4 +1,4 @@
-package live_lock;
+package thread_issues.live_lock;
 
 public class Seller {                                                    // (5)
     private boolean itemShipped = false;                                   // (6)
