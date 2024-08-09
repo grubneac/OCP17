@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add typical scenario where a thread can be controlled by one or more threads" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add typical scenario where a thread can be controlled by one or more threads">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +210,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Controller">
+  <component name="RunManager" selected="Application.DeadLockDanger">
     <configuration name="AnotherClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnotherClient" />
       <module name="_22Concurrency" />
@@ -229,15 +231,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterruptHandling" />
+    <configuration name="DeadLockDanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeadLockDanger" />
       <module name="_22Concurrency" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third.SynchronizedMethodDemo" />
+    <configuration name="InterruptHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterruptHandling" />
       <module name="_22Concurrency" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -253,17 +255,17 @@
     <list>
       <item itemvalue="Application.AnotherClient" />
       <item itemvalue="Application.Controller" />
+      <item itemvalue="Application.DeadLockDanger" />
       <item itemvalue="Application.InterruptHandling" />
       <item itemvalue="Application.WaitNotifyScenario" />
-      <item itemvalue="Application.SynchronizedMethodDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLockDanger" />
         <item itemvalue="Application.Controller" />
         <item itemvalue="Application.AnotherClient" />
         <item itemvalue="Application.WaitNotifyScenario" />
         <item itemvalue="Application.InterruptHandling" />
-        <item itemvalue="Application.SynchronizedMethodDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -341,15 +343,7 @@
       <workItem from="1719983299093" duration="1862000" />
       <workItem from="1721649195154" duration="48000" />
       <workItem from="1721971105875" duration="13715000" />
-      <workItem from="1722834734406" duration="10972000" />
-    </task>
-    <task id="LOCAL-00029" summary="add examples for Mapping and FlatMapping">
-      <option name="closed" value="true" />
-      <created>1714300945517</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1714300945517</updated>
+      <workItem from="1722834734406" duration="12108000" />
     </task>
     <task id="LOCAL-00030" summary="add examples for collectingAndThen">
       <option name="closed" value="true" />
@@ -735,7 +729,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723122371201</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="add typical scenario where a thread can be controlled by one or more threads">
+      <option name="closed" value="true" />
+      <created>1723122749242</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1723122749242</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
