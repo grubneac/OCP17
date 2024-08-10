@@ -25,6 +25,7 @@
         <module name="_19ModuleSystem" />
         <module name="_17DateTime" />
         <module name="_2Primitives" />
+        <module name="_23Concurrency" />
         <module name="_12ArrayList" />
       </profile>
     </annotationProcessing>
