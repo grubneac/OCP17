@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add new module">
-      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/SimpleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/ExecutorLifecycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,7 @@
     "Application.Diggers.executor": "Run",
     "Application.DurationBasedLoop.executor": "Run",
     "Application.DurationExample.executor": "Run",
+    "Application.ExecutorLifecycle.executor": "Run",
     "Application.Filtering.executor": "Run",
     "Application.FilteringExamples.executor": "Run",
     "Application.FindFirstExample.executor": "Run",
@@ -215,16 +217,10 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleExecutor">
-    <configuration name="RQ5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ5" />
-      <module name="_22Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.ExecutorLifecycle">
+    <configuration name="ExecutorLifecycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExecutorLifecycle" />
+      <module name="_23Concurrency" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,19 +266,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ExecutorLifecycle" />
       <item itemvalue="Application.SimpleExecutor" />
       <item itemvalue="Application.ThreadLocalRandomExample" />
-      <item itemvalue="Application.RQ5" />
       <item itemvalue="Application.RQ6" />
       <item itemvalue="Application.RQ7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorLifecycle" />
         <item itemvalue="Application.SimpleExecutor" />
         <item itemvalue="Application.ThreadLocalRandomExample" />
         <item itemvalue="Application.RQ7" />
         <item itemvalue="Application.RQ6" />
-        <item itemvalue="Application.RQ5" />
       </list>
     </recent_temporary>
   </component>
