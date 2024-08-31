@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add Executor lifecycle">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="resolved task">
+      <change beforePath="$PROJECT_DIR$/_23Concurrency/src/main/java/questions/EpamQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/questions/EpamQuestion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,7 @@
     "Application.Diggers.executor": "Run",
     "Application.DurationBasedLoop.executor": "Run",
     "Application.DurationExample.executor": "Run",
+    "Application.EpamQuestion.executor": "Run",
     "Application.ExecutorLifecycle.executor": "Run",
     "Application.Filtering.executor": "Run",
     "Application.FilteringExamples.executor": "Run",
@@ -221,7 +222,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task">
+  <component name="RunManager" selected="Application.EpamQuestion">
     <configuration name="DataUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="records.DataUser" />
       <module name="_5OOP" />
@@ -235,12 +236,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review_question.Main" />
-      <module name="_5OOP" />
+    <configuration name="EpamQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.EpamQuestion" />
+      <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review_question.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polymorphism2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.Polymorphism2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review_question.Main" />
       <module name="_5OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.*" />
+          <option name="PATTERN" value="review_question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,19 +283,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EpamQuestion" />
       <item itemvalue="Application.DataUser" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Polymorphism2" />
       <item itemvalue="Application.RQ54" />
       <item itemvalue="Application.Task" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EpamQuestion" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.RQ54" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DataUser" />
-        <item itemvalue="Application.Polymorphism2" />
       </list>
     </recent_temporary>
   </component>
@@ -375,38 +376,6 @@
       <workItem from="1722834734406" duration="22336000" />
       <workItem from="1723791407537" duration="1663000" />
       <workItem from="1724823998200" duration="9703000" />
-    </task>
-    <task id="LOCAL-00036" summary="add 17 chapter">
-      <option name="closed" value="true" />
-      <created>1715342555833</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1715342555833</updated>
-    </task>
-    <task id="LOCAL-00037" summary="add Instant examples">
-      <option name="closed" value="true" />
-      <created>1716530273521</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1716530273521</updated>
-    </task>
-    <task id="LOCAL-00038" summary="add examples of Modify Instant">
-      <option name="closed" value="true" />
-      <created>1716532975446</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1716532975446</updated>
-    </task>
-    <task id="LOCAL-00039" summary="add examples of Period">
-      <option name="closed" value="true" />
-      <created>1716798033011</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1716798033011</updated>
     </task>
     <task id="LOCAL-00040" summary="add examples of Period">
       <option name="closed" value="true" />
@@ -768,7 +737,39 @@
       <option name="project" value="LOCAL" />
       <updated>1723468825860</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="resolved task">
+      <option name="closed" value="true" />
+      <created>1725108145098</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1725108145098</updated>
+    </task>
+    <task id="LOCAL-00086" summary="resolved task">
+      <option name="closed" value="true" />
+      <created>1725108199246</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1725108199246</updated>
+    </task>
+    <task id="LOCAL-00087" summary="resolved task">
+      <option name="closed" value="true" />
+      <created>1725108208225</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1725108208225</updated>
+    </task>
+    <task id="LOCAL-00088" summary="resolved task">
+      <option name="closed" value="true" />
+      <created>1725108266516</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1725108266516</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -786,7 +787,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add LocatingBundles" />
     <MESSAGE value="add Currency Example" />
     <MESSAGE value="add Parse Example" />
     <MESSAGE value="add Compact Number Formatting Example" />
@@ -811,7 +811,8 @@
     <MESSAGE value="add starvation example and move all thread issues to one package" />
     <MESSAGE value="add new module" />
     <MESSAGE value="add Executor lifecycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Executor lifecycle" />
+    <MESSAGE value="resolved task" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolved task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

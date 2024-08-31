@@ -1,5 +1,8 @@
 package questions;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class EpamQuestion {
     public static void main(String[] args) {
         int res = count(new int[]{0, 4, 8, -1000, 2000, 5000, 8000});
@@ -29,24 +32,58 @@ public class EpamQuestion {
 
 
     static int count(int[] elements) {
-
-        int counter = 0;
-        int prevSpace = 0;
-        int currSpace = 0;
-
+        if (elements.length <= 1) {
+            return 1;
+        }
+        Counters counters = new Counters();
 
         for (int i = 1; i < elements.length; i++) {
-            currSpace = elements[i] - elements[i - 1];
-            if (currSpace == prevSpace) {
-                counter++;
-            } else {
-                counter = 0;
-                prevSpace = currSpace;
-            }
-
+            counters.addPair(elements[i - 1], elements[i]);
         }
-        return counter;
+        return counters.getMaxSeqSize();
 
     }
 
+}
+
+class Counters {
+    private final LinkedList<Subsequence> listEqualSpaceElements;
+
+    public Counters() {
+        this.listEqualSpaceElements = new LinkedList<>();
+    }
+
+    public int getMaxSeqSize() {
+        return listEqualSpaceElements.stream()
+                .mapToInt(a -> a.totalList.size())
+                .max().orElse(0);
+    }
+
+    public void addPair(int prevElement, int nextElement) {
+        Integer space = nextElement - prevElement;
+        if (listEqualSpaceElements.isEmpty()) {
+            listEqualSpaceElements.add(new Subsequence());
+            listEqualSpaceElements.get(0).spaceElement = space;
+            listEqualSpaceElements.get(0).totalList.add(prevElement);
+            listEqualSpaceElements.get(0).totalList.add(nextElement);
+        } else {
+            if (!listEqualSpaceElements.getLast().spaceElement.equals(space)) {
+                listEqualSpaceElements.add(new Subsequence());
+                listEqualSpaceElements.getLast().spaceElement = space;
+                listEqualSpaceElements.getLast().totalList.add(prevElement);
+            }
+            listEqualSpaceElements.getLast().totalList.add(nextElement);
+        }
+    }
+
+
+    class Subsequence {
+        private Integer spaceElement;
+        private final List<Integer> totalList;
+
+        public Subsequence() {
+            this.spaceElement = 0;
+            this.totalList = new LinkedList<>();
+        }
+    }
 }
