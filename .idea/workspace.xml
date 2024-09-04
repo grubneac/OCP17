@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="executors works with Runnable, Callable&#10;use submit, invokeAll, invokeAny">
-      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/executors/ScheduledOneShotTasks.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="scheduled executors">
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/executors/ScheduledPeriodicTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_23Concurrency/src/main/java/TaskExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/executors/TaskExecution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +156,7 @@
     "Application.RQ9.executor": "Run",
     "Application.Rounding.executor": "Run",
     "Application.ScheduledOneShotTasks.executor": "Run",
+    "Application.ScheduledPeriodicTasks.executor": "Run",
     "Application.SimpleExecutor.executor": "Run",
     "Application.SortedExamples.executor": "Run",
     "Application.StatsClient.executor": "Run",
@@ -226,7 +226,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScheduledOneShotTasks">
+  <component name="RunManager" selected="Application.ScheduledPeriodicTasks">
     <configuration name="EpamQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.EpamQuestion" />
       <module name="_23Concurrency" />
@@ -260,9 +260,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task" />
+    <configuration name="ScheduledPeriodicTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executors.ScheduledPeriodicTasks" />
       <module name="_23Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,18 +282,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ScheduledOneShotTasks" />
+      <item itemvalue="Application.ScheduledPeriodicTasks" />
       <item itemvalue="Application.TaskExecution" />
       <item itemvalue="Application.ExecutorLifecycle" />
       <item itemvalue="Application.EpamQuestion" />
-      <item itemvalue="Application.Task" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScheduledPeriodicTasks" />
         <item itemvalue="Application.ScheduledOneShotTasks" />
         <item itemvalue="Application.TaskExecution" />
         <item itemvalue="Application.ExecutorLifecycle" />
         <item itemvalue="Application.EpamQuestion" />
-        <item itemvalue="Application.Task" />
       </list>
     </recent_temporary>
   </component>
@@ -368,15 +374,7 @@
       <workItem from="1722834734406" duration="22336000" />
       <workItem from="1723791407537" duration="1663000" />
       <workItem from="1724823998200" duration="9703000" />
-      <workItem from="1725341490304" duration="4580000" />
-    </task>
-    <task id="LOCAL-00041" summary="add examples of Duration">
-      <option name="closed" value="true" />
-      <created>1717216858801</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1717216858801</updated>
+      <workItem from="1725341490304" duration="8928000" />
     </task>
     <task id="LOCAL-00042" summary="add examples of ZoneId">
       <option name="closed" value="true" />
@@ -762,7 +760,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725351090260</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="scheduled executors">
+      <option name="closed" value="true" />
+      <created>1725362132075</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1725362132075</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -780,7 +786,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Parse Example" />
     <MESSAGE value="add Compact Number Formatting Example" />
     <MESSAGE value="add Rounding Example" />
     <MESSAGE value="add Formatting Decimal Numbers Example" />
@@ -805,7 +810,8 @@
     <MESSAGE value="add Executor lifecycle" />
     <MESSAGE value="resolved task" />
     <MESSAGE value="executors works with Runnable, Callable&#10;use submit, invokeAll, invokeAny" />
-    <option name="LAST_COMMIT_MESSAGE" value="executors works with Runnable, Callable&#10;use submit, invokeAll, invokeAny" />
+    <MESSAGE value="scheduled executors" />
+    <option name="LAST_COMMIT_MESSAGE" value="scheduled executors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
