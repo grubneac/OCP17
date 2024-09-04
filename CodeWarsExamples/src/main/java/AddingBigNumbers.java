@@ -23,6 +23,15 @@ public class AddingBigNumbers {
         if (forNextLevel > 0) {
             sbResult.append(forNextLevel);
         }
+        //checking leading zeros
+        for (int i = sbResult.length() - 1; i >= 0; i--) {
+            if (sbResult.charAt(i) == '0') {
+                sbResult.deleteCharAt(i);
+            } else {
+                break;
+            }
+        }
+
         return sbResult.reverse().toString();
     }
 }

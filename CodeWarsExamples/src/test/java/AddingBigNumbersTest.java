@@ -14,6 +14,7 @@ class AddingBigNumbersTest {
         12  , 456,    468
         100 , 101,    201
         63829983432984289347293874, 90938498237058927340892374089, 91002328220491911630239667963
+        05994145349896060117489621, 96570792, 5994145349896060214060413
     """)
     @DisplayName("Sample tests")
     void basicTests(String a, String b, String expected) {

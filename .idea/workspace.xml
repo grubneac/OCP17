@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="executors cancellation">
-      <change afterPath="$PROJECT_DIR$/CodeWarsExamples/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeWarsExamples/src/main/java/AddingBigNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeWarsExamples/src/test/java/AddingBigNumbersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeWarsExamples/src/main/java/AddingBigNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWarsExamples/src/main/java/AddingBigNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeWarsExamples/src/test/java/AddingBigNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWarsExamples/src/test/java/AddingBigNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,9 @@
     &quot;accountId&quot;: &quot;8b2d1c95-ecec-4b73-b6cc-38a44817bfed&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -393,23 +392,7 @@
       <workItem from="1722834734406" duration="22336000" />
       <workItem from="1723791407537" duration="1663000" />
       <workItem from="1724823998200" duration="9703000" />
-      <workItem from="1725341490304" duration="21455000" />
-    </task>
-    <task id="LOCAL-00044" summary="add examples of calculation ZoneDateTime">
-      <option name="closed" value="true" />
-      <created>1717651235197</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1717651235197</updated>
-    </task>
-    <task id="LOCAL-00045" summary="add examples DSTAdjustment">
-      <option name="closed" value="true" />
-      <created>1718105311416</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1718105311416</updated>
+      <workItem from="1725341490304" duration="22922000" />
     </task>
     <task id="LOCAL-00046" summary="add examples Daylight Savings Example">
       <option name="closed" value="true" />
@@ -787,7 +770,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725449033498</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java">
+      <option name="closed" value="true" />
+      <created>1725455120932</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1725455120932</updated>
+    </task>
+    <task id="LOCAL-00094" summary="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java">
+      <option name="closed" value="true" />
+      <created>1725455633146</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1725455633146</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -805,7 +804,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Formatting Decimal Numbers Example" />
     <MESSAGE value="add Formatting DateTime Example" />
     <MESSAGE value="add Formatting Parsing With Patterns Example" />
     <MESSAGE value="add Formatting Messages Example" />
@@ -830,7 +828,8 @@
     <MESSAGE value="scheduled executors" />
     <MESSAGE value="scheduled executors periodically" />
     <MESSAGE value="executors cancellation" />
-    <option name="LAST_COMMIT_MESSAGE" value="executors cancellation" />
+    <MESSAGE value="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -849,11 +848,6 @@
           <url>file://$PROJECT_DIR$/_23Concurrency/src/main/java/Task.java</url>
           <line>36</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/CodeWarsExamples/src/main/java/AddingBigNumbers.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
