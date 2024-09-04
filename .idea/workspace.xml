@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="scheduled executors">
-      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/executors/ScheduledPeriodicTasks.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="scheduled executors periodically">
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/executors/TaskCancellation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,6 +168,7 @@
     "Application.SynchronizedMethodDemo.executor": "Run",
     "Application.TakeWhileExample.executor": "Run",
     "Application.Task.executor": "Debug",
+    "Application.TaskCancellation.executor": "Run",
     "Application.TaskExecution.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test13RQ9.executor": "Run",
@@ -226,20 +227,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScheduledPeriodicTasks">
-    <configuration name="EpamQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.EpamQuestion" />
-      <module name="_23Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TaskCancellation">
     <configuration name="ExecutorLifecycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExecutorLifecycle" />
       <module name="_23Concurrency" />
@@ -273,6 +261,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskCancellation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executors.TaskCancellation" />
+      <module name="_23Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="executors.TaskExecution" />
       <module name="_23Concurrency" />
@@ -283,17 +284,17 @@
     <list>
       <item itemvalue="Application.ScheduledOneShotTasks" />
       <item itemvalue="Application.ScheduledPeriodicTasks" />
+      <item itemvalue="Application.TaskCancellation" />
       <item itemvalue="Application.TaskExecution" />
       <item itemvalue="Application.ExecutorLifecycle" />
-      <item itemvalue="Application.EpamQuestion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskCancellation" />
         <item itemvalue="Application.ScheduledPeriodicTasks" />
         <item itemvalue="Application.ScheduledOneShotTasks" />
         <item itemvalue="Application.TaskExecution" />
         <item itemvalue="Application.ExecutorLifecycle" />
-        <item itemvalue="Application.EpamQuestion" />
       </list>
     </recent_temporary>
   </component>
@@ -374,15 +375,7 @@
       <workItem from="1722834734406" duration="22336000" />
       <workItem from="1723791407537" duration="1663000" />
       <workItem from="1724823998200" duration="9703000" />
-      <workItem from="1725341490304" duration="8928000" />
-    </task>
-    <task id="LOCAL-00042" summary="add examples of ZoneId">
-      <option name="closed" value="true" />
-      <created>1717393876348</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1717393876348</updated>
+      <workItem from="1725341490304" duration="15806000" />
     </task>
     <task id="LOCAL-00043" summary="add examples of ZoneDateTime">
       <option name="closed" value="true" />
@@ -768,7 +761,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725362132075</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="scheduled executors periodically">
+      <option name="closed" value="true" />
+      <created>1725427041462</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1725427041462</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -786,7 +787,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Compact Number Formatting Example" />
     <MESSAGE value="add Rounding Example" />
     <MESSAGE value="add Formatting Decimal Numbers Example" />
     <MESSAGE value="add Formatting DateTime Example" />
@@ -811,7 +811,8 @@
     <MESSAGE value="resolved task" />
     <MESSAGE value="executors works with Runnable, Callable&#10;use submit, invokeAll, invokeAny" />
     <MESSAGE value="scheduled executors" />
-    <option name="LAST_COMMIT_MESSAGE" value="scheduled executors" />
+    <MESSAGE value="scheduled executors periodically" />
+    <option name="LAST_COMMIT_MESSAGE" value="scheduled executors periodically" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
