@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="scheduled executors periodically">
-      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/executors/TaskCancellation.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="executors cancellation">
+      <change afterPath="$PROJECT_DIR$/CodeWarsExamples/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWarsExamples/src/main/java/AddingBigNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWarsExamples/src/test/java/AddingBigNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +23,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -181,11 +187,14 @@
     "Application.ZoneIdExamples.executor": "Run",
     "Application.ZonedDateTimeExamples.executor": "Run",
     "Application.second.Client.executor": "Run",
+    "JUnit.AddingBigNumbersTest.basicTests.executor": "Run",
     "Maven._17DateTime [clean,install].executor": "Run",
     "Maven._18Localization [clean,install].executor": "Run",
     "Maven._18Localization [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
@@ -199,7 +208,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -222,19 +231,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TaskCancellation">
-    <configuration name="ExecutorLifecycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExecutorLifecycle" />
-      <module name="_23Concurrency" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AddingBigNumbersTest.basicTests">
     <configuration name="ScheduledOneShotTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="executors.ScheduledOneShotTasks" />
       <module name="_23Concurrency" />
@@ -281,20 +289,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddingBigNumbersTest.basicTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWarsExamples" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddingBigNumbersTest" />
+      <option name="METHOD_NAME" value="basicTests(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ScheduledOneShotTasks" />
       <item itemvalue="Application.ScheduledPeriodicTasks" />
       <item itemvalue="Application.TaskCancellation" />
       <item itemvalue="Application.TaskExecution" />
-      <item itemvalue="Application.ExecutorLifecycle" />
+      <item itemvalue="JUnit.AddingBigNumbersTest.basicTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddingBigNumbersTest.basicTests" />
         <item itemvalue="Application.TaskCancellation" />
         <item itemvalue="Application.ScheduledPeriodicTasks" />
         <item itemvalue="Application.ScheduledOneShotTasks" />
         <item itemvalue="Application.TaskExecution" />
-        <item itemvalue="Application.ExecutorLifecycle" />
       </list>
     </recent_temporary>
   </component>
@@ -375,15 +393,7 @@
       <workItem from="1722834734406" duration="22336000" />
       <workItem from="1723791407537" duration="1663000" />
       <workItem from="1724823998200" duration="9703000" />
-      <workItem from="1725341490304" duration="15806000" />
-    </task>
-    <task id="LOCAL-00043" summary="add examples of ZoneDateTime">
-      <option name="closed" value="true" />
-      <created>1717650909636</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1717650909636</updated>
+      <workItem from="1725341490304" duration="21455000" />
     </task>
     <task id="LOCAL-00044" summary="add examples of calculation ZoneDateTime">
       <option name="closed" value="true" />
@@ -769,7 +779,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725427041462</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="executors cancellation">
+      <option name="closed" value="true" />
+      <created>1725449033498</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1725449033498</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +805,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Rounding Example" />
     <MESSAGE value="add Formatting Decimal Numbers Example" />
     <MESSAGE value="add Formatting DateTime Example" />
     <MESSAGE value="add Formatting Parsing With Patterns Example" />
@@ -812,7 +829,8 @@
     <MESSAGE value="executors works with Runnable, Callable&#10;use submit, invokeAll, invokeAny" />
     <MESSAGE value="scheduled executors" />
     <MESSAGE value="scheduled executors periodically" />
-    <option name="LAST_COMMIT_MESSAGE" value="scheduled executors periodically" />
+    <MESSAGE value="executors cancellation" />
+    <option name="LAST_COMMIT_MESSAGE" value="executors cancellation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -831,6 +849,11 @@
           <url>file://$PROJECT_DIR$/_23Concurrency/src/main/java/Task.java</url>
           <line>36</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodeWarsExamples/src/main/java/AddingBigNumbers.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
