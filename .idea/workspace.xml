@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWarsExamples/src/main/java/AddingBigNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWarsExamples/src/main/java/AddingBigNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWarsExamples/src/test/java/AddingBigNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWarsExamples/src/test/java/AddingBigNumbersTest.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="examples The Fork/Join Framework">
+      <change beforePath="$PROJECT_DIR$/_23Concurrency/src/main/java/forkjoin/ForkJoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/forkjoin/ForkJoinDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,6 +93,8 @@
     "Application.FirstExamples.executor": "Run",
     "Application.FlightTimeInfo.executor": "Run",
     "Application.ForMarchel.executor": "Run",
+    "Application.ForkJoinDemo (1).executor": "Run",
+    "Application.ForkJoinDemo.executor": "Run",
     "Application.FormattingDateTime.executor": "Run",
     "Application.FormattingDecimalNumbers.executor": "Run",
     "Application.FormattingMessages.executor": "Run",
@@ -241,13 +241,26 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddingBigNumbersTest.basicTests">
-    <configuration name="ScheduledOneShotTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="executors.ScheduledOneShotTasks" />
+  <component name="RunManager" selected="Application.ForkJoinDemo (1)">
+    <configuration name="ForkJoinDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forkjoin.ForkJoinDemo" />
       <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="executors.*" />
+          <option name="PATTERN" value="forkjoin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForkJoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forkjoin.ForkJoinDemo" />
+      <module name="_23Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forkjoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,13 +294,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="executors.TaskExecution" />
-      <module name="_23Concurrency" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddingBigNumbersTest.basicTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWarsExamples" />
       <option name="PACKAGE_NAME" value="" />
@@ -299,19 +305,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ScheduledOneShotTasks" />
+      <item itemvalue="Application.ForkJoinDemo" />
+      <item itemvalue="Application.ForkJoinDemo (1)" />
       <item itemvalue="Application.ScheduledPeriodicTasks" />
       <item itemvalue="Application.TaskCancellation" />
-      <item itemvalue="Application.TaskExecution" />
       <item itemvalue="JUnit.AddingBigNumbersTest.basicTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddingBigNumbersTest.basicTests" />
+        <item itemvalue="Application.ForkJoinDemo (1)" />
+        <item itemvalue="Application.ForkJoinDemo" />
         <item itemvalue="Application.TaskCancellation" />
+        <item itemvalue="JUnit.AddingBigNumbersTest.basicTests" />
         <item itemvalue="Application.ScheduledPeriodicTasks" />
-        <item itemvalue="Application.ScheduledOneShotTasks" />
-        <item itemvalue="Application.TaskExecution" />
       </list>
     </recent_temporary>
   </component>
@@ -392,23 +398,7 @@
       <workItem from="1722834734406" duration="22336000" />
       <workItem from="1723791407537" duration="1663000" />
       <workItem from="1724823998200" duration="9703000" />
-      <workItem from="1725341490304" duration="22922000" />
-    </task>
-    <task id="LOCAL-00046" summary="add examples Daylight Savings Example">
-      <option name="closed" value="true" />
-      <created>1718277152092</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1718277152092</updated>
-    </task>
-    <task id="LOCAL-00047" summary="add examples convert to legacy date">
-      <option name="closed" value="true" />
-      <created>1718344137289</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1718344137289</updated>
+      <workItem from="1725341490304" duration="32015000" />
     </task>
     <task id="LOCAL-00048" summary="add questions">
       <option name="closed" value="true" />
@@ -786,7 +776,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725455633146</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="add one fix on another acceptance criteria">
+      <option name="closed" value="true" />
+      <created>1725456456264</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1725456456264</updated>
+    </task>
+    <task id="LOCAL-00096" summary="examples The Fork/Join Framework">
+      <option name="closed" value="true" />
+      <created>1725523515581</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1725523515581</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -804,8 +810,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Formatting DateTime Example" />
-    <MESSAGE value="add Formatting Parsing With Patterns Example" />
     <MESSAGE value="add Formatting Messages Example" />
     <MESSAGE value="add Compound Message Formatting Example" />
     <MESSAGE value="add Choice Pattern Usage Example" />
@@ -829,7 +833,9 @@
     <MESSAGE value="scheduled executors periodically" />
     <MESSAGE value="executors cancellation" />
     <MESSAGE value="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java" />
+    <MESSAGE value="add one fix on another acceptance criteria" />
+    <MESSAGE value="examples The Fork/Join Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="examples The Fork/Join Framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
