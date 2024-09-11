@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="safe thread examples(not ready yet)">
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="safe thread examples(completed)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_23Concurrency/src/main/java/questions/EpamQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWarsExamples/src/main/java/EpamQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23Concurrency/src/main/java/safe/ReentrantRWLockCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/safe/ReentrantRWLockCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,6 +236,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
@@ -245,7 +248,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EpamQuestion">
+  <component name="RunManager" selected="Application.TestCounters">
     <configuration name="EpamQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EpamQuestion" />
       <module name="CodeWarsExamples" />
@@ -314,8 +317,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EpamQuestion" />
         <item itemvalue="Application.TestCounters" />
+        <item itemvalue="Application.EpamQuestion" />
         <item itemvalue="Application.NonVolatileDemo" />
         <item itemvalue="Application.ForkJoinDemo (1)" />
         <item itemvalue="Application.ForkJoinDemo" />
@@ -400,31 +403,7 @@
       <workItem from="1723791407537" duration="1663000" />
       <workItem from="1724823998200" duration="9703000" />
       <workItem from="1725341490304" duration="43075000" />
-      <workItem from="1725858290008" duration="1752000" />
-    </task>
-    <task id="LOCAL-00051" summary="add locale first example">
-      <option name="closed" value="true" />
-      <created>1718779114103</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1718779114103</updated>
-    </task>
-    <task id="LOCAL-00052" summary="add LocalesEverywhere">
-      <option name="closed" value="true" />
-      <created>1718864617468</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1718864617468</updated>
-    </task>
-    <task id="LOCAL-00053" summary="add UsingResourceBundles">
-      <option name="closed" value="true" />
-      <created>1718890663789</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1718890663789</updated>
+      <workItem from="1725858290008" duration="11929000" />
     </task>
     <task id="LOCAL-00054" summary="add LocatingBundles">
       <option name="closed" value="true" />
@@ -794,7 +773,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725636975868</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="move task to other module">
+      <option name="closed" value="true" />
+      <created>1725860376357</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1725860376357</updated>
+    </task>
+    <task id="LOCAL-00101" summary="safe thread examples(completed)">
+      <option name="closed" value="true" />
+      <created>1726033342031</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1726033342031</updated>
+    </task>
+    <task id="LOCAL-00102" summary="safe thread examples(completed)">
+      <option name="closed" value="true" />
+      <created>1726033459789</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1726033459789</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -812,8 +815,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Choice Pattern Usage Example" />
-    <MESSAGE value="add Choice Format Usage Example" />
     <MESSAGE value="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable" />
     <MESSAGE value="add questions" />
     <MESSAGE value="add ThreadStates" />
@@ -837,7 +838,9 @@
     <MESSAGE value="examples The Fork/Join Framework" />
     <MESSAGE value="volatile an non volatile examples" />
     <MESSAGE value="safe thread examples(not ready yet)" />
-    <option name="LAST_COMMIT_MESSAGE" value="safe thread examples(not ready yet)" />
+    <MESSAGE value="move task to other module" />
+    <MESSAGE value="safe thread examples(completed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="safe thread examples(completed)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

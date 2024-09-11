@@ -1,18 +1,26 @@
 package safe;
 
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.*;
 
-public class ReentrantLockCounter implements ICounter {                          // (2)
-    private ReentrantLock lock = new ReentrantLock();
-    private int counter = 0;
+public class ReentrantLockCounter implements ICounter {               // (1)
 
-    @Override public int getValue()   { return counter; }
-    @Override public void increment() {
-        lock.lock();
+    private final Lock rl = new ReentrantLock();                              // (2)
+    private int counter = 0;                                            // (3)
+
+    @Override
+    public int getValue() {                                             // (4)
+        rl.lock();
         try {
-            counter++;
-        }finally {
-            lock.unlock();
-        }
+            return counter;
+        } finally { rl.unlock(); }
+    }
+
+    @Override
+    public void increment() {                                           // (5)
+        rl.lock();
+        try {
+            counter++;                                                      // (6)
+            getValue();                                                     // (7)
+        } finally { rl.unlock(); }
     }
 }

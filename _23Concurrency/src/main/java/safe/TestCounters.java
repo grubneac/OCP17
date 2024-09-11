@@ -28,9 +28,9 @@ public class TestCounters {                                               // (3)
         runIncrementor(rlc);
         System.out.printf("Reentrant Lock Counter: %16d%n", rlc.getValue());
 
-/*        ReentrantRWLockCounter rwlc = new ReentrantRWLockCounter();           // (10)
+        ReentrantRWLockCounter rwlc = new ReentrantRWLockCounter();           // (10)
         runIncrementor(rwlc);
-        System.out.printf("Reentrant Read-Write Lock Counter: %d%n", rwlc.getValue());*/
+        System.out.printf("Reentrant Read-Write Lock Counter: %d%n", rwlc.getValue());
     }
 
     public static void runIncrementor(ICounter counter) {                   // (11)
