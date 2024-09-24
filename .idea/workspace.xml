@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="safe thread examples(completed)">
-      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/synchronizers/CyclicBarrierDemo.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="CyclicBarrier examples">
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/synchronizers/CountDownLatchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23Concurrency/src/main/java/synchronizers/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/synchronizers/CyclicBarrierDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
     "Application.CompoundMessageFormatting.executor": "Run",
     "Application.Controller.executor": "Run",
     "Application.CopyInstant.executor": "Run",
+    "Application.CountDownLatchTest.executor": "Run",
     "Application.CurrencyExample.executor": "Run",
     "Application.CyclicBarrierDemo.executor": "Run",
     "Application.DSTAdjustment.executor": "Run",
@@ -249,9 +251,9 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierDemo">
-    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="synchronizers.CyclicBarrierDemo" />
+  <component name="RunManager" selected="Application.CountDownLatchTest">
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchronizers.CountDownLatchTest" />
       <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
@@ -263,9 +265,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EpamQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EpamQuestion" />
-      <module name="CodeWarsExamples" />
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchronizers.CyclicBarrierDemo" />
+      <module name="_23Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synchronizers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,17 +318,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CountDownLatchTest" />
       <item itemvalue="Application.CyclicBarrierDemo" />
-      <item itemvalue="Application.EpamQuestion" />
       <item itemvalue="Application.ForkJoinDemo (1)" />
       <item itemvalue="Application.NonVolatileDemo" />
       <item itemvalue="Application.TestCounters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.TestCounters" />
-        <item itemvalue="Application.EpamQuestion" />
         <item itemvalue="Application.NonVolatileDemo" />
         <item itemvalue="Application.ForkJoinDemo (1)" />
       </list>
@@ -329,8 +337,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -404,15 +412,9 @@
       <workItem from="1723791407537" duration="1663000" />
       <workItem from="1724823998200" duration="9703000" />
       <workItem from="1725341490304" duration="43075000" />
-      <workItem from="1725858290008" duration="15172000" />
-    </task>
-    <task id="LOCAL-00055" summary="add questions">
-      <option name="closed" value="true" />
-      <created>1719206051087</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1719206051087</updated>
+      <workItem from="1725858290008" duration="21871000" />
+      <workItem from="1727069320013" duration="50000" />
+      <workItem from="1727069381280" duration="4850000" />
     </task>
     <task id="LOCAL-00056" summary="add Currency Example">
       <option name="closed" value="true" />
@@ -798,7 +800,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726038479336</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="CyclicBarrier examples">
+      <option name="closed" value="true" />
+      <created>1726492077762</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1726492077762</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -816,7 +826,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable" />
     <MESSAGE value="add questions" />
     <MESSAGE value="add ThreadStates" />
     <MESSAGE value="add example of synchronized methos" />
@@ -841,7 +850,8 @@
     <MESSAGE value="safe thread examples(not ready yet)" />
     <MESSAGE value="move task to other module" />
     <MESSAGE value="safe thread examples(completed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="safe thread examples(completed)" />
+    <MESSAGE value="CyclicBarrier examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="CyclicBarrier examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

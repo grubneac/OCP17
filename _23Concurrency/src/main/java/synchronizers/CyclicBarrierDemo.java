@@ -5,7 +5,7 @@ import java.util.concurrent.CyclicBarrier;
 public class CyclicBarrierDemo {
     public static final int PARTIES = 3;
 
-    public static void main(String args[]) {
+    public static void main(String args[]) throws InterruptedException {
         Runnable barrierAction =  () ->                                        // (1)
                 System.out.println("Barrier action by "
                         + Thread.currentThread().getName()
@@ -26,6 +26,11 @@ public class CyclicBarrierDemo {
 
         for (int i = 0; i < PARTIES; i++) {                                    // (4)
             new Thread(task, "T" + (i+1)).start();
+        }
+        Thread.sleep(1000);
+        System.out.println("_________________________________");
+        for (int i = 0; i < PARTIES; i++) {                                    // (4)
+            new Thread(task, "TT" + (i+1)).start();
         }
     }
 }
