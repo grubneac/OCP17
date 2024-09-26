@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="CyclicBarrier examples">
-      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/synchronizers/CountDownLatchTest.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="SerialAccessThreads examples">
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/synced/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/synced/DoubleAct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_23Concurrency/src/main/java/synchronizers/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/synchronizers/CyclicBarrierDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +167,7 @@
     "Application.Rounding.executor": "Run",
     "Application.ScheduledOneShotTasks.executor": "Run",
     "Application.ScheduledPeriodicTasks.executor": "Run",
+    "Application.SerialAccessThreads.executor": "Run",
     "Application.SimpleExecutor.executor": "Run",
     "Application.SortedExamples.executor": "Run",
     "Application.StatsClient.executor": "Run",
@@ -251,7 +252,20 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchTest">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synced.Client" />
+      <module name="_23Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="synchronizers.CountDownLatchTest" />
       <module name="_23Concurrency" />
@@ -278,25 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForkJoinDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="forkjoin.ForkJoinDemo" />
+    <configuration name="SerialAccessThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synced.SerialAccessThreads" />
       <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="forkjoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonVolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="safe.NonVolatileDemo" />
-      <module name="_23Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="safe.*" />
+          <option name="PATTERN" value="synced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,19 +319,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Client" />
       <item itemvalue="Application.CountDownLatchTest" />
+      <item itemvalue="Application.SerialAccessThreads" />
       <item itemvalue="Application.CyclicBarrierDemo" />
-      <item itemvalue="Application.ForkJoinDemo (1)" />
-      <item itemvalue="Application.NonVolatileDemo" />
       <item itemvalue="Application.TestCounters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.SerialAccessThreads" />
         <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.TestCounters" />
-        <item itemvalue="Application.NonVolatileDemo" />
-        <item itemvalue="Application.ForkJoinDemo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -414,23 +415,7 @@
       <workItem from="1725341490304" duration="43075000" />
       <workItem from="1725858290008" duration="21871000" />
       <workItem from="1727069320013" duration="50000" />
-      <workItem from="1727069381280" duration="4850000" />
-    </task>
-    <task id="LOCAL-00056" summary="add Currency Example">
-      <option name="closed" value="true" />
-      <created>1719229012752</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1719229012752</updated>
-    </task>
-    <task id="LOCAL-00057" summary="add Parse Example">
-      <option name="closed" value="true" />
-      <created>1719239096044</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1719239096044</updated>
+      <workItem from="1727069381280" duration="11316000" />
     </task>
     <task id="LOCAL-00058" summary="add Compact Number Formatting Example">
       <option name="closed" value="true" />
@@ -808,7 +793,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726492077762</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="CountDownLatch examples">
+      <option name="closed" value="true" />
+      <created>1727180614727</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1727180614727</updated>
+    </task>
+    <task id="LOCAL-00106" summary="SerialAccessThreads examples">
+      <option name="closed" value="true" />
+      <created>1727241489165</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1727241489167</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -826,8 +827,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add questions" />
-    <MESSAGE value="add ThreadStates" />
     <MESSAGE value="add example of synchronized methos" />
     <MESSAGE value="add example of interrupt methos" />
     <MESSAGE value="add example of wait and notify methods" />
@@ -851,7 +850,9 @@
     <MESSAGE value="move task to other module" />
     <MESSAGE value="safe thread examples(completed)" />
     <MESSAGE value="CyclicBarrier examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="CyclicBarrier examples" />
+    <MESSAGE value="CountDownLatch examples" />
+    <MESSAGE value="SerialAccessThreads examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="SerialAccessThreads examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
