@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="ConcurrentHashMapDemo examples">
-      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/concurrent/LinkedBlockingQueueDemo.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="CopyOnWriteArrayList examples">
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/questions/RQ1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/questions/RQ2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/questions/RQ3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/questions/RQ4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/questions/RQ5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_23Concurrency/src/main/java/questions/RQ6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +84,7 @@
     "Application.ConcurrentSkipListSetDemo.executor": "Run",
     "Application.Controller.executor": "Run",
     "Application.CopyInstant.executor": "Run",
+    "Application.CopyOnWriteArrayListDemo.executor": "Run",
     "Application.CountDownLatchTest.executor": "Run",
     "Application.CurrencyExample.executor": "Run",
     "Application.CyclicBarrierDemo.executor": "Run",
@@ -194,6 +200,7 @@
     "Application.WhatIsThis.executor": "Debug",
     "Application.ZoneIdExamples.executor": "Run",
     "Application.ZonedDateTimeExamples.executor": "Run",
+    "Application.questions.RQ2.executor": "Run",
     "Application.second.Client.executor": "Run",
     "JUnit.AddingBigNumbersTest.basicTests.executor": "Run",
     "Maven._17DateTime [clean,install].executor": "Run",
@@ -254,13 +261,13 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedBlockingQueueDemo">
-    <configuration name="ConcurrentHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.ConcurrentHashMapDemo" />
+  <component name="RunManager" selected="Application.RQ6">
+    <configuration name="RQ1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ1" />
       <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,12 +275,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentSkipListSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.ConcurrentSkipListSetDemo" />
+    <configuration name="RQ3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ3" />
       <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,12 +288,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="synchronizers.CountDownLatchTest" />
+    <configuration name="RQ4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ4" />
       <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="synchronizers.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.LinkedBlockingQueueDemo" />
+    <configuration name="RQ5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ5" />
       <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +314,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerialAccessThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="synced.SerialAccessThreads" />
+    <configuration name="RQ6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ6" />
       <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="synced.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,19 +328,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedBlockingQueueDemo" />
-      <item itemvalue="Application.ConcurrentHashMapDemo" />
-      <item itemvalue="Application.ConcurrentSkipListSetDemo" />
-      <item itemvalue="Application.CountDownLatchTest" />
-      <item itemvalue="Application.SerialAccessThreads" />
+      <item itemvalue="Application.RQ1" />
+      <item itemvalue="Application.RQ3" />
+      <item itemvalue="Application.RQ4" />
+      <item itemvalue="Application.RQ5" />
+      <item itemvalue="Application.RQ6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedBlockingQueueDemo" />
-        <item itemvalue="Application.SerialAccessThreads" />
-        <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.ConcurrentSkipListSetDemo" />
-        <item itemvalue="Application.ConcurrentHashMapDemo" />
+        <item itemvalue="Application.RQ6" />
+        <item itemvalue="Application.RQ1" />
+        <item itemvalue="Application.RQ5" />
+        <item itemvalue="Application.RQ4" />
+        <item itemvalue="Application.RQ3" />
       </list>
     </recent_temporary>
   </component>
@@ -421,23 +428,8 @@
       <workItem from="1727678584487" duration="4823000" />
       <workItem from="1729922839113" duration="5237000" />
       <workItem from="1730132287541" duration="89000" />
-      <workItem from="1730132389124" duration="1579000" />
-    </task>
-    <task id="LOCAL-00061" summary="add Formatting DateTime Example">
-      <option name="closed" value="true" />
-      <created>1719402324470</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1719402324470</updated>
-    </task>
-    <task id="LOCAL-00062" summary="add Formatting Parsing With Patterns Example">
-      <option name="closed" value="true" />
-      <created>1719478309784</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1719478309784</updated>
+      <workItem from="1730132389124" duration="5565000" />
+      <workItem from="1730181844638" duration="10074000" />
     </task>
     <task id="LOCAL-00063" summary="add Formatting Messages Example">
       <option name="closed" value="true" />
@@ -815,7 +807,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729925296767</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="LinkedBlockingQueue examples">
+      <option name="closed" value="true" />
+      <created>1730134274891</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1730134274891</updated>
+    </task>
+    <task id="LOCAL-00111" summary="CopyOnWriteArrayList examples">
+      <option name="closed" value="true" />
+      <created>1730190938813</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1730190938813</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -833,8 +841,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add example of join methods" />
-    <MESSAGE value="add typical scenario where a thread can be controlled by one or more threads" />
     <MESSAGE value="add deadLock example" />
     <MESSAGE value="add liveLock example" />
     <MESSAGE value="add starvation example and move all thread issues to one package" />
@@ -858,7 +864,9 @@
     <MESSAGE value="DoubleAct examples" />
     <MESSAGE value="ConcurrentSkipListSet examples" />
     <MESSAGE value="ConcurrentHashMapDemo examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="ConcurrentHashMapDemo examples" />
+    <MESSAGE value="LinkedBlockingQueue examples" />
+    <MESSAGE value="CopyOnWriteArrayList examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="CopyOnWriteArrayList examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
