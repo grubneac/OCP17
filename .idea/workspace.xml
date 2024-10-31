@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="two ways a copy file">
-      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/BinaryValuesIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/CopyCharacterFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +79,7 @@
     "Application.ConcurrentHashMapDemo.executor": "Run",
     "Application.ConcurrentSkipListSetDemo.executor": "Run",
     "Application.Controller.executor": "Run",
+    "Application.CopyCharacterFile.executor": "Run",
     "Application.CopyFile.executor": "Run",
     "Application.CopyInstant.executor": "Run",
     "Application.CopyOnWriteArrayListDemo.executor": "Run",
@@ -258,9 +259,16 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryValuesIO">
+  <component name="RunManager" selected="Application.CopyCharacterFile">
     <configuration name="BinaryValuesIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryValuesIO" />
+      <module name="_20JavaIO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyCharacterFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CopyCharacterFile" />
       <module name="_20JavaIO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,19 +295,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ5" />
-      <module name="_23Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RQ6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.RQ6" />
       <module name="_23Concurrency" />
@@ -314,19 +309,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CopyCharacterFile" />
       <item itemvalue="Application.BinaryValuesIO" />
       <item itemvalue="Application.CopyFile" />
       <item itemvalue="Application.RQ1" />
-      <item itemvalue="Application.RQ5" />
       <item itemvalue="Application.RQ6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyCharacterFile" />
         <item itemvalue="Application.BinaryValuesIO" />
         <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.RQ6" />
         <item itemvalue="Application.RQ1" />
-        <item itemvalue="Application.RQ5" />
       </list>
     </recent_temporary>
   </component>
@@ -417,6 +412,7 @@
       <workItem from="1730132389124" duration="5565000" />
       <workItem from="1730181844638" duration="10074000" />
       <workItem from="1730268090059" duration="4908000" />
+      <workItem from="1730355551650" duration="1772000" />
     </task>
     <task id="LOCAL-00065" summary="add Choice Pattern Usage Example">
       <option name="closed" value="true" />
