@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="two ways a copy file">
-      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/CopyCharacterFile.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="Copy a file using a character buffer">
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/CharEncodingDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,7 @@
     "Application.BinaryValuesIO.executor": "Run",
     "Application.CDAdmin.executor": "Run",
     "Application.Calculate3.executor": "Run",
+    "Application.CharEncodingDemo.executor": "Run",
     "Application.ChoiceFormatUsage.executor": "Run",
     "Application.ChoicePatternUsage.executor": "Run",
     "Application.Client.executor": "Run",
@@ -259,9 +260,16 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyCharacterFile">
+  <component name="RunManager" selected="Application.CharEncodingDemo">
     <configuration name="BinaryValuesIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryValuesIO" />
+      <module name="_20JavaIO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharEncodingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharEncodingDemo" />
       <module name="_20JavaIO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,19 +290,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ1" />
-      <module name="_23Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RQ6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.RQ6" />
       <module name="_23Concurrency" />
@@ -309,19 +304,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CharEncodingDemo" />
       <item itemvalue="Application.CopyCharacterFile" />
       <item itemvalue="Application.BinaryValuesIO" />
       <item itemvalue="Application.CopyFile" />
-      <item itemvalue="Application.RQ1" />
       <item itemvalue="Application.RQ6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharEncodingDemo" />
         <item itemvalue="Application.CopyCharacterFile" />
         <item itemvalue="Application.BinaryValuesIO" />
         <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.RQ6" />
-        <item itemvalue="Application.RQ1" />
       </list>
     </recent_temporary>
   </component>
@@ -412,15 +407,7 @@
       <workItem from="1730132389124" duration="5565000" />
       <workItem from="1730181844638" duration="10074000" />
       <workItem from="1730268090059" duration="4908000" />
-      <workItem from="1730355551650" duration="1772000" />
-    </task>
-    <task id="LOCAL-00065" summary="add Choice Pattern Usage Example">
-      <option name="closed" value="true" />
-      <created>1719576066077</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1719576066077</updated>
+      <workItem from="1730355551650" duration="2823000" />
     </task>
     <task id="LOCAL-00066" summary="add Choice Format Usage Example">
       <option name="closed" value="true" />
@@ -806,7 +793,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730299029862</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Copy a file using a character buffer">
+      <option name="closed" value="true" />
+      <created>1730358120147</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1730358120147</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -824,7 +819,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add liveLock example" />
     <MESSAGE value="add starvation example and move all thread issues to one package" />
     <MESSAGE value="add Executor lifecycle" />
     <MESSAGE value="resolved task" />
@@ -849,7 +843,8 @@
     <MESSAGE value="CopyOnWriteArrayList examples" />
     <MESSAGE value="add new module" />
     <MESSAGE value="two ways a copy file" />
-    <option name="LAST_COMMIT_MESSAGE" value="two ways a copy file" />
+    <MESSAGE value="Copy a file using a character buffer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Copy a file using a character buffer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
