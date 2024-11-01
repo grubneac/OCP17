@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="questions">
-      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/serialization/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/serialization/ObjectSerializationDemo.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="Object Serialization">
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/serialization/SerialClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/serialization/Unicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/serialization/Wheel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,6 +179,7 @@
     "Application.ScheduledOneShotTasks.executor": "Run",
     "Application.ScheduledPeriodicTasks.executor": "Run",
     "Application.SerialAccessThreads.executor": "Run",
+    "Application.SerialClient.executor": "Run",
     "Application.SimpleExecutor.executor": "Run",
     "Application.SortedExamples.executor": "Run",
     "Application.StatsClient.executor": "Run",
@@ -265,16 +267,9 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectSerializationDemo">
+  <component name="RunManager" selected="Application.SerialClient">
     <configuration name="ChangePassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChangePassword" />
-      <module name="_20JavaIO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharEncodingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CharEncodingDemo" />
       <module name="_20JavaIO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -319,20 +314,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SerialClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.SerialClient" />
+      <module name="_20JavaIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ObjectSerializationDemo" />
+      <item itemvalue="Application.SerialClient" />
       <item itemvalue="Application.ChangePassword" />
-      <item itemvalue="Application.CharEncodingDemo" />
       <item itemvalue="Application.RQ2" />
       <item itemvalue="Application.RQ1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerialClient" />
         <item itemvalue="Application.ObjectSerializationDemo" />
         <item itemvalue="Application.RQ2" />
         <item itemvalue="Application.RQ1" />
         <item itemvalue="Application.ChangePassword" />
-        <item itemvalue="Application.CharEncodingDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -424,15 +432,7 @@
       <workItem from="1730181844638" duration="10074000" />
       <workItem from="1730268090059" duration="4908000" />
       <workItem from="1730355551650" duration="7158000" />
-      <workItem from="1730443727342" duration="7198000" />
-    </task>
-    <task id="LOCAL-00069" summary="add new module">
-      <option name="closed" value="true" />
-      <created>1722320114115</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1722320114116</updated>
+      <workItem from="1730443727342" duration="9550000" />
     </task>
     <task id="LOCAL-00070" summary="implementation 2 types of threads:&#10;extends Thread&#10;implements Runnable">
       <option name="closed" value="true" />
@@ -818,7 +818,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730449620038</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Object Serialization">
+      <option name="closed" value="true" />
+      <created>1730461039270</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1730461039270</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -836,7 +844,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="executors works with Runnable, Callable&#10;use submit, invokeAll, invokeAny" />
     <MESSAGE value="scheduled executors" />
     <MESSAGE value="scheduled executors periodically" />
     <MESSAGE value="executors cancellation" />
@@ -861,7 +868,8 @@
     <MESSAGE value="Demonstrating Readers and Writers, and Character Encoding" />
     <MESSAGE value="Changing Passwords in console" />
     <MESSAGE value="questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="questions" />
+    <MESSAGE value="Object Serialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object Serialization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
