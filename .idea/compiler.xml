@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="_15Collections" />
+        <module name="_21JavaIO" />
         <module name="_1FirstStep" />
         <module name="_10ObjectLifetime" />
         <module name="_3Declarations" />
