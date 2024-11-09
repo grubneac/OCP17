@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment=" Serialization and Inheritance">
-      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/serialization/DeSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/serialization/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/serialization/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/GraduateStudent2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/RQ3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/RQ4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/RQ5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/RQ6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/RQ7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20JavaIO/src/main/java/questions/Student2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,9 +179,9 @@
     "Application.RQ3.executor": "Run",
     "Application.RQ4.executor": "Run",
     "Application.RQ5 (1).executor": "Run",
-    "Application.RQ5.executor": "Run",
+    "Application.RQ5.executor": "Debug",
     "Application.RQ54.executor": "Run",
-    "Application.RQ6.executor": "Run",
+    "Application.RQ6.executor": "Debug",
     "Application.RQ7.executor": "Run",
     "Application.RQ8.executor": "Run",
     "Application.RQ9.executor": "Run",
@@ -251,6 +260,8 @@
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_13Functional\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\OCP17\_20JavaIO\target\classes" />
+      <recent name="D:\JavaProjects\OCP17\_20JavaIO\target\classes\questions" />
       <recent name="D:\JavaProjects\OCP17\_20JavaIO\src\main\resources" />
       <recent name="D:\JavaProjects\OCP17\_20JavaIO\src\main\java\questions" />
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams" />
@@ -271,13 +282,13 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeSerializer">
-    <configuration name="DeSerializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.DeSerializer" />
+  <component name="RunManager" selected="Application.RQ7">
+    <configuration name="RQ3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ3" />
       <module name="_20JavaIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="questions.Student2" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,12 +296,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectSerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.ObjectSerializationDemo" />
+    <configuration name="RQ4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ4" />
       <module name="_20JavaIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="questions.Student2" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerialClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.SerialClient" />
+    <configuration name="RQ5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ5" />
       <module name="_20JavaIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,12 +322,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerialInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.SerialInheritance" />
+    <configuration name="RQ6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ6" />
       <module name="_20JavaIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Serializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.Serializer" />
+    <configuration name="RQ7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ7" />
       <module name="_20JavaIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,19 +349,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeSerializer" />
-      <item itemvalue="Application.Serializer" />
-      <item itemvalue="Application.ObjectSerializationDemo" />
-      <item itemvalue="Application.SerialClient" />
-      <item itemvalue="Application.SerialInheritance" />
+      <item itemvalue="Application.RQ3" />
+      <item itemvalue="Application.RQ4" />
+      <item itemvalue="Application.RQ5" />
+      <item itemvalue="Application.RQ6" />
+      <item itemvalue="Application.RQ7" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeSerializer" />
-        <item itemvalue="Application.Serializer" />
-        <item itemvalue="Application.SerialInheritance" />
-        <item itemvalue="Application.SerialClient" />
-        <item itemvalue="Application.ObjectSerializationDemo" />
+        <item itemvalue="Application.RQ7" />
+        <item itemvalue="Application.RQ6" />
+        <item itemvalue="Application.RQ5" />
+        <item itemvalue="Application.RQ4" />
+        <item itemvalue="Application.RQ3" />
       </list>
     </recent_temporary>
   </component>
@@ -899,6 +910,11 @@
           <url>file://$PROJECT_DIR$/_23Concurrency/src/main/java/Task.java</url>
           <line>36</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/_20JavaIO/src/main/java/questions/RQ4.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
