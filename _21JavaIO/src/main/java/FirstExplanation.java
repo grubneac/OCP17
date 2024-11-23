@@ -54,5 +54,15 @@ public class FirstExplanation {
         // Path --> URI, using the Path.toUri() instance method.
         URI pathToUri = uriToPath1.toUri();    // file:///a/b/c/d
         System.out.println(pathToUri);
+
+        System.out.println("\nrelativize and resolve");
+        Path p = Path.of("/a/b");
+        System.out.println("p=" + p);
+        Path other = Path.of("/a/b/c/d");
+        System.out.println("other=" + other);
+        Path q = p.relativize(other);                               // c/d
+        System.out.println("q=" + q);
+        System.out.println("p.relativize(other).equals(q): " + p.relativize(other).equals(q));   // true
+        System.out.println("p.resolve(q).equals(other): " + p.resolve(q).equals(other));             // true
     }
 }
