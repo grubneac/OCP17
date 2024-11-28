@@ -1,9 +1,7 @@
 import java.io.File;
+import java.io.IOException;
 import java.net.URI;
-import java.nio.file.FileSystem;
-import java.nio.file.FileSystems;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.*;
 
 public class FirstExplanation {
     public static void main(String[] args) {
@@ -64,5 +62,15 @@ public class FirstExplanation {
         System.out.println("q=" + q);
         System.out.println("p.relativize(other).equals(q): " + p.relativize(other).equals(q));   // true
         System.out.println("p.resolve(q).equals(other): " + p.resolve(q).equals(other));             // true
+
+        try {
+            Path somePath = Path.of("_21JavaIO/pom.xml");
+            Path realPath = somePath.toRealPath(LinkOption.NOFOLLOW_LINKS);
+            System.out.println(realPath);
+        } catch (NoSuchFileException nsfe) {
+            nsfe.printStackTrace();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
 }
