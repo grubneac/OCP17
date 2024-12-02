@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="code wars task">
-      <change afterPath="$PROJECT_DIR$/_21JavaIO/src/main/java/CopyFileByBuffer.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="copy files by buffered">
+      <change afterPath="$PROJECT_DIR$/_21JavaIO/src/main/java/MoveDirAndItsHierarchy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,6 +138,7 @@
     "Application.MapExamples.executor": "Run",
     "Application.MappingExamples.executor": "Run",
     "Application.ModifyInstant.executor": "Run",
+    "Application.MoveDirAndItsHierarchy.executor": "Run",
     "Application.NonVolatileDemo.executor": "Run",
     "Application.NumericOptionalUsage.executor": "Run",
     "Application.ObjMappedExample.executor": "Run",
@@ -276,7 +277,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyFileByBuffer">
+  <component name="RunManager" selected="Application.MoveDirAndItsHierarchy">
     <configuration name="CopyFileByBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CopyFileByBuffer" />
       <module name="_21JavaIO" />
@@ -298,13 +299,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstExplanation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstExplanation" />
-      <module name="_21JavaIO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GetFirstUnicSimbolFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetFirstUnicSimbolFromString" />
       <module name="CodeWarsExamples" />
@@ -312,20 +306,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoveDirAndItsHierarchy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MoveDirAndItsHierarchy" />
+      <module name="_21JavaIO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CopyFileByBuffer" />
+      <item itemvalue="Application.MoveDirAndItsHierarchy" />
       <item itemvalue="Application.EpamQuestion" />
       <item itemvalue="Application.GetFirstUnicSimbolFromString" />
       <item itemvalue="Application.ExistOrNonexistExample" />
-      <item itemvalue="Application.FirstExplanation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyFileByBuffer" />
+        <item itemvalue="Application.MoveDirAndItsHierarchy" />
         <item itemvalue="Application.ExistOrNonexistExample" />
+        <item itemvalue="Application.CopyFileByBuffer" />
         <item itemvalue="Application.GetFirstUnicSimbolFromString" />
         <item itemvalue="Application.EpamQuestion" />
-        <item itemvalue="Application.FirstExplanation" />
       </list>
     </recent_temporary>
   </component>
@@ -426,15 +427,7 @@
       <workItem from="1732601779941" duration="3461000" />
       <workItem from="1732777583429" duration="5336000" />
       <workItem from="1732859178721" duration="666000" />
-      <workItem from="1732956126487" duration="1942000" />
-    </task>
-    <task id="LOCAL-00077" summary="add typical scenario where a thread can be controlled by one or more threads">
-      <option name="closed" value="true" />
-      <created>1723122371201</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1723122371201</updated>
+      <workItem from="1732956126487" duration="3190000" />
     </task>
     <task id="LOCAL-00078" summary="add typical scenario where a thread can be controlled by one or more threads">
       <option name="closed" value="true" />
@@ -820,7 +813,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732789445537</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="copy files by buffered">
+      <option name="closed" value="true" />
+      <created>1733164455510</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1733164455510</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -838,7 +839,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="examples The Fork/Join Framework" />
     <MESSAGE value="volatile an non volatile examples" />
     <MESSAGE value="safe thread examples(not ready yet)" />
     <MESSAGE value="move task to other module" />
@@ -863,7 +863,8 @@
     <MESSAGE value="relativize and resolve in Path" />
     <MESSAGE value="to real path" />
     <MESSAGE value="code wars task" />
-    <option name="LAST_COMMIT_MESSAGE" value="code wars task" />
+    <MESSAGE value="copy files by buffered" />
+    <option name="LAST_COMMIT_MESSAGE" value="copy files by buffered" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
