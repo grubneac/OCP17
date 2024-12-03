@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="copy files by buffered">
-      <change afterPath="$PROJECT_DIR$/_21JavaIO/src/main/java/MoveDirAndItsHierarchy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21JavaIO/src/main/java/ReadingWritingTextFiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +179,7 @@
     "Application.RQ7.executor": "Run",
     "Application.RQ8.executor": "Run",
     "Application.RQ9.executor": "Run",
+    "Application.ReadingWritingTextFiles.executor": "Run",
     "Application.Rounding.executor": "Run",
     "Application.ScheduledOneShotTasks.executor": "Run",
     "Application.ScheduledPeriodicTasks.executor": "Run",
@@ -277,17 +277,10 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MoveDirAndItsHierarchy">
+  <component name="RunManager" selected="Application.ReadingWritingTextFiles">
     <configuration name="CopyFileByBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CopyFileByBuffer" />
       <module name="_21JavaIO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EpamQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EpamQuestion" />
-      <module name="CodeWarsExamples" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,20 +306,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadingWritingTextFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadingWritingTextFiles" />
+      <module name="_21JavaIO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.ReadingWritingTextFiles" />
       <item itemvalue="Application.CopyFileByBuffer" />
       <item itemvalue="Application.MoveDirAndItsHierarchy" />
-      <item itemvalue="Application.EpamQuestion" />
       <item itemvalue="Application.GetFirstUnicSimbolFromString" />
       <item itemvalue="Application.ExistOrNonexistExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingWritingTextFiles" />
         <item itemvalue="Application.MoveDirAndItsHierarchy" />
         <item itemvalue="Application.ExistOrNonexistExample" />
         <item itemvalue="Application.CopyFileByBuffer" />
         <item itemvalue="Application.GetFirstUnicSimbolFromString" />
-        <item itemvalue="Application.EpamQuestion" />
       </list>
     </recent_temporary>
   </component>
@@ -428,6 +428,7 @@
       <workItem from="1732777583429" duration="5336000" />
       <workItem from="1732859178721" duration="666000" />
       <workItem from="1732956126487" duration="3190000" />
+      <workItem from="1733247633686" duration="796000" />
     </task>
     <task id="LOCAL-00078" summary="add typical scenario where a thread can be controlled by one or more threads">
       <option name="closed" value="true" />
