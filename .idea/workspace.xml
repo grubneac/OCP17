@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="copy files by buffered">
-      <change afterPath="$PROJECT_DIR$/_21JavaIO/src/main/java/ReadingWritingTextFiles.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="Reading and Writing Text Files">
+      <change afterPath="$PROJECT_DIR$/_21JavaIO/src/main/java/ReadingWritingBytes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +180,7 @@
     "Application.RQ7.executor": "Run",
     "Application.RQ8.executor": "Run",
     "Application.RQ9.executor": "Run",
+    "Application.ReadingWritingBytes.executor": "Run",
     "Application.ReadingWritingTextFiles.executor": "Run",
     "Application.Rounding.executor": "Run",
     "Application.ScheduledOneShotTasks.executor": "Run",
@@ -277,7 +279,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadingWritingTextFiles">
+  <component name="RunManager" selected="Application.ReadingWritingBytes">
     <configuration name="CopyFileByBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CopyFileByBuffer" />
       <module name="_21JavaIO" />
@@ -292,15 +294,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetFirstUnicSimbolFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetFirstUnicSimbolFromString" />
-      <module name="CodeWarsExamples" />
+    <configuration name="MoveDirAndItsHierarchy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MoveDirAndItsHierarchy" />
+      <module name="_21JavaIO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveDirAndItsHierarchy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MoveDirAndItsHierarchy" />
+    <configuration name="ReadingWritingBytes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadingWritingBytes" />
       <module name="_21JavaIO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,19 +316,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ReadingWritingBytes" />
       <item itemvalue="Application.ReadingWritingTextFiles" />
       <item itemvalue="Application.CopyFileByBuffer" />
       <item itemvalue="Application.MoveDirAndItsHierarchy" />
-      <item itemvalue="Application.GetFirstUnicSimbolFromString" />
       <item itemvalue="Application.ExistOrNonexistExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingWritingBytes" />
         <item itemvalue="Application.ReadingWritingTextFiles" />
         <item itemvalue="Application.MoveDirAndItsHierarchy" />
         <item itemvalue="Application.ExistOrNonexistExample" />
         <item itemvalue="Application.CopyFileByBuffer" />
-        <item itemvalue="Application.GetFirstUnicSimbolFromString" />
       </list>
     </recent_temporary>
   </component>
@@ -428,15 +430,7 @@
       <workItem from="1732777583429" duration="5336000" />
       <workItem from="1732859178721" duration="666000" />
       <workItem from="1732956126487" duration="3190000" />
-      <workItem from="1733247633686" duration="796000" />
-    </task>
-    <task id="LOCAL-00078" summary="add typical scenario where a thread can be controlled by one or more threads">
-      <option name="closed" value="true" />
-      <created>1723122749242</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1723122749242</updated>
+      <workItem from="1733247633686" duration="1769000" />
     </task>
     <task id="LOCAL-00079" summary="add deadLock example">
       <option name="closed" value="true" />
@@ -822,7 +816,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733164455510</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Reading and Writing Text Files">
+      <option name="closed" value="true" />
+      <created>1733248677042</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1733248677042</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -840,7 +842,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="volatile an non volatile examples" />
     <MESSAGE value="safe thread examples(not ready yet)" />
     <MESSAGE value="move task to other module" />
     <MESSAGE value="safe thread examples(completed)" />
@@ -865,7 +866,8 @@
     <MESSAGE value="to real path" />
     <MESSAGE value="code wars task" />
     <MESSAGE value="copy files by buffered" />
-    <option name="LAST_COMMIT_MESSAGE" value="copy files by buffered" />
+    <MESSAGE value="Reading and Writing Text Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading and Writing Text Files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
