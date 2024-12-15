@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="create regular file">
-      <change afterPath="$PROJECT_DIR$/_21JavaIO/src/main/java/CreateRegularDirectory.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="create regular directory">
+      <change afterPath="$PROJECT_DIR$/_21JavaIO/src/main/java/ReadFromFileToStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21JavaIO/src/main/resources/worldlist.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,6 +185,7 @@
     "Application.RQ7.executor": "Run",
     "Application.RQ8.executor": "Run",
     "Application.RQ9.executor": "Run",
+    "Application.ReadFromFileToStream.executor": "Run",
     "Application.ReadingWritingBytes.executor": "Run",
     "Application.ReadingWritingTextFiles.executor": "Run",
     "Application.Rounding.executor": "Run",
@@ -284,7 +286,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateRegularDirectory">
+  <component name="RunManager" selected="Application.ReadFromFileToStream">
     <configuration name="BasicFileAttributesRetrieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicFileAttributesRetrieve" />
       <module name="_21JavaIO" />
@@ -313,8 +315,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingWritingBytes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadingWritingBytes" />
+    <configuration name="ReadFromFileToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadFromFileToStream" />
       <module name="_21JavaIO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -323,17 +325,17 @@
     <list>
       <item itemvalue="Application.CreateRegularDirectory" />
       <item itemvalue="Application.CreateRegularFile" />
+      <item itemvalue="Application.ReadFromFileToStream" />
       <item itemvalue="Application.BasicFileAttributesRetrieve" />
       <item itemvalue="Application.IndividualFileAttributes" />
-      <item itemvalue="Application.ReadingWritingBytes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFromFileToStream" />
         <item itemvalue="Application.CreateRegularDirectory" />
         <item itemvalue="Application.CreateRegularFile" />
         <item itemvalue="Application.BasicFileAttributesRetrieve" />
         <item itemvalue="Application.IndividualFileAttributes" />
-        <item itemvalue="Application.ReadingWritingBytes" />
       </list>
     </recent_temporary>
   </component>
@@ -437,14 +439,6 @@
       <workItem from="1732956126487" duration="3190000" />
       <workItem from="1733247633686" duration="3396000" />
       <workItem from="1733564345549" duration="969000" />
-    </task>
-    <task id="LOCAL-00081" summary="add starvation example and move all thread issues to one package">
-      <option name="closed" value="true" />
-      <created>1723188773479</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1723188773479</updated>
     </task>
     <task id="LOCAL-00082" summary="add new module">
       <option name="closed" value="true" />
@@ -830,7 +824,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733852751622</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="create regular directory">
+      <option name="closed" value="true" />
+      <created>1733853499784</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1733853499784</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -848,7 +850,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="safe thread examples(completed)" />
     <MESSAGE value="CyclicBarrier examples" />
     <MESSAGE value="CountDownLatch examples" />
     <MESSAGE value="SerialAccessThreads examples" />
@@ -873,7 +874,8 @@
     <MESSAGE value="Reading and Writing Text Files" />
     <MESSAGE value="Reading and Writing Bytes" />
     <MESSAGE value="create regular file" />
-    <option name="LAST_COMMIT_MESSAGE" value="create regular file" />
+    <MESSAGE value="create regular directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="create regular directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
