@@ -11,15 +11,11 @@
         <module name="_1FirstStep" />
         <module name="_10ObjectLifetime" />
         <module name="_3Declarations" />
-        <module name="_13Functional" />
-        <module name="_16Streams" />
         <module name="_22Concurrency" />
         <module name="_14ObjectComparison" />
-        <module name="_4ControlFlow" />
-        <module name="_5OOP" />
         <module name="_6AccessControl" />
         <module name="_8APIClasses" />
-        <module name="_9NestedTypeDeclarations" />
+        <module name="_24DbConnectivity" />
         <module name="_18Localization" />
         <module name="_7ExceptionHandling" />
         <module name="_11Generics" />
@@ -28,6 +24,11 @@
         <module name="_17DateTime" />
         <module name="_2Primitives" />
         <module name="_20JavaIO" />
+        <module name="_13Functional" />
+        <module name="_16Streams" />
+        <module name="_4ControlFlow" />
+        <module name="_5OOP" />
+        <module name="_9NestedTypeDeclarations" />
         <module name="_23Concurrency" />
         <module name="_12ArrayList" />
       </profile>
