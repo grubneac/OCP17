@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="executeUpdate">
-      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/JDBCUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/XQTPreparedStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,6 +220,7 @@
     "Application.UsingTemporals.executor": "Run",
     "Application.WaitNotifyScenario.executor": "Run",
     "Application.WhatIsThis.executor": "Debug",
+    "Application.XQTPreparedStatement.executor": "Run",
     "Application.ZoneIdExamples.executor": "Run",
     "Application.ZonedDateTimeExamples.executor": "Run",
     "Application.asicFileAttributesRetrieve.executor": "Run",
@@ -315,19 +316,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ12" />
-      <module name="_21JavaIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RQ13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.RQ13" />
       <module name="_21JavaIO" />
@@ -341,20 +329,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XQTPreparedStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XQTPreparedStatement" />
+      <module name="_24DbConnectivity" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.JDBCStatment" />
       <item itemvalue="Application.JDBCUpdate" />
+      <item itemvalue="Application.XQTPreparedStatement" />
       <item itemvalue="Application.JDBCConnection" />
-      <item itemvalue="Application.RQ12" />
       <item itemvalue="Application.RQ13" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.JDBCStatment" />
+        <item itemvalue="Application.XQTPreparedStatement" />
         <item itemvalue="Application.JDBCUpdate" />
         <item itemvalue="Application.JDBCConnection" />
         <item itemvalue="Application.RQ13" />
-        <item itemvalue="Application.RQ12" />
       </list>
     </recent_temporary>
   </component>
@@ -467,14 +462,6 @@
       <workItem from="1735126575374" duration="3247000" />
       <workItem from="1735130799958" duration="1707000" />
       <workItem from="1735234921480" duration="640000" />
-    </task>
-    <task id="LOCAL-00087" summary="resolved task">
-      <option name="closed" value="true" />
-      <created>1725108208225</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1725108208225</updated>
     </task>
     <task id="LOCAL-00088" summary="resolved task">
       <option name="closed" value="true" />
@@ -860,7 +847,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735238712346</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="executeUpdate">
+      <option name="closed" value="true" />
+      <created>1735241565382</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1735241565382</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
