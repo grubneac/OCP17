@@ -293,7 +293,14 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ResultSetCustomization">
+  <component name="RunManager" selected="Application.DBMetadata">
+    <configuration name="DBMetadata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DBMetadata" />
+      <module name="_24DbConnectivity" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JDBCStatment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBCStatment" />
       <module name="_24DbConnectivity" />
@@ -322,27 +329,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XQTPreparedStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="XQTPreparedStatement" />
-      <module name="_24DbConnectivity" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.DBMetadata" />
       <item itemvalue="Application.ResultSetCustomization" />
       <item itemvalue="Application.ResultSetProcessing" />
       <item itemvalue="Application.PreparedStatementExecuteUpdate" />
       <item itemvalue="Application.JDBCStatment" />
-      <item itemvalue="Application.XQTPreparedStatement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DBMetadata" />
         <item itemvalue="Application.ResultSetCustomization" />
         <item itemvalue="Application.ResultSetProcessing" />
         <item itemvalue="Application.PreparedStatementExecuteUpdate" />
         <item itemvalue="Application.JDBCStatment" />
-        <item itemvalue="Application.XQTPreparedStatement" />
       </list>
     </recent_temporary>
   </component>
