@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="questions" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add new module">
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/TaskInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,7 @@
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -491,15 +496,7 @@
       <workItem from="1735386625248" duration="608000" />
       <workItem from="1735629282970" duration="2557000" />
       <workItem from="1736076500442" duration="8055000" />
-      <workItem from="1736318197467" duration="670000" />
-    </task>
-    <task id="LOCAL-00095" summary="add one fix on another acceptance criteria">
-      <option name="closed" value="true" />
-      <created>1725456456264</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1725456456264</updated>
+      <workItem from="1736318197467" duration="975000" />
     </task>
     <task id="LOCAL-00096" summary="examples The Fork/Join Framework">
       <option name="closed" value="true" />
@@ -885,7 +882,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736318865127</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="add new module">
+      <option name="closed" value="true" />
+      <created>1736319024850</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1736319024850</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,7 +921,6 @@
     <MESSAGE value="create regular file" />
     <MESSAGE value="create regular directory" />
     <MESSAGE value="read file to Stream" />
-    <MESSAGE value="add new module" />
     <MESSAGE value="add derby db" />
     <MESSAGE value="just only connect to db" />
     <MESSAGE value="get ResultSet" />
@@ -928,7 +932,8 @@
     <MESSAGE value="Discovering Metadata for the Database and ResultSet" />
     <MESSAGE value="Controlling Transactions" />
     <MESSAGE value="questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="questions" />
+    <MESSAGE value="add new module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
