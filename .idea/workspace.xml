@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="Discovering Metadata for the Database and ResultSet">
-      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/Transactions.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="Controlling Transactions">
+      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/questions/RQ10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/questions/RQ3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/questions/RQ4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/questions/RQ5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/questions/RQ8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/questions/RQ9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_24DbConnectivity/src/main/java/questions/table_questions.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,14 +188,14 @@
     "Application.RQ18.executor": "Run",
     "Application.RQ2.executor": "Run",
     "Application.RQ3.executor": "Run",
-    "Application.RQ4.executor": "Debug",
+    "Application.RQ4.executor": "Run",
     "Application.RQ5 (1).executor": "Run",
     "Application.RQ5.executor": "Run",
     "Application.RQ54.executor": "Run",
     "Application.RQ6.executor": "Debug",
     "Application.RQ7.executor": "Run",
     "Application.RQ8.executor": "Run",
-    "Application.RQ9.executor": "Debug",
+    "Application.RQ9.executor": "Run",
     "Application.ReadFromFileToStream.executor": "Run",
     "Application.ReadingWritingBytes.executor": "Run",
     "Application.ReadingWritingTextFiles.executor": "Run",
@@ -277,11 +283,11 @@
       <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_13Functional\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\OCP17\_24DbConnectivity\src\main\java\questions" />
       <recent name="D:\JavaProjects\OCP17\_20JavaIO\target\classes" />
       <recent name="D:\JavaProjects\OCP17\_20JavaIO\target\classes\questions" />
       <recent name="D:\JavaProjects\OCP17\_20JavaIO\src\main\resources" />
       <recent name="D:\JavaProjects\OCP17\_20JavaIO\src\main\java\questions" />
-      <recent name="D:\JavaProjects\OCPJava829_17\OCP17\_16Streams" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -299,56 +305,86 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ResultSetProcessing">
-    <configuration name="DBMetadata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DBMetadata" />
+  <component name="RunManager" selected="Application.RQ10">
+    <configuration name="RQ10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ10" />
       <module name="_24DbConnectivity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreparedStatementExecuteUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PreparedStatementExecuteUpdate" />
+    <configuration name="RQ4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ4" />
       <module name="_24DbConnectivity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultSetCustomization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ResultSetCustomization" />
+    <configuration name="RQ5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ5" />
       <module name="_24DbConnectivity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultSetProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ResultSetProcessing" />
+    <configuration name="RQ8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ8" />
       <module name="_24DbConnectivity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Transactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Transactions" />
+    <configuration name="RQ9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.RQ9" />
       <module name="_24DbConnectivity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DBMetadata" />
-      <item itemvalue="Application.ResultSetCustomization" />
-      <item itemvalue="Application.Transactions" />
-      <item itemvalue="Application.ResultSetProcessing" />
-      <item itemvalue="Application.PreparedStatementExecuteUpdate" />
+      <item itemvalue="Application.RQ10" />
+      <item itemvalue="Application.RQ4" />
+      <item itemvalue="Application.RQ5" />
+      <item itemvalue="Application.RQ8" />
+      <item itemvalue="Application.RQ9" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ResultSetProcessing" />
-        <item itemvalue="Application.Transactions" />
-        <item itemvalue="Application.DBMetadata" />
-        <item itemvalue="Application.ResultSetCustomization" />
-        <item itemvalue="Application.PreparedStatementExecuteUpdate" />
+        <item itemvalue="Application.RQ10" />
+        <item itemvalue="Application.RQ9" />
+        <item itemvalue="Application.RQ4" />
+        <item itemvalue="Application.RQ8" />
+        <item itemvalue="Application.RQ5" />
       </list>
     </recent_temporary>
   </component>
@@ -463,15 +499,7 @@
       <workItem from="1735234921480" duration="640000" />
       <workItem from="1735386625248" duration="608000" />
       <workItem from="1735629282970" duration="2557000" />
-      <workItem from="1736076500442" duration="699000" />
-    </task>
-    <task id="LOCAL-00093" summary="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java">
-      <option name="closed" value="true" />
-      <created>1725455120932</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1725455120932</updated>
+      <workItem from="1736076500442" duration="8055000" />
     </task>
     <task id="LOCAL-00094" summary="https://www.codewars.com/kata/525f4206b73515bffb000b21/train/java">
       <option name="closed" value="true" />
@@ -857,7 +885,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736076751398</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Controlling Transactions">
+      <option name="closed" value="true" />
+      <created>1736077304959</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1736077304962</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -875,7 +911,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Demonstrating Readers and Writers, and Character Encoding" />
     <MESSAGE value="Changing Passwords in console" />
     <MESSAGE value="Object Serialization" />
     <MESSAGE value="Customized Serialization" />
@@ -900,7 +935,8 @@
     <MESSAGE value="Processing a ResultSet" />
     <MESSAGE value="Using ResultSet Options" />
     <MESSAGE value="Discovering Metadata for the Database and ResultSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Discovering Metadata for the Database and ResultSet" />
+    <MESSAGE value="Controlling Transactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controlling Transactions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
