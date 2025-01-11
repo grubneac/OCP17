@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add new module">
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/TaskInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add first annotation's example">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -496,15 +494,7 @@
       <workItem from="1735386625248" duration="608000" />
       <workItem from="1735629282970" duration="2557000" />
       <workItem from="1736076500442" duration="8055000" />
-      <workItem from="1736318197467" duration="975000" />
-    </task>
-    <task id="LOCAL-00096" summary="examples The Fork/Join Framework">
-      <option name="closed" value="true" />
-      <created>1725523515581</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1725523515581</updated>
+      <workItem from="1736318197467" duration="2783000" />
     </task>
     <task id="LOCAL-00097" summary="examples The Fork/Join Framework">
       <option name="closed" value="true" />
@@ -890,7 +880,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736319024850</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="add first annotation's example">
+      <option name="closed" value="true" />
+      <created>1736319414207</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1736319414207</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +906,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changing Passwords in console" />
     <MESSAGE value="Object Serialization" />
     <MESSAGE value="Customized Serialization" />
     <MESSAGE value="first example nio package" />
@@ -933,7 +930,8 @@
     <MESSAGE value="Controlling Transactions" />
     <MESSAGE value="questions" />
     <MESSAGE value="add new module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new module" />
+    <MESSAGE value="add first annotation's example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add first annotation's example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
