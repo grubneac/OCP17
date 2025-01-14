@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add first annotation's example">
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="Problematic Annotation Type">
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/ProblematicDefaultAnnotationType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -494,23 +495,7 @@
       <workItem from="1735386625248" duration="608000" />
       <workItem from="1735629282970" duration="2557000" />
       <workItem from="1736076500442" duration="8055000" />
-      <workItem from="1736318197467" duration="2783000" />
-    </task>
-    <task id="LOCAL-00097" summary="examples The Fork/Join Framework">
-      <option name="closed" value="true" />
-      <created>1725523568605</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1725523568605</updated>
-    </task>
-    <task id="LOCAL-00098" summary="volatile an non volatile examples">
-      <option name="closed" value="true" />
-      <created>1725636920095</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1725636920095</updated>
+      <workItem from="1736318197467" duration="6165000" />
     </task>
     <task id="LOCAL-00099" summary="safe thread examples(not ready yet)">
       <option name="closed" value="true" />
@@ -888,7 +873,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736319414207</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Multi Element Annotation Type">
+      <option name="closed" value="true" />
+      <created>1736580898384</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1736580898384</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Problematic Annotation Type">
+      <option name="closed" value="true" />
+      <created>1736580976295</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1736580976295</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -906,8 +907,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Object Serialization" />
-    <MESSAGE value="Customized Serialization" />
     <MESSAGE value="first example nio package" />
     <MESSAGE value="relativize and resolve in Path" />
     <MESSAGE value="to real path" />
@@ -931,7 +930,9 @@
     <MESSAGE value="questions" />
     <MESSAGE value="add new module" />
     <MESSAGE value="add first annotation's example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add first annotation's example" />
+    <MESSAGE value="Multi Element Annotation Type" />
+    <MESSAGE value="Problematic Annotation Type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problematic Annotation Type" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
