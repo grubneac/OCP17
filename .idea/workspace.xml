@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="Applying Marker Annotations" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="Applying Single Annotations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -493,15 +495,7 @@
       <workItem from="1735629282970" duration="2557000" />
       <workItem from="1736076500442" duration="8055000" />
       <workItem from="1736318197467" duration="6165000" />
-      <workItem from="1737188483589" duration="3293000" />
-    </task>
-    <task id="LOCAL-00101" summary="safe thread examples(completed)">
-      <option name="closed" value="true" />
-      <created>1726033342031</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1726033342031</updated>
+      <workItem from="1737188483589" duration="4770000" />
     </task>
     <task id="LOCAL-00102" summary="safe thread examples(completed)">
       <option name="closed" value="true" />
@@ -887,7 +881,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737194524943</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Applying Single Annotations">
+      <option name="closed" value="true" />
+      <created>1737194680200</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1737194680200</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -905,7 +907,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="to real path" />
     <MESSAGE value="code wars task" />
     <MESSAGE value="copy files by buffered" />
     <MESSAGE value="Reading and Writing Text Files" />
@@ -930,7 +931,8 @@
     <MESSAGE value="Problematic Annotation Type" />
     <MESSAGE value="Applying Normal Annotations" />
     <MESSAGE value="Applying Marker Annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Applying Marker Annotations" />
+    <MESSAGE value="Applying Single Annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applying Single Annotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
