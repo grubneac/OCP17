@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="Applying Single Annotations">
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="@Target example">
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/Choice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/Choices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/ChoisesExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -495,15 +498,7 @@
       <workItem from="1735629282970" duration="2557000" />
       <workItem from="1736076500442" duration="8055000" />
       <workItem from="1736318197467" duration="6165000" />
-      <workItem from="1737188483589" duration="4770000" />
-    </task>
-    <task id="LOCAL-00102" summary="safe thread examples(completed)">
-      <option name="closed" value="true" />
-      <created>1726033459789</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1726033459789</updated>
+      <workItem from="1737188483589" duration="6890000" />
     </task>
     <task id="LOCAL-00103" summary="safe thread examples(completed)">
       <option name="closed" value="true" />
@@ -889,7 +884,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737194680200</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="@Target example">
+      <option name="closed" value="true" />
+      <created>1737528690120</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1737528690120</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -907,7 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code wars task" />
     <MESSAGE value="copy files by buffered" />
     <MESSAGE value="Reading and Writing Text Files" />
     <MESSAGE value="Reading and Writing Bytes" />
@@ -932,7 +934,8 @@
     <MESSAGE value="Applying Normal Annotations" />
     <MESSAGE value="Applying Marker Annotations" />
     <MESSAGE value="Applying Single Annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Applying Single Annotations" />
+    <MESSAGE value="@Target example" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Target example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
