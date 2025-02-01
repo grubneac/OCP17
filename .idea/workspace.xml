@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="@Target example">
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/Choice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/Choices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/ChoisesExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="@Target example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -499,6 +494,7 @@
       <workItem from="1736076500442" duration="8055000" />
       <workItem from="1736318197467" duration="6165000" />
       <workItem from="1737188483589" duration="6890000" />
+      <workItem from="1738396706619" duration="591000" />
     </task>
     <task id="LOCAL-00103" summary="safe thread examples(completed)">
       <option name="closed" value="true" />
