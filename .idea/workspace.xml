@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="@Target example" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="@Override example">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -494,15 +496,8 @@
       <workItem from="1736076500442" duration="8055000" />
       <workItem from="1736318197467" duration="6165000" />
       <workItem from="1737188483589" duration="6890000" />
-      <workItem from="1738396706619" duration="591000" />
-    </task>
-    <task id="LOCAL-00103" summary="safe thread examples(completed)">
-      <option name="closed" value="true" />
-      <created>1726038479336</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1726038479336</updated>
+      <workItem from="1738396706619" duration="894000" />
+      <workItem from="1738397763825" duration="75000" />
     </task>
     <task id="LOCAL-00104" summary="CyclicBarrier examples">
       <option name="closed" value="true" />
@@ -888,7 +883,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737528690120</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="@Override example">
+      <option name="closed" value="true" />
+      <created>1738397560827</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1738397560827</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -906,7 +909,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="copy files by buffered" />
     <MESSAGE value="Reading and Writing Text Files" />
     <MESSAGE value="Reading and Writing Bytes" />
     <MESSAGE value="create regular file" />
@@ -931,7 +933,8 @@
     <MESSAGE value="Applying Marker Annotations" />
     <MESSAGE value="Applying Single Annotations" />
     <MESSAGE value="@Target example" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Target example" />
+    <MESSAGE value="@Override example" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Override example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
