@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="@SuppressWarnings example">
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/reflection_annotations/NuclearPlant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/reflection_annotations/Pending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/reflection_annotations/TaskInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/reflection_annotations/TaskInfoAnnotationProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/standart_annotations/SafeVarargsTest.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="processing annotations">
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +69,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ActYourAge.executor": "Run",
+    "Application.AnnotationClient.executor": "Run",
     "Application.AnotherClient.executor": "Run",
     "Application.ArrayListMethods.executor": "Run",
     "Application.ArraysExamples.executor": "Run",
@@ -506,15 +509,7 @@
       <workItem from="1736318197467" duration="6165000" />
       <workItem from="1737188483589" duration="6890000" />
       <workItem from="1738396706619" duration="894000" />
-      <workItem from="1738397763825" duration="1052000" />
-    </task>
-    <task id="LOCAL-00107" summary="DoubleAct examples">
-      <option name="closed" value="true" />
-      <created>1727329627122</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1727329627122</updated>
+      <workItem from="1738397763825" duration="7267000" />
     </task>
     <task id="LOCAL-00108" summary="ConcurrentSkipListSet examples">
       <option name="closed" value="true" />
@@ -900,7 +895,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738398211393</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="processing annotations">
+      <option name="closed" value="true" />
+      <created>1738398968374</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1738398968374</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -918,7 +921,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create regular directory" />
     <MESSAGE value="read file to Stream" />
     <MESSAGE value="add derby db" />
     <MESSAGE value="just only connect to db" />
@@ -943,7 +945,8 @@
     <MESSAGE value="@FunctionalInterface example" />
     <MESSAGE value="@Deprecated example" />
     <MESSAGE value="@SuppressWarnings example" />
-    <option name="LAST_COMMIT_MESSAGE" value="@SuppressWarnings example" />
+    <MESSAGE value="processing annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="processing annotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
