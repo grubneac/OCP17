@@ -299,7 +299,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RQ10">
+  <component name="RunManager" selected="Application.UserLogin">
     <configuration name="RQ10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.RQ10" />
       <module name="_24DbConnectivity" />
@@ -315,19 +315,6 @@
     </configuration>
     <configuration name="RQ4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.RQ4" />
-      <module name="_24DbConnectivity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RQ5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ5" />
       <module name="_24DbConnectivity" />
       <extension name="coverage">
         <pattern>
@@ -365,20 +352,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="standart_annotations.UserLogin" />
+      <module name="_25Annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="standart_annotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.UserLogin" />
       <item itemvalue="Application.RQ10" />
       <item itemvalue="Application.RQ4" />
-      <item itemvalue="Application.RQ5" />
       <item itemvalue="Application.RQ8" />
       <item itemvalue="Application.RQ9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserLogin" />
         <item itemvalue="Application.RQ10" />
         <item itemvalue="Application.RQ9" />
         <item itemvalue="Application.RQ4" />
         <item itemvalue="Application.RQ8" />
-        <item itemvalue="Application.RQ5" />
       </list>
     </recent_temporary>
   </component>
