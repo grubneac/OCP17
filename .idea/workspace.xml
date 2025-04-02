@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="processing annotations">
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add new module" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -309,7 +302,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Qcb90">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="q01.Main" />
       <module name="ExamQuestions" />
@@ -323,12 +316,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RQ10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.RQ10" />
-      <module name="_24DbConnectivity" />
+    <configuration name="Qcb90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q02.Qcb90" />
+      <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.*" />
+          <option name="PATTERN" value="q02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,18 +370,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Qcb90" />
       <item itemvalue="Application.SafeVarargsTest" />
       <item itemvalue="Application.TaskInfoAnnotationProcessor" />
       <item itemvalue="Application.UserLogin" />
-      <item itemvalue="Application.RQ10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Qcb90" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.UserLogin" />
         <item itemvalue="Application.TaskInfoAnnotationProcessor" />
         <item itemvalue="Application.SafeVarargsTest" />
-        <item itemvalue="Application.RQ10" />
       </list>
     </recent_temporary>
   </component>
@@ -510,15 +503,7 @@
       <workItem from="1738397763825" duration="7267000" />
       <workItem from="1738784304823" duration="57000" />
       <workItem from="1738785281158" duration="10000" />
-      <workItem from="1743575178286" duration="2888000" />
-    </task>
-    <task id="LOCAL-00108" summary="ConcurrentSkipListSet examples">
-      <option name="closed" value="true" />
-      <created>1729923260533</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1729923260533</updated>
+      <workItem from="1743575178286" duration="3350000" />
     </task>
     <task id="LOCAL-00109" summary="ConcurrentHashMapDemo examples">
       <option name="closed" value="true" />
@@ -904,7 +889,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738398968374</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="add new module">
+      <option name="closed" value="true" />
+      <created>1743585911506</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1743585911507</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -934,7 +927,6 @@
     <MESSAGE value="Discovering Metadata for the Database and ResultSet" />
     <MESSAGE value="Controlling Transactions" />
     <MESSAGE value="questions" />
-    <MESSAGE value="add new module" />
     <MESSAGE value="add first annotation's example" />
     <MESSAGE value="Multi Element Annotation Type" />
     <MESSAGE value="Problematic Annotation Type" />
@@ -947,7 +939,8 @@
     <MESSAGE value="@Deprecated example" />
     <MESSAGE value="@SuppressWarnings example" />
     <MESSAGE value="processing annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="processing annotations" />
+    <MESSAGE value="add new module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,6 +1002,26 @@
           <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q01/Main.java</url>
           <line>30</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q01/Main.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q01/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q01/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q01/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
