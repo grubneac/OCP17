@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add new module" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add 2th task">
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q03/I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +18,9 @@
       <list>
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -168,6 +171,7 @@
     "Application.Q36.executor": "Run",
     "Application.Q37.executor": "Run",
     "Application.Q38.executor": "Run",
+    "Application.Qcb90.executor": "Run",
     "Application.QueryingPaths.executor": "Run",
     "Application.RQ1.executor": "Run",
     "Application.RQ10.executor": "Run",
@@ -302,7 +306,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Qcb90">
+  <component name="RunManager" selected="Application.Q200A80">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="q01.Main" />
       <module name="ExamQuestions" />
@@ -316,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qcb90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q02.Qcb90" />
+    <configuration name="Q200A80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q04.Q200A80" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q02.*" />
+          <option name="PATTERN" value="q04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,12 +333,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SafeVarargsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="standart_annotations.SafeVarargsTest" />
-      <module name="_25Annotation" />
+    <configuration name="Qcb90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q02.Qcb90" />
+      <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="standart_annotations.*" />
+          <option name="PATTERN" value="q02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,18 +374,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Q200A80" />
       <item itemvalue="Application.Qcb90" />
-      <item itemvalue="Application.SafeVarargsTest" />
       <item itemvalue="Application.TaskInfoAnnotationProcessor" />
       <item itemvalue="Application.UserLogin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q200A80" />
         <item itemvalue="Application.Qcb90" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.UserLogin" />
         <item itemvalue="Application.TaskInfoAnnotationProcessor" />
-        <item itemvalue="Application.SafeVarargsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -503,15 +507,7 @@
       <workItem from="1738397763825" duration="7267000" />
       <workItem from="1738784304823" duration="57000" />
       <workItem from="1738785281158" duration="10000" />
-      <workItem from="1743575178286" duration="3350000" />
-    </task>
-    <task id="LOCAL-00109" summary="ConcurrentHashMapDemo examples">
-      <option name="closed" value="true" />
-      <created>1729925296767</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1729925296767</updated>
+      <workItem from="1743575178286" duration="4138000" />
     </task>
     <task id="LOCAL-00110" summary="LinkedBlockingQueue examples">
       <option name="closed" value="true" />
@@ -897,7 +893,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743585911507</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="add 2th task">
+      <option name="closed" value="true" />
+      <created>1743586618909</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1743586618909</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -915,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="read file to Stream" />
     <MESSAGE value="add derby db" />
     <MESSAGE value="just only connect to db" />
     <MESSAGE value="get ResultSet" />
@@ -940,7 +943,8 @@
     <MESSAGE value="@SuppressWarnings example" />
     <MESSAGE value="processing annotations" />
     <MESSAGE value="add new module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new module" />
+    <MESSAGE value="add 2th task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 2th task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
