@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="processing annotations">
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25Annotation/src/main/java/questions/RQ9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +150,7 @@
     "Application.LocalDateTimeExamples.executor": "Run",
     "Application.LocalesEverywhere.executor": "Run",
     "Application.LocatingBundles.executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.MapExamples.executor": "Run",
     "Application.MappingExamples.executor": "Run",
     "Application.ModifyInstant.executor": "Run",
@@ -265,7 +263,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -311,13 +309,13 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationClient">
-    <configuration name="AnnotationClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection_annotations.AnnotationClient" />
-      <module name="_25Annotation" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q01.Main" />
+      <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection_annotations.*" />
+          <option name="PATTERN" value="q01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,7 +376,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnnotationClient" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SafeVarargsTest" />
       <item itemvalue="Application.TaskInfoAnnotationProcessor" />
       <item itemvalue="Application.UserLogin" />
@@ -386,10 +384,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnnotationClient" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.UserLogin" />
         <item itemvalue="Application.TaskInfoAnnotationProcessor" />
         <item itemvalue="Application.SafeVarargsTest" />
-        <item itemvalue="Application.UserLogin" />
         <item itemvalue="Application.RQ10" />
       </list>
     </recent_temporary>
@@ -397,8 +395,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -510,6 +508,9 @@
       <workItem from="1737188483589" duration="6890000" />
       <workItem from="1738396706619" duration="894000" />
       <workItem from="1738397763825" duration="7267000" />
+      <workItem from="1738784304823" duration="57000" />
+      <workItem from="1738785281158" duration="10000" />
+      <workItem from="1743575178286" duration="2888000" />
     </task>
     <task id="LOCAL-00108" summary="ConcurrentSkipListSet examples">
       <option name="closed" value="true" />
@@ -1003,6 +1004,11 @@
           <url>file://$PROJECT_DIR$/_24DbConnectivity/src/main/java/Transactions.java</url>
           <line>19</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q01/Main.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

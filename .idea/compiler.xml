@@ -29,6 +29,7 @@
         <module name="_4ControlFlow" />
         <module name="_5OOP" />
         <module name="_9NestedTypeDeclarations" />
+        <module name="ExamQuestions" />
         <module name="_23Concurrency" />
         <module name="_12ArrayList" />
         <module name="_25Annotation" />
