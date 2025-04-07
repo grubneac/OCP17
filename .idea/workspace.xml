@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add 2th task">
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q03/I.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add 3-4th tasks">
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q05/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q06/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q07/Q1408b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q08/RemainderFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q09/Switchy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q10/CodeMe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +24,8 @@
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,6 +82,7 @@
     "Application.ChoiceFormatUsage.executor": "Run",
     "Application.ChoicePatternUsage.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.CodeMe.executor": "Run",
     "Application.Collecting.executor": "Run",
     "Application.CollectingAndThenExamples.executor": "Run",
     "Application.CollectorsFlatMapping.executor": "Run",
@@ -146,11 +152,12 @@
     "Application.LocalDateTimeExamples.executor": "Run",
     "Application.LocalesEverywhere.executor": "Run",
     "Application.LocatingBundles.executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Application.MapExamples.executor": "Run",
     "Application.MappingExamples.executor": "Run",
     "Application.ModifyInstant.executor": "Run",
     "Application.MoveDirAndItsHierarchy.executor": "Run",
+    "Application.MyClass.executor": "Run",
     "Application.NonVolatileDemo.executor": "Run",
     "Application.NumericOptionalUsage.executor": "Run",
     "Application.ObjMappedExample.executor": "Run",
@@ -168,6 +175,8 @@
     "Application.PeriodExample.executor": "Run",
     "Application.Polymorphism2.executor": "Run",
     "Application.PreparedStatementExecuteUpdate.executor": "Run",
+    "Application.Q1408b.executor": "Debug",
+    "Application.Q200A80.executor": "Run",
     "Application.Q36.executor": "Run",
     "Application.Q37.executor": "Run",
     "Application.Q38.executor": "Run",
@@ -197,6 +206,7 @@
     "Application.ReadFromFileToStream.executor": "Run",
     "Application.ReadingWritingBytes.executor": "Run",
     "Application.ReadingWritingTextFiles.executor": "Run",
+    "Application.RemainderFun.executor": "Run",
     "Application.ResultSetCustomization.executor": "Run",
     "Application.ResultSetProcessing.executor": "Run",
     "Application.Rounding.executor": "Run",
@@ -215,6 +225,7 @@
     "Application.StreamPipeLine.executor": "Run",
     "Application.StringConstruction.executor": "Run",
     "Application.SummaryStatistics.executor": "Run",
+    "Application.Switchy.executor": "Run",
     "Application.SynchronizedMethodDemo.executor": "Run",
     "Application.TakeWhileExample.executor": "Run",
     "Application.Task.executor": "Debug",
@@ -236,6 +247,7 @@
     "Application.ZoneIdExamples.executor": "Run",
     "Application.ZonedDateTimeExamples.executor": "Run",
     "Application.asicFileAttributesRetrieve.executor": "Run",
+    "Application.q06.MyClass.executor": "Run",
     "Application.questions.RQ2.executor": "Run",
     "Application.second.Client.executor": "Run",
     "JUnit.AddingBigNumbersTest.basicTests.executor": "Run",
@@ -306,13 +318,13 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q200A80">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q01.Main" />
+  <component name="RunManager" selected="Application.CodeMe">
+    <configuration name="CodeMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q10.CodeMe" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q01.*" />
+          <option name="PATTERN" value="q10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +332,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q200A80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q04.Q200A80" />
+    <configuration name="Q1408b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q07.Q1408b" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q04.*" />
+          <option name="PATTERN" value="q07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,12 +345,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qcb90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q02.Qcb90" />
+    <configuration name="RemainderFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q08.RemainderFun" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q02.*" />
+          <option name="PATTERN" value="q08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,12 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskInfoAnnotationProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection_annotations.TaskInfoAnnotationProcessor" />
-      <module name="_25Annotation" />
+    <configuration name="Switchy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q09.Switchy" />
+      <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection_annotations.*" />
+          <option name="PATTERN" value="q09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="standart_annotations.UserLogin" />
-      <module name="_25Annotation" />
+    <configuration name="q06.MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q06.MyClass" />
+      <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="standart_annotations.*" />
+          <option name="PATTERN" value="q06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,19 +385,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Q200A80" />
-      <item itemvalue="Application.Qcb90" />
-      <item itemvalue="Application.TaskInfoAnnotationProcessor" />
-      <item itemvalue="Application.UserLogin" />
+      <item itemvalue="Application.CodeMe" />
+      <item itemvalue="Application.Q1408b" />
+      <item itemvalue="Application.RemainderFun" />
+      <item itemvalue="Application.Switchy" />
+      <item itemvalue="Application.q06.MyClass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q200A80" />
-        <item itemvalue="Application.Qcb90" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.UserLogin" />
-        <item itemvalue="Application.TaskInfoAnnotationProcessor" />
+        <item itemvalue="Application.CodeMe" />
+        <item itemvalue="Application.Switchy" />
+        <item itemvalue="Application.RemainderFun" />
+        <item itemvalue="Application.Q1408b" />
+        <item itemvalue="Application.q06.MyClass" />
       </list>
     </recent_temporary>
   </component>
@@ -507,15 +519,8 @@
       <workItem from="1738397763825" duration="7267000" />
       <workItem from="1738784304823" duration="57000" />
       <workItem from="1738785281158" duration="10000" />
-      <workItem from="1743575178286" duration="4138000" />
-    </task>
-    <task id="LOCAL-00110" summary="LinkedBlockingQueue examples">
-      <option name="closed" value="true" />
-      <created>1730134274891</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1730134274891</updated>
+      <workItem from="1743575178286" duration="5719000" />
+      <workItem from="1744041873846" duration="2472000" />
     </task>
     <task id="LOCAL-00111" summary="CopyOnWriteArrayList examples">
       <option name="closed" value="true" />
@@ -901,7 +906,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743586618909</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="add 3-4th tasks">
+      <option name="closed" value="true" />
+      <created>1743599543112</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1743599543112</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -919,7 +932,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add derby db" />
     <MESSAGE value="just only connect to db" />
     <MESSAGE value="get ResultSet" />
     <MESSAGE value="executeUpdate" />
@@ -944,7 +956,8 @@
     <MESSAGE value="processing annotations" />
     <MESSAGE value="add new module" />
     <MESSAGE value="add 2th task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 2th task" />
+    <MESSAGE value="add 3-4th tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 3-4th tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
