@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add 3-4th tasks">
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q05/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q06/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q07/Q1408b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q08/RemainderFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q09/Switchy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q10/CodeMe.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add 11-20th tasks">
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q11/Calling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q12/Q12A56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q13/Q12A55.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q14/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q15/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q16/Q11A35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q17/Q11A95.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q19/Q100A82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q20/Outer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +80,7 @@
     "Application.BinaryValuesIO.executor": "Run",
     "Application.CDAdmin.executor": "Run",
     "Application.Calculate3.executor": "Run",
+    "Application.Calling.executor": "Run",
     "Application.ChangePassword.executor": "Run",
     "Application.CharEncodingDemo.executor": "Run",
     "Application.ChoiceFormatUsage.executor": "Run",
@@ -166,6 +170,7 @@
     "Application.OptionalUsage.executor": "Run",
     "Application.OrderOfOperations.executor": "Run",
     "Application.OrderOfOperationsWithPeek.executor": "Run",
+    "Application.Outer.executor": "Run",
     "Application.OverideExample.executor": "Run",
     "Application.ParallelModeExample.executor": "Run",
     "Application.ParseExample.executor": "Run",
@@ -175,6 +180,11 @@
     "Application.PeriodExample.executor": "Run",
     "Application.Polymorphism2.executor": "Run",
     "Application.PreparedStatementExecuteUpdate.executor": "Run",
+    "Application.Q100A82.executor": "Run",
+    "Application.Q11A35.executor": "Run",
+    "Application.Q11A95.executor": "Run",
+    "Application.Q12A55.executor": "Run",
+    "Application.Q12A56.executor": "Run",
     "Application.Q1408b.executor": "Debug",
     "Application.Q200A80.executor": "Run",
     "Application.Q36.executor": "Run",
@@ -318,13 +328,13 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodeMe">
-    <configuration name="CodeMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q10.CodeMe" />
+  <component name="RunManager" selected="Application.Outer">
+    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q20.Outer" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q10.*" />
+          <option name="PATTERN" value="q20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,12 +342,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1408b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q07.Q1408b" />
+    <configuration name="Q100A82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q19.Q100A82" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q07.*" />
+          <option name="PATTERN" value="q19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,12 +355,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemainderFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q08.RemainderFun" />
+    <configuration name="Q11A35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q16.Q11A35" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q08.*" />
+          <option name="PATTERN" value="q16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,12 +368,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switchy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q09.Switchy" />
+    <configuration name="Q11A95" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q17.Q11A95" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q09.*" />
+          <option name="PATTERN" value="q17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,12 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q06.MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q06.MyClass" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q14.Test" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q06.*" />
+          <option name="PATTERN" value="q14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,19 +395,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodeMe" />
-      <item itemvalue="Application.Q1408b" />
-      <item itemvalue="Application.RemainderFun" />
-      <item itemvalue="Application.Switchy" />
-      <item itemvalue="Application.q06.MyClass" />
+      <item itemvalue="Application.Outer" />
+      <item itemvalue="Application.Q100A82" />
+      <item itemvalue="Application.Q11A35" />
+      <item itemvalue="Application.Q11A95" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodeMe" />
-        <item itemvalue="Application.Switchy" />
-        <item itemvalue="Application.RemainderFun" />
-        <item itemvalue="Application.Q1408b" />
-        <item itemvalue="Application.q06.MyClass" />
+        <item itemvalue="Application.Outer" />
+        <item itemvalue="Application.Q100A82" />
+        <item itemvalue="Application.Q11A95" />
+        <item itemvalue="Application.Q11A35" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -521,6 +531,9 @@
       <workItem from="1738785281158" duration="10000" />
       <workItem from="1743575178286" duration="5719000" />
       <workItem from="1744041873846" duration="2472000" />
+      <workItem from="1744130552937" duration="2612000" />
+      <workItem from="1744133465484" duration="331000" />
+      <workItem from="1744134145114" duration="1375000" />
     </task>
     <task id="LOCAL-00111" summary="CopyOnWriteArrayList examples">
       <option name="closed" value="true" />
@@ -932,7 +945,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="just only connect to db" />
     <MESSAGE value="get ResultSet" />
     <MESSAGE value="executeUpdate" />
     <MESSAGE value="PreparedStatement" />
@@ -957,7 +969,8 @@
     <MESSAGE value="add new module" />
     <MESSAGE value="add 2th task" />
     <MESSAGE value="add 3-4th tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 3-4th tasks" />
+    <MESSAGE value="add 11-20th tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 11-20th tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
