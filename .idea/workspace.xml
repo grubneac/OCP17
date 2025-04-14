@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add 11-20th tasks">
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q11/Calling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q12/Q12A56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q13/Q12A55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q14/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q15/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q16/Q11A35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q17/Q11A95.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q19/Q100A82.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q20/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q21/FrequentFlyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q22/Vertical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q23/Q100A51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q24/Importing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q24/p1/Format.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q24/p1/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q25/Q400A70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q26/GraduateStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q26/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q26/Q800A60.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q26/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q27/SubC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q29/p2/DefenceInDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q29/p2/March.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q29/p3/MarchingOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q30/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +32,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -63,9 +71,10 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2d5FGJGWnO4POpXvw22SfGLWSL1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -133,6 +142,7 @@
     "Application.FormattingMessages.executor": "Run",
     "Application.FormattingParsingWithPatterns.executor": "Run",
     "Application.ForwardRefsSimulated.executor": "Run",
+    "Application.FrequentFlyer.executor": "Run",
     "Application.FunctionClient.executor": "Run",
     "Application.FunctionalReductionExamples.executor": "Run",
     "Application.FunctionalReductions.executor": "Run",
@@ -142,6 +152,7 @@
     "Application.HiddenAndInheritedAccess.executor": "Run",
     "Application.HistogramStats.executor": "Run",
     "Application.IdentityMatrixTest.executor": "Run",
+    "Application.Importing.executor": "Run",
     "Application.IndividualFileAttributes.executor": "Run",
     "Application.InitOnly.executor": "Run",
     "Application.InitStreamExample.executor": "Run",
@@ -180,6 +191,7 @@
     "Application.PeriodExample.executor": "Run",
     "Application.Polymorphism2.executor": "Run",
     "Application.PreparedStatementExecuteUpdate.executor": "Run",
+    "Application.Q100A51.executor": "Run",
     "Application.Q100A82.executor": "Run",
     "Application.Q11A35.executor": "Run",
     "Application.Q11A95.executor": "Run",
@@ -190,6 +202,8 @@
     "Application.Q36.executor": "Run",
     "Application.Q37.executor": "Run",
     "Application.Q38.executor": "Run",
+    "Application.Q400A70.executor": "Run",
+    "Application.Q800A60.executor": "Run",
     "Application.Qcb90.executor": "Run",
     "Application.QueryingPaths.executor": "Run",
     "Application.RQ1.executor": "Run",
@@ -328,13 +342,13 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Outer">
-    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q20.Outer" />
+  <component name="RunManager" selected="Application.Q800A60">
+    <configuration name="FrequentFlyer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q21.FrequentFlyer" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q20.*" />
+          <option name="PATTERN" value="q21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,12 +356,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q100A82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q19.Q100A82" />
+    <configuration name="Importing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q24.Importing" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q19.*" />
+          <option name="PATTERN" value="q24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,12 +369,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q11A35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q16.Q11A35" />
+    <configuration name="Q100A51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q23.Q100A51" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q16.*" />
+          <option name="PATTERN" value="q23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q11A95" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q17.Q11A95" />
+    <configuration name="Q400A70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q25.Q400A70" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q17.*" />
+          <option name="PATTERN" value="q25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -381,12 +395,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q14.Test" />
+    <configuration name="Q800A60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q26.Q800A60" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q14.*" />
+          <option name="PATTERN" value="q26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,19 +409,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Outer" />
-      <item itemvalue="Application.Q100A82" />
-      <item itemvalue="Application.Q11A35" />
-      <item itemvalue="Application.Q11A95" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.FrequentFlyer" />
+      <item itemvalue="Application.Importing" />
+      <item itemvalue="Application.Q100A51" />
+      <item itemvalue="Application.Q400A70" />
+      <item itemvalue="Application.Q800A60" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Outer" />
-        <item itemvalue="Application.Q100A82" />
-        <item itemvalue="Application.Q11A95" />
-        <item itemvalue="Application.Q11A35" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Q800A60" />
+        <item itemvalue="Application.Q400A70" />
+        <item itemvalue="Application.Importing" />
+        <item itemvalue="Application.Q100A51" />
+        <item itemvalue="Application.FrequentFlyer" />
       </list>
     </recent_temporary>
   </component>
@@ -534,6 +548,7 @@
       <workItem from="1744130552937" duration="2612000" />
       <workItem from="1744133465484" duration="331000" />
       <workItem from="1744134145114" duration="1375000" />
+      <workItem from="1744437373451" duration="5021000" />
     </task>
     <task id="LOCAL-00111" summary="CopyOnWriteArrayList examples">
       <option name="closed" value="true" />
