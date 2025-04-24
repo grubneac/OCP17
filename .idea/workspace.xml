@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add 11-20th tasks">
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q21/FrequentFlyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q22/Vertical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q23/Q100A51.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q24/Importing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q24/p1/Format.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q24/p1/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q25/Q400A70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q26/GraduateStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q26/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q26/Q800A60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q26/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q27/SubC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q29/p2/DefenceInDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q29/p2/March.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q29/p3/MarchingOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q30/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add 21-30th tasks">
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q31/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q32/Scale5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q33/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q34/Q800A60.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q35/Initialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q36/LocatingBundlesForDefaultLocale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q37/Syncher2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q38/TestThingy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q38/Thingy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q39/TestWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q39/Widget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q40/Test13A10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/resources/MyResources_en_US.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,6 +152,7 @@
     "Application.IndividualFileAttributes.executor": "Run",
     "Application.InitOnly.executor": "Run",
     "Application.InitStreamExample.executor": "Run",
+    "Application.Initialization.executor": "Run",
     "Application.InterruptHandling.executor": "Run",
     "Application.JDBCConnection.executor": "Run",
     "Application.JDBCStatment.executor": "Run",
@@ -167,6 +164,7 @@
     "Application.LocalDateTimeExamples.executor": "Run",
     "Application.LocalesEverywhere.executor": "Run",
     "Application.LocatingBundles.executor": "Run",
+    "Application.LocatingBundlesForDefaultLocale.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MapExamples.executor": "Run",
     "Application.MappingExamples.executor": "Run",
@@ -235,6 +233,7 @@
     "Application.ResultSetProcessing.executor": "Run",
     "Application.Rounding.executor": "Run",
     "Application.SafeVarargsTest.executor": "Run",
+    "Application.Scale5.executor": "Run",
     "Application.ScheduledOneShotTasks.executor": "Run",
     "Application.ScheduledPeriodicTasks.executor": "Run",
     "Application.SerialAccessThreads.executor": "Run",
@@ -250,6 +249,7 @@
     "Application.StringConstruction.executor": "Run",
     "Application.SummaryStatistics.executor": "Run",
     "Application.Switchy.executor": "Run",
+    "Application.Syncher2.executor": "Run",
     "Application.SynchronizedMethodDemo.executor": "Run",
     "Application.TakeWhileExample.executor": "Run",
     "Application.Task.executor": "Debug",
@@ -257,8 +257,11 @@
     "Application.TaskExecution.executor": "Run",
     "Application.TaskInfoAnnotationProcessor.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Test13A10.executor": "Run",
     "Application.Test13RQ9.executor": "Run",
     "Application.TestCounters.executor": "Run",
+    "Application.TestThingy.executor": "Run",
+    "Application.TestWidget.executor": "Run",
     "Application.ThreadLocalRandomExample.executor": "Run",
     "Application.ThreadStates.executor": "Run",
     "Application.Transactions.executor": "Debug",
@@ -272,6 +275,7 @@
     "Application.ZonedDateTimeExamples.executor": "Run",
     "Application.asicFileAttributesRetrieve.executor": "Run",
     "Application.q06.MyClass.executor": "Run",
+    "Application.q34.Q800A60.executor": "Run",
     "Application.questions.RQ2.executor": "Run",
     "Application.second.Client.executor": "Run",
     "JUnit.AddingBigNumbersTest.basicTests.executor": "Run",
@@ -342,13 +346,13 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q800A60">
-    <configuration name="FrequentFlyer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q21.FrequentFlyer" />
+  <component name="RunManager" selected="Application.TestWidget">
+    <configuration name="LocatingBundlesForDefaultLocale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q36.LocatingBundlesForDefaultLocale" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q21.*" />
+          <option name="PATTERN" value="q36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,12 +360,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Importing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q24.Importing" />
+    <configuration name="Syncher2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q37.Syncher2" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q24.*" />
+          <option name="PATTERN" value="q37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,12 +373,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q100A51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q23.Q100A51" />
+    <configuration name="Test13A10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q40.Test13A10" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q23.*" />
+          <option name="PATTERN" value="q40.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,12 +386,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q400A70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q25.Q400A70" />
+    <configuration name="TestThingy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q38.TestThingy" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q25.*" />
+          <option name="PATTERN" value="q38.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,12 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q800A60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q26.Q800A60" />
+    <configuration name="TestWidget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q39.TestWidget" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q26.*" />
+          <option name="PATTERN" value="q39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,19 +413,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FrequentFlyer" />
-      <item itemvalue="Application.Importing" />
-      <item itemvalue="Application.Q100A51" />
-      <item itemvalue="Application.Q400A70" />
-      <item itemvalue="Application.Q800A60" />
+      <item itemvalue="Application.LocatingBundlesForDefaultLocale" />
+      <item itemvalue="Application.Syncher2" />
+      <item itemvalue="Application.Test13A10" />
+      <item itemvalue="Application.TestThingy" />
+      <item itemvalue="Application.TestWidget" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q800A60" />
-        <item itemvalue="Application.Q400A70" />
-        <item itemvalue="Application.Importing" />
-        <item itemvalue="Application.Q100A51" />
-        <item itemvalue="Application.FrequentFlyer" />
+        <item itemvalue="Application.TestWidget" />
+        <item itemvalue="Application.Test13A10" />
+        <item itemvalue="Application.TestThingy" />
+        <item itemvalue="Application.Syncher2" />
+        <item itemvalue="Application.LocatingBundlesForDefaultLocale" />
       </list>
     </recent_temporary>
   </component>
@@ -549,14 +553,7 @@
       <workItem from="1744133465484" duration="331000" />
       <workItem from="1744134145114" duration="1375000" />
       <workItem from="1744437373451" duration="5021000" />
-    </task>
-    <task id="LOCAL-00111" summary="CopyOnWriteArrayList examples">
-      <option name="closed" value="true" />
-      <created>1730190938813</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1730190938813</updated>
+      <workItem from="1744647010664" duration="6184000" />
     </task>
     <task id="LOCAL-00112" summary="add new module">
       <option name="closed" value="true" />
@@ -942,7 +939,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743599543112</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="add 21-30th tasks">
+      <option name="closed" value="true" />
+      <created>1744647183213</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1744647183213</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -960,7 +965,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="get ResultSet" />
     <MESSAGE value="executeUpdate" />
     <MESSAGE value="PreparedStatement" />
     <MESSAGE value="Prepared Statement to Execute INSERT, UPDATE, and DELETE" />
@@ -985,7 +989,8 @@
     <MESSAGE value="add 2th task" />
     <MESSAGE value="add 3-4th tasks" />
     <MESSAGE value="add 11-20th tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 11-20th tasks" />
+    <MESSAGE value="add 21-30th tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 21-30th tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1067,6 +1072,11 @@
           <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q01/Main.java</url>
           <line>6</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q39/Widget.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
