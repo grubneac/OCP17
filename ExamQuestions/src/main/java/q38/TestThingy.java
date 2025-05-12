@@ -10,11 +10,10 @@ public class TestThingy {
                 new Thingy<BigDecimal>(BigDecimal.valueOf(7)),
                 new Thingy<BigDecimal>(BigDecimal.valueOf(9.99))};
         Arrays.sort(values);
-/*        for (Thingy t: values) {
+        for (Thingy t: values) {
             System.out.print(t + " ");
-        }*/
-        System.out.println((int)'.');
-        System.out.println((int)'9');
+        }
+
     }
 }
 /*
