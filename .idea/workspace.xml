@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="fix 38 task">
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q41/Q700A12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q42/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q43/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q44/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q45/Localizing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/resources/q45/resources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/resources/q45/resources_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/resources/q45/resources_en_GB.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +57,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2d5FGJGWnO4POpXvw22SfGLWSL1" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -151,6 +157,7 @@
     "Application.LocalDateExamples.executor": "Run",
     "Application.LocalDateTimeExamples.executor": "Run",
     "Application.LocalesEverywhere.executor": "Run",
+    "Application.Localizing.executor": "Run",
     "Application.LocatingBundles.executor": "Run",
     "Application.LocatingBundlesForDefaultLocale.executor": "Run",
     "Application.Main.executor": "Run",
@@ -265,6 +272,8 @@
     "Application.asicFileAttributesRetrieve.executor": "Run",
     "Application.q06.MyClass.executor": "Run",
     "Application.q34.Q800A60.executor": "Run",
+    "Application.q43.Test.executor": "Run",
+    "Application.q44.Test.executor": "Debug",
     "Application.questions.RQ2.executor": "Run",
     "Application.second.Client.executor": "Run",
     "JUnit.AddingBigNumbersTest.basicTests.executor": "Run",
@@ -335,7 +344,20 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q700A12">
+  <component name="RunManager" selected="Application.Localizing">
+    <configuration name="Localizing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q45.Localizing" />
+      <module name="ExamQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="q45.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q700A12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="q41.Q700A12" />
       <module name="ExamQuestions" />
@@ -349,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Syncher2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q37.Syncher2" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q42.Test" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q37.*" />
+          <option name="PATTERN" value="q42.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test13A10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q40.Test13A10" />
+    <configuration name="q43.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q43.Test" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q40.*" />
+          <option name="PATTERN" value="q43.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,25 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThingy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q38.TestThingy" />
+    <configuration name="q44.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q44.Test" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q38.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWidget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q39.TestWidget" />
-      <module name="ExamQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="q39.*" />
+          <option name="PATTERN" value="q44.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,19 +411,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Localizing" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.q43.Test" />
+      <item itemvalue="Application.q44.Test" />
       <item itemvalue="Application.Q700A12" />
-      <item itemvalue="Application.Syncher2" />
-      <item itemvalue="Application.Test13A10" />
-      <item itemvalue="Application.TestThingy" />
-      <item itemvalue="Application.TestWidget" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Localizing" />
+        <item itemvalue="Application.q44.Test" />
+        <item itemvalue="Application.q43.Test" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Q700A12" />
-        <item itemvalue="Application.Test13A10" />
-        <item itemvalue="Application.TestThingy" />
-        <item itemvalue="Application.TestWidget" />
-        <item itemvalue="Application.Syncher2" />
       </list>
     </recent_temporary>
   </component>
@@ -546,6 +555,7 @@
       <workItem from="1745476379210" duration="298000" />
       <workItem from="1747074158440" duration="725000" />
       <workItem from="1747074997660" duration="2221000" />
+      <workItem from="1747241942056" duration="2420000" />
     </task>
     <task id="LOCAL-00114" summary="Copy a file using a character buffer">
       <option name="closed" value="true" />
@@ -1069,6 +1079,11 @@
           <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q39/Widget.java</url>
           <line>7</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q44/Test.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
