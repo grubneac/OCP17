@@ -1,0 +1,5 @@
+Apple:1.99
+Pear:1.70
+Apple:1.70
+Apple:1.75
+Orange:1.99

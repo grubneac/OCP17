@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="fix 38 task">
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q42/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q43/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q44/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q45/Localizing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/resources/q45/resources.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/resources/q45/resources_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/resources/q45/resources_en_GB.properties" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add tasks  42-45">
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q46/TestX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q47/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q47/TestY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q48/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/java/q49/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamQuestions/src/main/resources/dataQ49.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +25,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -252,12 +252,14 @@
     "Application.TaskCancellation.executor": "Run",
     "Application.TaskExecution.executor": "Run",
     "Application.TaskInfoAnnotationProcessor.executor": "Run",
-    "Application.Test.executor": "Run",
+    "Application.Test.executor": "Debug",
     "Application.Test13A10.executor": "Run",
     "Application.Test13RQ9.executor": "Run",
     "Application.TestCounters.executor": "Run",
     "Application.TestThingy.executor": "Run",
     "Application.TestWidget.executor": "Run",
+    "Application.TestX.executor": "Run",
+    "Application.TestY.executor": "Run",
     "Application.ThreadLocalRandomExample.executor": "Run",
     "Application.ThreadStates.executor": "Run",
     "Application.Transactions.executor": "Debug",
@@ -274,6 +276,7 @@
     "Application.q34.Q800A60.executor": "Run",
     "Application.q43.Test.executor": "Run",
     "Application.q44.Test.executor": "Debug",
+    "Application.q49.Test.executor": "Run",
     "Application.questions.RQ2.executor": "Run",
     "Application.second.Client.executor": "Run",
     "JUnit.AddingBigNumbersTest.basicTests.executor": "Run",
@@ -344,7 +347,7 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Localizing">
+  <component name="RunManager" selected="Application.q49.Test">
     <configuration name="Localizing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="q45.Localizing" />
       <module name="ExamQuestions" />
@@ -358,25 +361,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q700A12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q41.Q700A12" />
-      <module name="ExamQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="q41.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q42.Test" />
+      <option name="MAIN_CLASS_NAME" value="q48.Test" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q42.*" />
+          <option name="PATTERN" value="q48.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,12 +374,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q43.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q43.Test" />
+    <configuration name="TestX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q46.TestX" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q43.*" />
+          <option name="PATTERN" value="q46.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -397,12 +387,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q44.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q44.Test" />
+    <configuration name="TestY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q47.TestY" />
       <module name="ExamQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q44.*" />
+          <option name="PATTERN" value="q47.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="q49.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q49.Test" />
+      <module name="ExamQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="q49.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,19 +414,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestX" />
+      <item itemvalue="Application.TestY" />
+      <item itemvalue="Application.q49.Test" />
       <item itemvalue="Application.Localizing" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.q43.Test" />
-      <item itemvalue="Application.q44.Test" />
-      <item itemvalue="Application.Q700A12" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Localizing" />
-        <item itemvalue="Application.q44.Test" />
-        <item itemvalue="Application.q43.Test" />
+        <item itemvalue="Application.q49.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Q700A12" />
+        <item itemvalue="Application.TestY" />
+        <item itemvalue="Application.TestX" />
+        <item itemvalue="Application.Localizing" />
       </list>
     </recent_temporary>
   </component>
@@ -555,15 +558,8 @@
       <workItem from="1745476379210" duration="298000" />
       <workItem from="1747074158440" duration="725000" />
       <workItem from="1747074997660" duration="2221000" />
-      <workItem from="1747241942056" duration="2420000" />
-    </task>
-    <task id="LOCAL-00114" summary="Copy a file using a character buffer">
-      <option name="closed" value="true" />
-      <created>1730358120147</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1730358120147</updated>
+      <workItem from="1747241942056" duration="2752000" />
+      <workItem from="1747290518365" duration="6553000" />
     </task>
     <task id="LOCAL-00115" summary="Demonstrating Readers and Writers, and Character Encoding">
       <option name="closed" value="true" />
@@ -949,7 +945,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747074569743</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="add tasks  42-45">
+      <option name="closed" value="true" />
+      <created>1747246693762</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1747246693763</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -967,7 +971,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prepared Statement to Execute INSERT, UPDATE, and DELETE" />
     <MESSAGE value="Processing a ResultSet" />
     <MESSAGE value="Using ResultSet Options" />
     <MESSAGE value="Discovering Metadata for the Database and ResultSet" />
@@ -992,7 +995,8 @@
     <MESSAGE value="add 21-30th tasks" />
     <MESSAGE value="add 31-40th tasks" />
     <MESSAGE value="fix 38 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 38 task" />
+    <MESSAGE value="add tasks  42-45" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tasks  42-45" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1084,6 +1088,11 @@
           <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q44/Test.java</url>
           <line>5</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExamQuestions/src/main/java/q48/Test.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
