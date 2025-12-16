@@ -1,60 +1,47 @@
 /*
-* create method allowRequest(String userId) that return false for each userId
-* if call it more than 5 times during 10 second
-* */
-import java.time.Instant;
-import java.util.HashMap;
+ * create method allowRequest(String userId) that return false for each userId
+ * if call it more than 5 times during last 10 second
+ * */
+
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class PayforgeQuestion {
 
     private static final int MAX_LIMIT_COUNTER = 5;
     public static final int TIME_LIMIT = 10;
-    private final Map<String, LimitSruct> userRateLimiter = new HashMap<>();
+
+    private final Map<String, Deque<Long>> userRateLimiter = new ConcurrentHashMap<>();
 
     public boolean allowRequest(String userId) {
-        Instant currentInstant = Instant.now();
+        Long currentSeconds = System.currentTimeMillis() / 1000;
 
-        if(!userRateLimiter.containsKey(userId)) { // not found
-            userRateLimiter.put(userId, new LimitSruct(0,currentInstant));
-            return true;
-        } else { // already exist
-            LimitSruct limitSruct = userRateLimiter.get(userId);
-            Instant theLastTime = limitSruct.getTheLastTime();
+        Deque<Long> longDeque = userRateLimiter.computeIfAbsent(userId, k -> new LinkedList<>());
 
-            if (theLastTime.isAfter(currentInstant.minusSeconds(TIME_LIMIT))) {
-                if (limitSruct.getCurrentLimit() >= MAX_LIMIT_COUNTER) {
-                    return false;
-                } else { //increment counter
-                    limitSruct.setCurrentLimit(limitSruct.getCurrentLimit() + 1);
-                    return true;
-                }
-            }else { // reset counter
-                userRateLimiter.put(userId, new LimitSruct(0,currentInstant));
-                return true;
+        // Block to other threads
+        synchronized (longDeque) {
+            cleanDeque(longDeque, currentSeconds);
+
+            // Return false if already 5 requests in last TIME_LIMIT seconds
+            if (longDeque.size() >= MAX_LIMIT_COUNTER) {
+                return false;
             }
+
+            longDeque.addFirst(currentSeconds);
+            return true;
         }
     }
 
-    class LimitSruct {
-        private int currentLimit;
-        private Instant theLastTime;
-
-        public LimitSruct(int currentLimit, Instant theLastTime) {
-            this.currentLimit = currentLimit;
-            this.theLastTime = theLastTime;
-        }
-
-        public int getCurrentLimit() {
-            return currentLimit;
-        }
-
-        public Instant getTheLastTime() {
-            return theLastTime;
-        }
-
-        public void setCurrentLimit(int currentLimit) {
-            this.currentLimit = currentLimit;
+    private void cleanDeque(Deque<Long> longDeque, Long currentSeconds) {
+        while (!longDeque.isEmpty()) {
+            Long peekLastSeconds = longDeque.peekLast();
+            if (peekLastSeconds < currentSeconds - TIME_LIMIT) {
+                longDeque.pollLast();
+            } else {
+                break;
+            }
         }
     }
 }
