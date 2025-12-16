@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="add tasks  46-49">
-      <change afterPath="$PROJECT_DIR$/CodeWarsExamples/src/main/java/RomanNumerals.java" afterDir="false" />
+    <list default="true" id="c580ef7f-486f-446d-8bec-68a89ae87afd" name="Changes" comment="CodeWars task Ranking system">
+      <change afterPath="$PROJECT_DIR$/CodeWarsExamples/src/main/java/PayforgeQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,253 +61,257 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ActYourAge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnnotationClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnotherClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Average1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasicFileAttributesRetrive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryValuesIO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CDAdmin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calculate3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChangePassword.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharEncodingDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChoiceFormatUsage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChoicePatternUsage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CodeMe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Collecting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectingAndThenExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectorsFlatMapping.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompactNumberFormatting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparatorUsage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompoundMessageFormatting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConcurrentHashMapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConcurrentSkipListSetDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Controller.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyCharacterFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyFileByBuffer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyInstant.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyOnWriteArrayListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountDownLatchTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateRegularDirectory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateRegularFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CurrencyExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CyclicBarrierDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DBMetadata.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DSTAdjustment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DSTExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataUser.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeSerializer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadLockDanger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Diggers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DurationBasedLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DurationExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EpamQuestion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutorLifecycle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExistOrNonexistExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Filtering.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilteringExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindFirstExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstExplanation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlightTimeInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForMarchel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForkJoinDemo (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForkJoinDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormattingDateTime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormattingDecimalNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormattingMessages.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormattingParsingWithPatterns.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForwardRefsSimulated.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequentFlyer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionalReductionExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionalReductions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetFirstUnicSimbolFromString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetThatIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupingExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HiddenAndInheritedAccess.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HistogramStats.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IdentityMatrixTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Importing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IndividualFileAttributes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InitOnly.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InitStreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterruptHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBCConnection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBCStatment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBCUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoiningExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedBlockingQueueDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LivelockShipment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalDateExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalDateTimeExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalesEverywhere.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Localizing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocatingBundles.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocatingBundlesForDefaultLocale.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MappingExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ModifyInstant.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveDirAndItsHierarchy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NonVolatileDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumericOptionalUsage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjMappedExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectSerializationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptionalUsage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderOfOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderOfOperationsWithPeek.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Outer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OverideExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParallelModeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParseExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PartitioningExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PercentExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PeriodBasedLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PeriodExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Polymorphism2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PreparedStatementExecuteUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q100A51.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q100A82.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q11A35.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q11A95.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q12A55.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q12A56.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1408b.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Q200A80.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q36.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q37.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q38.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q400A70.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q700A12.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q800A60.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qcb90.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueryingPaths.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ100_87.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ12.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ13.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ14.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ15.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ16.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ17.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ18.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ5 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ54.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ6.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RQ7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RQ9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFromFileToStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadingWritingBytes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadingWritingTextFiles.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemainderFun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResultSetCustomization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResultSetProcessing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RomanNumerals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Rounding.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SafeVarargsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Scale5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScheduledOneShotTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScheduledPeriodicTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerialAccessThreads.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerialClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerialInheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Serializer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleExecutor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StatsClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamBenchmarks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamOps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamPipeLine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringConstruction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SummaryStatistics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Switchy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Syncher2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedMethodDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TakeWhileExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TaskCancellation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskExecution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskInfoAnnotationProcessor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Test13A10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test13RQ9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestCounters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestThingy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestWidget.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestX.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestY.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadLocalRandomExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Transactions.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.UserLogin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UsingResourceBundles.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UsingTemporals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitNotifyScenario.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhatIsThis.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.XQTPreparedStatement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZoneIdExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZonedDateTimeExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.asicFileAttributesRetrieve.executor&quot;: &quot;Run&quot;,
-    &quot;Application.q06.MyClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.q34.Q800A60.executor&quot;: &quot;Run&quot;,
-    &quot;Application.q43.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.q44.Test.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.q49.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.questions.RQ2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.second.Client.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AddingBigNumbersTest.basicTests.executor&quot;: &quot;Run&quot;,
-    &quot;Maven._17DateTime [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven._18Localization [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven._18Localization [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/apache-derby-10.16.1.1/lib/derbyclient.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ActYourAge.executor": "Run",
+    "Application.AnnotationClient.executor": "Run",
+    "Application.AnotherClient.executor": "Run",
+    "Application.ArrayListMethods.executor": "Run",
+    "Application.ArraysExamples.executor": "Run",
+    "Application.Average1.executor": "Run",
+    "Application.BasicFileAttributesRetrive.executor": "Run",
+    "Application.BinaryValuesIO.executor": "Run",
+    "Application.CDAdmin.executor": "Run",
+    "Application.Calculate3.executor": "Run",
+    "Application.Calling.executor": "Run",
+    "Application.ChangePassword.executor": "Run",
+    "Application.CharEncodingDemo.executor": "Run",
+    "Application.ChoiceFormatUsage.executor": "Run",
+    "Application.ChoicePatternUsage.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.CodeMe.executor": "Run",
+    "Application.Collecting.executor": "Run",
+    "Application.CollectingAndThenExamples.executor": "Run",
+    "Application.CollectorsFlatMapping.executor": "Run",
+    "Application.CompactNumberFormatting.executor": "Run",
+    "Application.ComparatorUsage.executor": "Run",
+    "Application.CompoundMessageFormatting.executor": "Run",
+    "Application.ConcurrentHashMapDemo.executor": "Run",
+    "Application.ConcurrentSkipListSetDemo.executor": "Run",
+    "Application.Controller.executor": "Run",
+    "Application.CopyCharacterFile.executor": "Run",
+    "Application.CopyFile.executor": "Run",
+    "Application.CopyFileByBuffer.executor": "Run",
+    "Application.CopyInstant.executor": "Run",
+    "Application.CopyOnWriteArrayListDemo.executor": "Run",
+    "Application.CountDownLatchTest.executor": "Run",
+    "Application.CreateRegularDirectory.executor": "Run",
+    "Application.CreateRegularFile.executor": "Run",
+    "Application.CurrencyExample.executor": "Run",
+    "Application.CyclicBarrierDemo.executor": "Run",
+    "Application.DBMetadata.executor": "Run",
+    "Application.DSTAdjustment.executor": "Run",
+    "Application.DSTExample.executor": "Run",
+    "Application.DataUser.executor": "Run",
+    "Application.DeSerializer.executor": "Run",
+    "Application.DeadLockDanger.executor": "Run",
+    "Application.DemoThisCall.executor": "Run",
+    "Application.Diggers.executor": "Run",
+    "Application.DurationBasedLoop.executor": "Run",
+    "Application.DurationExample.executor": "Run",
+    "Application.EpamQuestion.executor": "Run",
+    "Application.ExecutorLifecycle.executor": "Run",
+    "Application.ExistOrNonexistExample.executor": "Run",
+    "Application.Filtering.executor": "Run",
+    "Application.FilteringExamples.executor": "Run",
+    "Application.FindFirstExample.executor": "Run",
+    "Application.FirstExample.executor": "Run",
+    "Application.FirstExamples.executor": "Run",
+    "Application.FirstExplanation.executor": "Run",
+    "Application.FlightTimeInfo.executor": "Run",
+    "Application.ForMarchel.executor": "Run",
+    "Application.ForkJoinDemo (1).executor": "Run",
+    "Application.ForkJoinDemo.executor": "Run",
+    "Application.FormattingDateTime.executor": "Run",
+    "Application.FormattingDecimalNumbers.executor": "Run",
+    "Application.FormattingMessages.executor": "Run",
+    "Application.FormattingParsingWithPatterns.executor": "Run",
+    "Application.ForwardRefsSimulated.executor": "Run",
+    "Application.FrequentFlyer.executor": "Run",
+    "Application.FunctionClient.executor": "Run",
+    "Application.FunctionalReductionExamples.executor": "Run",
+    "Application.FunctionalReductions.executor": "Run",
+    "Application.GetFirstUnicSimbolFromString.executor": "Run",
+    "Application.GetThatIndex.executor": "Run",
+    "Application.GroupingExamples.executor": "Run",
+    "Application.HiddenAndInheritedAccess.executor": "Run",
+    "Application.HistogramStats.executor": "Run",
+    "Application.IdentityMatrixTest.executor": "Run",
+    "Application.Importing.executor": "Run",
+    "Application.IndividualFileAttributes.executor": "Run",
+    "Application.InitOnly.executor": "Run",
+    "Application.InitStreamExample.executor": "Run",
+    "Application.Initialization.executor": "Run",
+    "Application.InterruptHandling.executor": "Run",
+    "Application.JDBCConnection.executor": "Run",
+    "Application.JDBCStatment.executor": "Run",
+    "Application.JDBCUpdate.executor": "Run",
+    "Application.JoiningExample.executor": "Run",
+    "Application.LinkedBlockingQueueDemo.executor": "Run",
+    "Application.LivelockShipment.executor": "Run",
+    "Application.LocalDateExamples.executor": "Run",
+    "Application.LocalDateTimeExamples.executor": "Run",
+    "Application.LocalesEverywhere.executor": "Run",
+    "Application.Localizing.executor": "Run",
+    "Application.LocatingBundles.executor": "Run",
+    "Application.LocatingBundlesForDefaultLocale.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MapExamples.executor": "Run",
+    "Application.MappingExamples.executor": "Run",
+    "Application.ModifyInstant.executor": "Run",
+    "Application.MoveDirAndItsHierarchy.executor": "Run",
+    "Application.MyClass.executor": "Run",
+    "Application.NonVolatileDemo.executor": "Run",
+    "Application.NumericOptionalUsage.executor": "Run",
+    "Application.ObjMappedExample.executor": "Run",
+    "Application.ObjectSerializationDemo.executor": "Run",
+    "Application.OptionalExample.executor": "Run",
+    "Application.OptionalUsage.executor": "Run",
+    "Application.OrderOfOperations.executor": "Run",
+    "Application.OrderOfOperationsWithPeek.executor": "Run",
+    "Application.Outer.executor": "Run",
+    "Application.OverideExample.executor": "Run",
+    "Application.ParallelModeExample.executor": "Run",
+    "Application.ParseExample.executor": "Run",
+    "Application.PartitioningExamples.executor": "Run",
+    "Application.PercentExample.executor": "Run",
+    "Application.PeriodBasedLoop.executor": "Run",
+    "Application.PeriodExample.executor": "Run",
+    "Application.Polymorphism2.executor": "Run",
+    "Application.PreparedStatementExecuteUpdate.executor": "Run",
+    "Application.Q100A51.executor": "Run",
+    "Application.Q100A82.executor": "Run",
+    "Application.Q11A35.executor": "Run",
+    "Application.Q11A95.executor": "Run",
+    "Application.Q12A55.executor": "Run",
+    "Application.Q12A56.executor": "Run",
+    "Application.Q1408b.executor": "Debug",
+    "Application.Q200A80.executor": "Run",
+    "Application.Q36.executor": "Run",
+    "Application.Q37.executor": "Run",
+    "Application.Q38.executor": "Run",
+    "Application.Q400A70.executor": "Run",
+    "Application.Q700A12.executor": "Run",
+    "Application.Q800A60.executor": "Run",
+    "Application.Qcb90.executor": "Run",
+    "Application.QueryingPaths.executor": "Run",
+    "Application.RQ1.executor": "Run",
+    "Application.RQ10.executor": "Run",
+    "Application.RQ100_87.executor": "Run",
+    "Application.RQ11.executor": "Run",
+    "Application.RQ12.executor": "Run",
+    "Application.RQ13.executor": "Run",
+    "Application.RQ14.executor": "Run",
+    "Application.RQ15.executor": "Run",
+    "Application.RQ16.executor": "Run",
+    "Application.RQ17.executor": "Run",
+    "Application.RQ18.executor": "Run",
+    "Application.RQ2.executor": "Run",
+    "Application.RQ3.executor": "Run",
+    "Application.RQ4.executor": "Run",
+    "Application.RQ5 (1).executor": "Run",
+    "Application.RQ5.executor": "Run",
+    "Application.RQ54.executor": "Run",
+    "Application.RQ6.executor": "Debug",
+    "Application.RQ7.executor": "Run",
+    "Application.RQ8.executor": "Run",
+    "Application.RQ9.executor": "Run",
+    "Application.ReadFromFileToStream.executor": "Run",
+    "Application.ReadingWritingBytes.executor": "Run",
+    "Application.ReadingWritingTextFiles.executor": "Run",
+    "Application.RemainderFun.executor": "Run",
+    "Application.ResultSetCustomization.executor": "Run",
+    "Application.ResultSetProcessing.executor": "Run",
+    "Application.RomanNumerals.executor": "Run",
+    "Application.Rounding.executor": "Run",
+    "Application.SafeVarargsTest.executor": "Run",
+    "Application.Scale5.executor": "Run",
+    "Application.ScheduledOneShotTasks.executor": "Run",
+    "Application.ScheduledPeriodicTasks.executor": "Run",
+    "Application.SerialAccessThreads.executor": "Run",
+    "Application.SerialClient.executor": "Run",
+    "Application.SerialInheritance.executor": "Run",
+    "Application.Serializer.executor": "Run",
+    "Application.SimpleExecutor.executor": "Run",
+    "Application.SortedExamples.executor": "Run",
+    "Application.StatsClient.executor": "Run",
+    "Application.StreamBenchmarks.executor": "Run",
+    "Application.StreamOps.executor": "Run",
+    "Application.StreamPipeLine.executor": "Run",
+    "Application.StringConstruction.executor": "Run",
+    "Application.SummaryStatistics.executor": "Run",
+    "Application.Switchy.executor": "Run",
+    "Application.Syncher2.executor": "Run",
+    "Application.SynchronizedMethodDemo.executor": "Run",
+    "Application.TakeWhileExample.executor": "Run",
+    "Application.Task.executor": "Debug",
+    "Application.TaskCancellation.executor": "Run",
+    "Application.TaskExecution.executor": "Run",
+    "Application.TaskInfoAnnotationProcessor.executor": "Run",
+    "Application.Test.executor": "Debug",
+    "Application.Test13A10.executor": "Run",
+    "Application.Test13RQ9.executor": "Run",
+    "Application.TestCounters.executor": "Run",
+    "Application.TestThingy.executor": "Run",
+    "Application.TestWidget.executor": "Run",
+    "Application.TestX.executor": "Run",
+    "Application.TestY.executor": "Run",
+    "Application.ThreadLocalRandomExample.executor": "Run",
+    "Application.ThreadStates.executor": "Run",
+    "Application.Transactions.executor": "Debug",
+    "Application.UserLogin.executor": "Run",
+    "Application.UsingResourceBundles.executor": "Run",
+    "Application.UsingTemporals.executor": "Run",
+    "Application.WaitNotifyScenario.executor": "Run",
+    "Application.WhatIsThis.executor": "Debug",
+    "Application.XQTPreparedStatement.executor": "Run",
+    "Application.ZoneIdExamples.executor": "Run",
+    "Application.ZonedDateTimeExamples.executor": "Run",
+    "Application.asicFileAttributesRetrieve.executor": "Run",
+    "Application.q06.MyClass.executor": "Run",
+    "Application.q34.Q800A60.executor": "Run",
+    "Application.q43.Test.executor": "Run",
+    "Application.q44.Test.executor": "Debug",
+    "Application.q49.Test.executor": "Run",
+    "Application.questions.RQ2.executor": "Run",
+    "Application.second.Client.executor": "Run",
+    "JUnit.AddingBigNumbersTest.basicTests.executor": "Run",
+    "JUnit.UserTest.testIncProgress.executor": "Run",
+    "Maven._17DateTime [clean,install].executor": "Run",
+    "Maven._18Localization [clean,install].executor": "Run",
+    "Maven._18Localization [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/apache-derby-10.16.1.1/lib/derbyclient.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;derby&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "derby"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JSON&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="util" />
@@ -330,6 +334,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ranking_system" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -342,10 +347,29 @@
       <recent name="local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RomanNumerals">
-    <configuration name="EpamQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EpamQuestion" />
-      <module name="CodeWarsExamples" />
+  <component name="RunManager" selected="JUnit.UserTest.testIncProgress">
+    <configuration name="CopyOnWriteArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.CopyOnWriteArrayListDemo" />
+      <module name="_23Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoThisCall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fifth.DemoThisCall" />
+      <module name="_5OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fifth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -357,12 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q48.Test" />
-      <module name="ExamQuestions" />
+    <configuration name="TaskExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executors.TaskExecution" />
+      <module name="_23Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q48.*" />
+          <option name="PATTERN" value="executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,54 +394,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q47.TestY" />
-      <module name="ExamQuestions" />
+    <configuration name="UserTest.testIncProgress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWarsExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q47.*" />
+          <option name="PATTERN" value="ranking_system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="q49.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q49.Test" />
-      <module name="ExamQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="q49.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="ranking_system" />
+      <option name="MAIN_CLASS_NAME" value="ranking_system.UserTest" />
+      <option name="METHOD_NAME" value="testIncProgress" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CopyOnWriteArrayListDemo" />
+      <item itemvalue="Application.DemoThisCall" />
       <item itemvalue="Application.RomanNumerals" />
-      <item itemvalue="Application.EpamQuestion" />
-      <item itemvalue="Application.TestY" />
-      <item itemvalue="Application.q49.Test" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TaskExecution" />
+      <item itemvalue="JUnit.UserTest.testIncProgress" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.testIncProgress" />
+        <item itemvalue="Application.TaskExecution" />
+        <item itemvalue="Application.CopyOnWriteArrayListDemo" />
+        <item itemvalue="Application.DemoThisCall" />
         <item itemvalue="Application.RomanNumerals" />
-        <item itemvalue="Application.EpamQuestion" />
-        <item itemvalue="Application.q49.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestY" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
       </set>
     </attachedChunks>
   </component>
@@ -548,23 +562,19 @@
       <workItem from="1757053622536" duration="3464000" />
       <workItem from="1757057303808" duration="1499000" />
       <workItem from="1757059019714" duration="1749000" />
-      <workItem from="1757060786100" duration="4959000" />
-    </task>
-    <task id="LOCAL-00116" summary="Changing Passwords in console">
-      <option name="closed" value="true" />
-      <created>1730368692488</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1730368692488</updated>
-    </task>
-    <task id="LOCAL-00117" summary="questions">
-      <option name="closed" value="true" />
-      <created>1730449620038</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1730449620038</updated>
+      <workItem from="1757060786100" duration="5963000" />
+      <workItem from="1757307976479" duration="5217000" />
+      <workItem from="1757394523973" duration="4493000" />
+      <workItem from="1757566553612" duration="82000" />
+      <workItem from="1757591777627" duration="4810000" />
+      <workItem from="1757652462422" duration="4807000" />
+      <workItem from="1757912732987" duration="625000" />
+      <workItem from="1758291222669" duration="886000" />
+      <workItem from="1758517565131" duration="637000" />
+      <workItem from="1758523602387" duration="1479000" />
+      <workItem from="1758527197032" duration="1272000" />
+      <workItem from="1765786622230" duration="4744000" />
+      <workItem from="1765885016894" duration="2309000" />
     </task>
     <task id="LOCAL-00118" summary="Object Serialization">
       <option name="closed" value="true" />
@@ -942,7 +952,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748161445140</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="CodeWars task RomanNumerals">
+      <option name="closed" value="true" />
+      <created>1757073472588</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1757073472588</updated>
+    </task>
+    <task id="LOCAL-00166" summary="CodeWars task Ranking system">
+      <option name="closed" value="true" />
+      <created>1757660672426</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1757660672427</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -960,8 +986,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Using ResultSet Options" />
-    <MESSAGE value="Discovering Metadata for the Database and ResultSet" />
     <MESSAGE value="Controlling Transactions" />
     <MESSAGE value="questions" />
     <MESSAGE value="add first annotation's example" />
@@ -985,7 +1009,9 @@
     <MESSAGE value="fix 38 task" />
     <MESSAGE value="add tasks  42-45" />
     <MESSAGE value="add tasks  46-49" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tasks  46-49" />
+    <MESSAGE value="CodeWars task RomanNumerals" />
+    <MESSAGE value="CodeWars task Ranking system" />
+    <option name="LAST_COMMIT_MESSAGE" value="CodeWars task Ranking system" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,6 +1113,11 @@
           <url>file://$PROJECT_DIR$/CodeWarsExamples/src/main/java/RomanNumerals.java</url>
           <line>90</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodeWarsExamples/src/test/java/ranking_system/UserTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
